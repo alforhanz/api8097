@@ -1,0 +1,148 @@
+ERROR - 2023-08-23 12:17:50 --> Memory limit of 50240 KB exceeded for buffered query
+CRITICAL - 2023-08-23 14:32:11 --> Call to a member function free_result() on array
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/InsertarCliente.php(63): App\Models\InsertarCliente_Model->insertarcliente('N', '09-666-6666', 'Daniel15, Danie...', 'Daniel15, Danie...', 'JAIMARAN', '99', '01', NULL, '08', NULL, '', 'Panam\xC3\xA1, Panam\xC3...', NULL, 'PRECIO (1)', '002')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\InsertarCliente->create()
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertarCliente))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-23 14:33:03 --> Call to a member function free_result() on array
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/InsertarCliente.php(63): App\Models\InsertarCliente_Model->insertarcliente('N', '09-777-7777', 'Daniel16, Danie...', 'Daniel16, Danie...', 'JAIMARAN', '99', '01', NULL, '08', NULL, '', 'Panam\xC3\xA1, Panam\xC3...', NULL, 'PRECIO (1)', '002')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\InsertarCliente->create()
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertarCliente))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-23 15:51:26 --> Trying to get property 'INFORMACION' of non-object
+#0 /opt/lampp/htdocs/api8097/public_html/app/Models/InsertarCliente_Model.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/opt/lampp/htdo...', 27, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/app/Controllers/InsertarCliente.php(63): App\Models\InsertarCliente_Model->insertarcliente('N', '09-777-7777', 'Daniel16, Danie...', 'Daniel16, Danie...', 'JAIMARAN', '99', '01', NULL, '08', NULL, '', 'Panam\xC3\xA1, Panam\xC3...', NULL, 'PRECIO (1)', '002')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\InsertarCliente->create()
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertarCliente))
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-08-23 15:51:26 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Debug/Exceptions.php(110): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-08-23 15:53:27 --> Trying to get property 'INFORMACION' of non-object
+#0 /opt/lampp/htdocs/api8097/public_html/app/Models/InsertarCliente_Model.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/opt/lampp/htdo...', 27, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/app/Controllers/InsertarCliente.php(63): App\Models\InsertarCliente_Model->insertarcliente('N', '09-777-7777', 'Daniel16, Danie...', 'Daniel16, Danie...', 'JAIMARAN', '99', '01', NULL, '08', NULL, '', 'Panam\xC3\xA1, Panam\xC3...', NULL, 'PRECIO (1)', '002')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\InsertarCliente->create()
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertarCliente))
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-08-23 15:53:27 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Debug/Exceptions.php(110): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-08-23 15:53:31 --> Trying to get property 'INFORMACION' of non-object
+#0 /opt/lampp/htdocs/api8097/public_html/app/Models/InsertarCliente_Model.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/opt/lampp/htdo...', 27, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/app/Controllers/InsertarCliente.php(63): App\Models\InsertarCliente_Model->insertarcliente('N', '09-777-7777', 'Daniel16, Danie...', 'Daniel16, Danie...', 'JAIMARAN', '99', '01', NULL, '08', NULL, '', 'Panam\xC3\xA1, Panam\xC3...', NULL, 'PRECIO (1)', '002')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\InsertarCliente->create()
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertarCliente))
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-08-23 15:53:31 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Debug/Exceptions.php(110): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-08-23 15:53:32 --> Trying to get property 'INFORMACION' of non-object
+#0 /opt/lampp/htdocs/api8097/public_html/app/Models/InsertarCliente_Model.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/opt/lampp/htdo...', 27, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/app/Controllers/InsertarCliente.php(63): App\Models\InsertarCliente_Model->insertarcliente('N', '09-777-7777', 'Daniel16, Danie...', 'Daniel16, Danie...', 'JAIMARAN', '99', '01', NULL, '08', NULL, '', 'Panam\xC3\xA1, Panam\xC3...', NULL, 'PRECIO (1)', '002')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\InsertarCliente->create()
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertarCliente))
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-08-23 15:53:32 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Debug/Exceptions.php(110): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-08-23 15:53:32 --> Trying to get property 'INFORMACION' of non-object
+#0 /opt/lampp/htdocs/api8097/public_html/app/Models/InsertarCliente_Model.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/opt/lampp/htdo...', 27, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/app/Controllers/InsertarCliente.php(63): App\Models\InsertarCliente_Model->insertarcliente('N', '09-777-7777', 'Daniel16, Danie...', 'Daniel16, Danie...', 'JAIMARAN', '99', '01', NULL, '08', NULL, '', 'Panam\xC3\xA1, Panam\xC3...', NULL, 'PRECIO (1)', '002')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\InsertarCliente->create()
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertarCliente))
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-08-23 15:53:32 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Debug/Exceptions.php(110): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-08-23 15:54:07 --> Undefined offset: 0
+#0 /opt/lampp/htdocs/api8097/public_html/app/Models/InsertarCliente_Model.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/opt/lampp/htdo...', 27, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/app/Controllers/InsertarCliente.php(63): App\Models\InsertarCliente_Model->insertarcliente('N', '09-777-7777', 'Daniel16, Danie...', 'Daniel16, Danie...', 'JAIMARAN', '99', '01', NULL, '08', NULL, '', 'Panam\xC3\xA1, Panam\xC3...', NULL, 'PRECIO (1)', '002')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\InsertarCliente->create()
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertarCliente))
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-08-23 15:54:07 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Debug/Exceptions.php(110): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-08-23 15:55:01 --> Undefined offset: 0
+#0 /opt/lampp/htdocs/api8097/public_html/app/Models/InsertarCliente_Model.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/opt/lampp/htdo...', 27, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/app/Controllers/InsertarCliente.php(63): App\Models\InsertarCliente_Model->insertarcliente('N', '09-777-7777', 'Daniel16, Danie...', 'Daniel16, Danie...', 'JAIMARAN', '99', '01', NULL, '08', NULL, '', 'Panam\xC3\xA1, Panam\xC3...', NULL, 'PRECIO (1)', '002')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\InsertarCliente->create()
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertarCliente))
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-08-23 15:55:01 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Debug/Exceptions.php(110): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

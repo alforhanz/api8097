@@ -1,0 +1,20 @@
+ERROR - 2024-04-08 16:18:56 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2024-04-08 16:19:01 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2024-04-08 16:19:31 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2024-04-08 16:19:57 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2024-04-08 16:20:08 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2024-04-08 16:20:21 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2024-04-08 16:20:45 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2024-04-08 16:21:24 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2024-04-08 16:21:37 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2024-04-08 16:23:36 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2024-04-08 16:27:25 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2024-04-08 16:27:30 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2024-04-08 16:29:20 --> Memory limit of 50240 KB exceeded for buffered query
+CRITICAL - 2024-04-08 16:56:16 --> Undefined property: stdClass::$MODULO
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Menu.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 83, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->show('1')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}

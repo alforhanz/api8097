@@ -1,0 +1,338 @@
+CRITICAL - 2022-03-28 09:19:39 --> Undefined variable $TipoConsulta
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 71)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1055')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 09:20:01 --> Undefined variable $datos
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 76)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1055')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 09:20:20 --> Undefined property: stdClass::$ID_MARCA
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\SERVER\\larag...', 81)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1055')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 09:23:12 --> Required parameter $articulo follows optional parameter $clase
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', 'E:\\SERVER\\larag...', 10)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\SERVER\\larag...')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Deta...')
+#4 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(68): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Deta...')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1055')
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#7 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 09:23:48 --> Undefined variable $tipoBusqueda
+#0 E:\SERVER\laragon\www\api\app\Models\DetalleProducto_Model.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 15)
+#1 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(71): App\Models\DetalleProducto_Model->BusquedaDetalle('C', '1055', 'RIN 18 T1032 10...')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1055')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-28 09:24:40 --> Undefined variable $art
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 200)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1055')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 09:50:27 --> Undefined variable $detalles
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 200)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1055')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 09:50:38 --> Undefined variable $datos
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 101)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1010')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 10:57:39 --> Undefined property: stdClass::$NOTAS
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\SERVER\\larag...', 200)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1010')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 10:58:39 --> Undefined variable $descripcion
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 195)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1010')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 10:59:05 --> Undefined variable $descripcion
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 195)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1010')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 11:01:04 --> Undefined variable $descripcion
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 195)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1010')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 11:01:05 --> Undefined variable $descripcion
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 195)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1010')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 11:03:31 --> Undefined variable $descripcion
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 195)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1010')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 11:03:39 --> Undefined variable $descripcion
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 195)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1010')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 11:04:03 --> Undefined variable $descripcion
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 195)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1010')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 11:15:53 --> Undefined property: stdClass::$art
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\SERVER\\larag...', 78)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1055')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 11:22:41 --> Undefined property: stdClass::$NOTAS
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\SERVER\\larag...', 108)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1010')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 11:31:25 --> Undefined variable $datos
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 123)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1030')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 11:31:40 --> Undefined property: stdClass::$PRECIOREMATE
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\SERVER\\larag...', 129)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1030')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 11:33:18 --> Undefined property: stdClass::$NOTA
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\SERVER\\larag...', 131)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1030')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 11:33:29 --> Undefined property: stdClass::$ID_MARCA
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\SERVER\\larag...', 133)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1030')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 11:33:43 --> Undefined property: stdClass::$MARCADESC
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\SERVER\\larag...', 134)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1030')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 11:33:59 --> Undefined property: App\Controllers\DetalleProducto::$buscador_model
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\SERVER\\larag...', 138)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1030')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 11:43:34 --> You must set the database table to be used with your query.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(139): CodeIgniter\Model->__call('DetalleSelloFil...', Array)
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1030')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-28 11:44:24 --> Undefined variable $sellos
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 159)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1030')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 11:45:00 --> You must set the database table to be used with your query.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(139): CodeIgniter\Model->__call('DetalleSelloFil...', Array)
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1030')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-28 11:52:16 --> Undefined property: stdClass::$ID_MARCA
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\SERVER\\larag...', 184)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1060')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 11:54:07 --> Undefined property: stdClass::$MARCADESC
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\SERVER\\larag...', 185)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1060')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-28 11:59:11 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-03-28 11:59:11 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(72): App\Models\DetalleProducto_Model->existenciaBodega(NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1060')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 12:00:02 --> You must set the database table to be used with your query.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(139): CodeIgniter\Model->__call('DetalleSelloFil...', Array)
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1030')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-28 12:01:52 --> You must set the database table to be used with your query.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(139): CodeIgniter\Model->__call('DetalleSelloFil...', Array)
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1030')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-28 12:01:53 --> You must set the database table to be used with your query.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(139): CodeIgniter\Model->__call('DetalleSelloFil...', Array)
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1030')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-28 12:04:50 --> Undefined variable $descripcion
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 195)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1060')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 12:05:55 --> Undefined variable $descripcion
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 195)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1060')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 12:07:02 --> Undefined variable $descripcion
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 195)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1060')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 12:15:43 --> Undefined variable $descripcion
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 199)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1060')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 12:15:45 --> Undefined variable $descripcion
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 199)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1060')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 12:15:56 --> Undefined variable $descripcion
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 199)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1060')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 12:16:14 --> Undefined variable $descripcion
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 199)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1060')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 12:18:46 --> Undefined variable $descripcion
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 195)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1010')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 12:20:44 --> Undefined variable $descripcion
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 195)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1060')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 12:20:57 --> Undefined variable $descripcion
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 195)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1060')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 12:21:06 --> Undefined variable $descripcion
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 195)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1060')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 12:21:13 --> Undefined variable $descripcion
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 195)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1060')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 12:21:29 --> Undefined variable $descripcion
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 195)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1060')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}

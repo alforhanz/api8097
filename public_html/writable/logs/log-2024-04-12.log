@@ -1,0 +1,382 @@
+ERROR - 2024-04-12 11:20:03 --> Error connecting to the database: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2024-04-12 11:20:03 --> Unable to connect to the database.
+Main connection [SQLSRV]: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/WMSbusquedaArticulos_Model.php(18): CodeIgniter\Database\BaseConnection->query('CLSA.WMS_sp_get...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Controllers/WMSbusquedaArticulos.php(83): App\Models\WMSbusquedaArticulos_Model->Busqueda('S', NULL, 'amali', NULL, NULL, NULL, NULL, 'B-01', 0)
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\WMSbusquedaArticulos->show('1')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WMSbusquedaArticulos))
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-04-12 11:20:09 --> Error connecting to the database: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2024-04-12 11:20:09 --> Unable to connect to the database.
+Main connection [SQLSRV]: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/Menu_Model.php(17): CodeIgniter\Database\BaseConnection->query('CLSA.sp_getModu...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Menu.php(70): App\Models\Menu_Model->sp_getModulosUsuario('PRUEBAPMA', 'WMS', NULL)
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->show('1')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-04-12 11:20:09 --> Error connecting to the database: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2024-04-12 11:20:09 --> Unable to connect to the database.
+Main connection [SQLSRV]: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/GetContenedores_Model.php(16): CodeIgniter\Database\BaseConnection->query('CLSA.WMS_sp_get...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Controllers/GetContenedores.php(67): App\Models\GetContenedores_Model->spContenedores('WMS', NULL, 'L', NULL, NULL, 'M81-0000015307', NULL, NULL, NULL)
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\GetContenedores->show('L')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetContenedores))
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-04-12 11:20:12 --> Error connecting to the database: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2024-04-12 11:20:12 --> Unable to connect to the database.
+Main connection [SQLSRV]: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/WMSbusquedaArticulos_Model.php(18): CodeIgniter\Database\BaseConnection->query('CLSA.WMS_sp_get...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Controllers/WMSbusquedaArticulos.php(83): App\Models\WMSbusquedaArticulos_Model->Busqueda('S', NULL, 'amali', NULL, NULL, NULL, NULL, 'B-01', 0)
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\WMSbusquedaArticulos->show('1')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WMSbusquedaArticulos))
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-04-12 11:20:22 --> Error connecting to the database: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2024-04-12 11:20:22 --> Unable to connect to the database.
+Main connection [SQLSRV]: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/Menu_Model.php(17): CodeIgniter\Database\BaseConnection->query('CLSA.sp_getModu...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Menu.php(70): App\Models\Menu_Model->sp_getModulosUsuario('PRUEBAPMA', 'WMS', NULL)
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->show('1')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-04-12 11:20:22 --> Error connecting to the database: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2024-04-12 11:20:22 --> Unable to connect to the database.
+Main connection [SQLSRV]: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/GetContenedores_Model.php(16): CodeIgniter\Database\BaseConnection->query('CLSA.WMS_sp_get...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Controllers/GetContenedores.php(67): App\Models\GetContenedores_Model->spContenedores('WMS', NULL, 'L', NULL, NULL, 'M81-0000015307', NULL, NULL, NULL)
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\GetContenedores->show('L')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetContenedores))
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-04-12 11:20:27 --> Error connecting to the database: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2024-04-12 11:20:27 --> Unable to connect to the database.
+Main connection [SQLSRV]: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/WMSbusquedaArticulos_Model.php(18): CodeIgniter\Database\BaseConnection->query('CLSA.WMS_sp_get...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Controllers/WMSbusquedaArticulos.php(83): App\Models\WMSbusquedaArticulos_Model->Busqueda('S', NULL, 'amali', NULL, NULL, NULL, NULL, 'B-01', 0)
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\WMSbusquedaArticulos->show('1')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WMSbusquedaArticulos))
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-04-12 11:20:45 --> Error connecting to the database: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2024-04-12 11:20:45 --> Unable to connect to the database.
+Main connection [SQLSRV]: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/Menu_Model.php(17): CodeIgniter\Database\BaseConnection->query('CLSA.sp_getModu...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Menu.php(70): App\Models\Menu_Model->sp_getModulosUsuario('PRUEBAPMA', 'WMS', NULL)
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->show('1')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-04-12 11:20:45 --> Error connecting to the database: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2024-04-12 11:20:45 --> Unable to connect to the database.
+Main connection [SQLSRV]: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/GetContenedores_Model.php(16): CodeIgniter\Database\BaseConnection->query('CLSA.WMS_sp_get...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Controllers/GetContenedores.php(67): App\Models\GetContenedores_Model->spContenedores('WMS', NULL, 'L', NULL, NULL, 'M81-0000015307', NULL, NULL, NULL)
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\GetContenedores->show('L')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetContenedores))
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-04-12 11:23:58 --> Error connecting to the database: Login timeout expired
+TCP Provider: Error code 0x2749
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2024-04-12 11:23:58 --> Unable to connect to the database.
+Main connection [SQLSRV]: Login timeout expired
+TCP Provider: Error code 0x2749
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/UserModel.php(43): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Validation/UserRules.php(13): App\Models\UserModel->validarLogin('pruebapma', 'expruebapma')
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(277): App\Validation\UserRules->validateUser('expruebapma', 'username, passw...', Array, NULL)
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password', 'expruebapma', Array, Array)
+#5 /opt/lampp/htdocs/api8097/public_html/app/Controllers/BaseController.php(75): CodeIgniter\Validation\Validation->run(Array)
+#6 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Auth.php(31): App\Controllers\BaseController->validateRequest(Array, Array, Array)
+#7 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#8 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-04-12 11:27:07 --> Error connecting to the database: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2024-04-12 11:27:07 --> Unable to connect to the database.
+Main connection [SQLSRV]: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/UserModel.php(43): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Validation/UserRules.php(13): App\Models\UserModel->validarLogin('pruebapma', 'expruebapma')
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(277): App\Validation\UserRules->validateUser('expruebapma', 'username, passw...', Array, NULL)
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password', 'expruebapma', Array, Array)
+#5 /opt/lampp/htdocs/api8097/public_html/app/Controllers/BaseController.php(75): CodeIgniter\Validation\Validation->run(Array)
+#6 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Auth.php(31): App\Controllers\BaseController->validateRequest(Array, Array, Array)
+#7 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#8 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-04-12 11:27:12 --> Error connecting to the database: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2024-04-12 11:27:12 --> Unable to connect to the database.
+Main connection [SQLSRV]: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/UserModel.php(43): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Validation/UserRules.php(13): App\Models\UserModel->validarLogin('pruebapma', 'expruebapma')
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(277): App\Validation\UserRules->validateUser('expruebapma', 'username, passw...', Array, NULL)
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password', 'expruebapma', Array, Array)
+#5 /opt/lampp/htdocs/api8097/public_html/app/Controllers/BaseController.php(75): CodeIgniter\Validation\Validation->run(Array)
+#6 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Auth.php(31): App\Controllers\BaseController->validateRequest(Array, Array, Array)
+#7 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#8 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-04-12 11:27:13 --> Error connecting to the database: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2024-04-12 11:27:13 --> Unable to connect to the database.
+Main connection [SQLSRV]: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/UserModel.php(43): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Validation/UserRules.php(13): App\Models\UserModel->validarLogin('pruebapma', 'expruebapma')
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(277): App\Validation\UserRules->validateUser('expruebapma', 'username, passw...', Array, NULL)
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password', 'expruebapma', Array, Array)
+#5 /opt/lampp/htdocs/api8097/public_html/app/Controllers/BaseController.php(75): CodeIgniter\Validation\Validation->run(Array)
+#6 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Auth.php(31): App\Controllers\BaseController->validateRequest(Array, Array, Array)
+#7 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#8 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-04-12 11:27:14 --> Error connecting to the database: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2024-04-12 11:27:14 --> Unable to connect to the database.
+Main connection [SQLSRV]: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/UserModel.php(43): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Validation/UserRules.php(13): App\Models\UserModel->validarLogin('pruebapma', 'expruebapma')
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(277): App\Validation\UserRules->validateUser('expruebapma', 'username, passw...', Array, NULL)
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password', 'expruebapma', Array, Array)
+#5 /opt/lampp/htdocs/api8097/public_html/app/Controllers/BaseController.php(75): CodeIgniter\Validation\Validation->run(Array)
+#6 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Auth.php(31): App\Controllers\BaseController->validateRequest(Array, Array, Array)
+#7 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#8 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-04-12 11:27:14 --> Error connecting to the database: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2024-04-12 11:27:14 --> Unable to connect to the database.
+Main connection [SQLSRV]: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/UserModel.php(43): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Validation/UserRules.php(13): App\Models\UserModel->validarLogin('pruebapma', 'expruebapma')
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(277): App\Validation\UserRules->validateUser('expruebapma', 'username, passw...', Array, NULL)
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password', 'expruebapma', Array, Array)
+#5 /opt/lampp/htdocs/api8097/public_html/app/Controllers/BaseController.php(75): CodeIgniter\Validation\Validation->run(Array)
+#6 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Auth.php(31): App\Controllers\BaseController->validateRequest(Array, Array, Array)
+#7 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#8 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-04-12 11:27:25 --> Error connecting to the database: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2024-04-12 11:27:25 --> Unable to connect to the database.
+Main connection [SQLSRV]: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/UserModel.php(43): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Validation/UserRules.php(13): App\Models\UserModel->validarLogin('pruebapma', 'expruebapma')
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(277): App\Validation\UserRules->validateUser('expruebapma', 'username, passw...', Array, NULL)
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password', 'expruebapma', Array, Array)
+#5 /opt/lampp/htdocs/api8097/public_html/app/Controllers/BaseController.php(75): CodeIgniter\Validation\Validation->run(Array)
+#6 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Auth.php(31): App\Controllers\BaseController->validateRequest(Array, Array, Array)
+#7 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#8 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-04-12 11:27:28 --> Error connecting to the database: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2024-04-12 11:27:28 --> Unable to connect to the database.
+Main connection [SQLSRV]: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/UserModel.php(43): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Validation/UserRules.php(13): App\Models\UserModel->validarLogin('pruebapma', 'expruebapma')
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(277): App\Validation\UserRules->validateUser('expruebapma', 'username, passw...', Array, NULL)
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password', 'expruebapma', Array, Array)
+#5 /opt/lampp/htdocs/api8097/public_html/app/Controllers/BaseController.php(75): CodeIgniter\Validation\Validation->run(Array)
+#6 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Auth.php(31): App\Controllers\BaseController->validateRequest(Array, Array, Array)
+#7 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#8 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-04-12 11:27:29 --> Error connecting to the database: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2024-04-12 11:27:29 --> Unable to connect to the database.
+Main connection [SQLSRV]: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/UserModel.php(43): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Validation/UserRules.php(13): App\Models\UserModel->validarLogin('pruebapma', 'expruebapma')
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(277): App\Validation\UserRules->validateUser('expruebapma', 'username, passw...', Array, NULL)
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password', 'expruebapma', Array, Array)
+#5 /opt/lampp/htdocs/api8097/public_html/app/Controllers/BaseController.php(75): CodeIgniter\Validation\Validation->run(Array)
+#6 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Auth.php(31): App\Controllers\BaseController->validateRequest(Array, Array, Array)
+#7 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#8 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-04-12 11:27:30 --> Error connecting to the database: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2024-04-12 11:27:30 --> Unable to connect to the database.
+Main connection [SQLSRV]: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/UserModel.php(43): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Validation/UserRules.php(13): App\Models\UserModel->validarLogin('pruebapma', 'expruebapma')
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(277): App\Validation\UserRules->validateUser('expruebapma', 'username, passw...', Array, NULL)
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password', 'expruebapma', Array, Array)
+#5 /opt/lampp/htdocs/api8097/public_html/app/Controllers/BaseController.php(75): CodeIgniter\Validation\Validation->run(Array)
+#6 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Auth.php(31): App\Controllers\BaseController->validateRequest(Array, Array, Array)
+#7 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#8 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-04-12 11:27:41 --> Error connecting to the database: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2024-04-12 11:27:41 --> Unable to connect to the database.
+Main connection [SQLSRV]: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/UserModel.php(43): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Validation/UserRules.php(13): App\Models\UserModel->validarLogin('pruebapma', 'expruebapma')
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(277): App\Validation\UserRules->validateUser('expruebapma', 'username, passw...', Array, NULL)
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password', 'expruebapma', Array, Array)
+#5 /opt/lampp/htdocs/api8097/public_html/app/Controllers/BaseController.php(75): CodeIgniter\Validation\Validation->run(Array)
+#6 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Auth.php(31): App\Controllers\BaseController->validateRequest(Array, Array, Array)
+#7 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#8 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-04-12 11:27:45 --> Error connecting to the database: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2024-04-12 11:27:45 --> Unable to connect to the database.
+Main connection [SQLSRV]: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/UserModel.php(43): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Validation/UserRules.php(13): App\Models\UserModel->validarLogin('pruebapma', 'expruebapma')
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(277): App\Validation\UserRules->validateUser('expruebapma', 'username, passw...', Array, NULL)
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password', 'expruebapma', Array, Array)
+#5 /opt/lampp/htdocs/api8097/public_html/app/Controllers/BaseController.php(75): CodeIgniter\Validation\Validation->run(Array)
+#6 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Auth.php(31): App\Controllers\BaseController->validateRequest(Array, Array, Array)
+#7 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#8 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-04-12 11:27:46 --> Error connecting to the database: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2024-04-12 11:27:46 --> Unable to connect to the database.
+Main connection [SQLSRV]: Login timeout expired
+TCP Provider: Error code 0x102
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/UserModel.php(43): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Validation/UserRules.php(13): App\Models\UserModel->validarLogin('pruebapma', 'expruebapma')
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(277): App\Validation\UserRules->validateUser('expruebapma', 'username, passw...', Array, NULL)
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password', 'expruebapma', Array, Array)
+#5 /opt/lampp/htdocs/api8097/public_html/app/Controllers/BaseController.php(75): CodeIgniter\Validation\Validation->run(Array)
+#6 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Auth.php(31): App\Controllers\BaseController->validateRequest(Array, Array, Array)
+#7 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#8 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#11 {main}

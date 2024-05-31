@@ -1,0 +1,193 @@
+CRITICAL - 2021-12-21 07:12:28 --> Class "App\Controllers\MarcasModele" not found
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Marcas->index()
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marcas))
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-12-21 10:48:04 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'Prueba2.dbo.MARCAS'.
+CRITICAL - 2021-12-21 10:48:04 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'Prueba2.dbo.MARCAS'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *\nFROM "...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 E:\SERVER\laragon\www\api\app\Controllers\Marcas.php(14): CodeIgniter\BaseModel->findAll()
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Marcas->index()
+#7 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marcas))
+#8 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-21 11:07:17 --> syntax error, unexpected variable "$scheme", expecting "function" or "const"
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\SERVER\\larag...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Marc...')
+#2 E:\SERVER\laragon\www\api\app\Controllers\Marcas.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Marc...')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Marcas->index()
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marcas))
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-12-21 11:36:24 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'Prueba2.RINES,CLSA.MARCAS'.
+CRITICAL - 2021-12-21 11:36:24 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'Prueba2.RINES,CLSA.MARCAS'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *\nFROM "...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 E:\SERVER\laragon\www\api\app\Controllers\Marcas.php(14): CodeIgniter\BaseModel->findAll()
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Marcas->index()
+#7 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marcas))
+#8 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-21 11:53:17 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'Prueba2.RINES,CLSA.MARCAS'.
+CRITICAL - 2021-12-21 11:53:17 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'Prueba2.RINES,CLSA.MARCAS'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *\nFROM "...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 E:\SERVER\laragon\www\api\app\Controllers\Marcas.php(14): CodeIgniter\BaseModel->findAll()
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Marcas->index()
+#7 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marcas))
+#8 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-21 14:05:33 --> Class "App\Controllers\MarcasModel" not found
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-21 14:06:16 --> You must set the database table to be used with your query.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(176): CodeIgniter\Model->builder()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): CodeIgniter\BaseModel->findAll()
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-21 14:07:29 --> Undefined variable $db
+#0 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 22)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-21 14:08:17 --> Undefined variable $tipo
+#0 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 12)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-12-21 14:10:32 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2021-12-21 14:10:32 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('CALL CLSA.sp_Lo...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('CALL CLSA.sp_Lo...')
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(13): CodeIgniter\Database\BaseConnection->query('CALL CLSA.sp_Lo...')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-21 14:11:20 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '.'.
+CRITICAL - 2021-12-21 14:11:20 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '.'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('CALL CLSA.sp_Lo...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('CALL CLSA.sp_Lo...')
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(13): CodeIgniter\Database\BaseConnection->query('CALL CLSA.sp_Lo...')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-21 14:13:40 --> Undefined variable $usuario
+#0 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 15)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-21 14:14:08 --> sqlsrv_query(): Argument #1 ($conn) must be of type resource, null given
+#0 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(16): sqlsrv_query(NULL, '{CALL CLSA.sp_L...', Array)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-21 14:14:42 --> sqlsrv_query(): Argument #1 ($conn) must be of type resource, string given
+#0 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(16): sqlsrv_query('{CALL CLSA.sp_L...', Array)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-21 14:16:37 --> sqlsrv_fetch_array(): Argument #1 ($stmt) must be of type resource, string given
+#0 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(16): sqlsrv_fetch_array('{CALL CLSA.sp_L...', Array)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-21 14:17:23 --> sqlsrv_fetch_array(): Argument #1 ($stmt) must be of type resource, string given
+#0 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(16): sqlsrv_fetch_array('{CALL CLSA.sp_L...')
+#1 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-21 14:17:46 --> sqlsrv_fetch_array(): Argument #1 ($stmt) must be of type resource, string given
+#0 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(15): sqlsrv_fetch_array('{CALL CLSA.sp_L...')
+#1 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-21 14:20:48 --> syntax error, unexpected double-quoted string "( CALL CLSA.sp_Login('"
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\SERVER\\larag...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Secc...')
+#2 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Secc...')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-21 14:21:15 --> Undefined variable $db
+#0 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 13)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-21 14:23:14 --> You must set the database table to be used with your query.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(688): CodeIgniter\Model->builder()
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(15): CodeIgniter\Model->__get('sqlsrvr')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-21 14:23:53 --> You must set the database table to be used with your query.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(688): CodeIgniter\Model->builder()
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(15): CodeIgniter\Model->__get('sqlsrvr')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

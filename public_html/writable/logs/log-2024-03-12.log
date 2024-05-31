@@ -1,0 +1,94 @@
+CRITICAL - 2024-03-12 15:33:08 --> Undefined variable: items
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 130, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-12 16:10:02 --> syntax error, unexpected ','
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-03-12 16:10:18 --> Undefined variable: items
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(131): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 131, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-12 16:29:36 --> Undefined variable: items
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 130, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-12 16:31:05 --> Undefined variable: items
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(131): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 131, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-12 16:31:46 --> Undefined variable: items
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(131): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 131, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-12 16:38:28 --> Undefined variable: resp
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 132, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-12 16:41:14 --> Undefined variable: resp
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 132, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-12 16:42:58 --> Undefined variable: resp
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 132, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-12 16:47:51 --> Undefined index: items
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 90, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-12 16:48:40 --> Undefined index: items
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 90, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-12 16:50:23 --> Undefined index: items
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 90, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-12 16:50:32 --> Undefined index: items
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 90, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}

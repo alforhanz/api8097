@@ -1,0 +1,158 @@
+CRITICAL - 2023-11-20 09:18:34 --> Undefined property: stdClass::$CANT_DISPONIBLE
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/DetalleProducto.php(276): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 276, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1020')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-11-20 09:19:41 --> Undefined property: stdClass::$CANT_DISPONIBLE
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/DetalleProducto.php(276): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 276, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1020')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-11-20 09:30:31 --> Undefined property: stdClass::$CANT_DISPONIBLE
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/DetalleProducto.php(276): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 276, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1020')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-11-20 10:25:52 --> [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: Error code 0x68
+ERROR - 2023-11-20 10:25:52 --> [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: Error code 0x68
+ERROR - 2023-11-20 10:25:52 --> [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: Error code 0x68
+ERROR - 2023-11-20 10:25:52 --> [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: Error code 0x68
+ERROR - 2023-11-20 10:25:52 --> [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: Error code 0x68
+ERROR - 2023-11-20 10:25:52 --> [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: Error code 0x68
+ERROR - 2023-11-20 10:26:07 --> Error connecting to the database: Login timeout expired
+TCP Provider: Error code 0x2749
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2023-11-20 10:26:07 --> Unable to connect to the database.
+Main connection [SQLSRV]: Login timeout expired
+TCP Provider: Error code 0x2749
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/Clasificaciones_Model.php(15): CodeIgniter\Database\BaseConnection->query('{CALL [ECOMMERC...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Controllers/GetClasificaciones.php(24): App\Models\Clasificaciones_Model->findClasificacionesAll()
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\GetClasificaciones->index()
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetClasificaciones))
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-11-20 10:26:07 --> Error connecting to the database: Login timeout expired
+TCP Provider: Error code 0x2749
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2023-11-20 10:26:07 --> Unable to connect to the database.
+Main connection [SQLSRV]: Login timeout expired
+TCP Provider: Error code 0x2749
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/Menu_Model.php(17): CodeIgniter\Database\BaseConnection->query('CLSA.sp_getModu...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Menu.php(70): App\Models\Menu_Model->sp_getModulosUsuario('PRUEBAPMA', 'W', NULL)
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->show('1')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-11-20 10:26:15 --> Error connecting to the database: Login timeout expired
+TCP Provider: Error code 0x2749
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2023-11-20 10:26:15 --> Unable to connect to the database.
+Main connection [SQLSRV]: Login timeout expired
+TCP Provider: Error code 0x2749
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/Buscador_Model.php(16): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Buscador.php(81): App\Models\Buscador_Model->Busqueda('W', '', 'ama', 'B-01', 'V')
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Buscador->show('1')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buscador))
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-11-20 10:26:37 --> Error connecting to the database: Login timeout expired
+TCP Provider: Error code 0x2749
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2023-11-20 10:26:37 --> Unable to connect to the database.
+Main connection [SQLSRV]: Login timeout expired
+TCP Provider: Error code 0x2749
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/Menu_Model.php(17): CodeIgniter\Database\BaseConnection->query('CLSA.sp_getModu...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Menu.php(70): App\Models\Menu_Model->sp_getModulosUsuario('PRUEBAPMA', 'W', NULL)
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->show('1')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-11-20 10:26:37 --> Error connecting to the database: Login timeout expired
+TCP Provider: Error code 0x2749
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2023-11-20 10:26:37 --> Unable to connect to the database.
+Main connection [SQLSRV]: Login timeout expired
+TCP Provider: Error code 0x2749
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/Clasificaciones_Model.php(15): CodeIgniter\Database\BaseConnection->query('{CALL [ECOMMERC...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Controllers/GetClasificaciones.php(24): App\Models\Clasificaciones_Model->findClasificacionesAll()
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\GetClasificaciones->index()
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetClasificaciones))
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-11-20 10:26:42 --> Error connecting to the database: Login timeout expired
+TCP Provider: Error code 0x2749
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2023-11-20 10:26:42 --> Unable to connect to the database.
+Main connection [SQLSRV]: Login timeout expired
+TCP Provider: Error code 0x2749
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/Buscador_Model.php(16): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Buscador.php(81): App\Models\Buscador_Model->Busqueda('W', '', 'ama', 'B-01', NULL)
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Buscador->show('1')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buscador))
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-11-20 10:26:53 --> Error connecting to the database: Cannot open database "Prueba3" requested by the login. The login failed.
+Login failed for user 'sa'.
+TCP Provider: Error code 0x2749
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+ERROR - 2023-11-20 10:26:53 --> Error connecting to the database: Cannot open database "Prueba3" requested by the login. The login failed.
+Login failed for user 'sa'.
+TCP Provider: Error code 0x2749
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2023-11-20 10:26:53 --> Unable to connect to the database.
+Main connection [SQLSRV]: Cannot open database "Prueba3" requested by the login. The login failed.
+Login failed for user 'sa'.
+TCP Provider: Error code 0x2749
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/Menu_Model.php(17): CodeIgniter\Database\BaseConnection->query('CLSA.sp_getModu...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Menu.php(70): App\Models\Menu_Model->sp_getModulosUsuario('PRUEBAPMA', 'W', NULL)
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->show('1')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-11-20 10:26:53 --> Unable to connect to the database.
+Main connection [SQLSRV]: Cannot open database "Prueba3" requested by the login. The login failed.
+Login failed for user 'sa'.
+TCP Provider: Error code 0x2749
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/Clasificaciones_Model.php(15): CodeIgniter\Database\BaseConnection->query('{CALL [ECOMMERC...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Controllers/GetClasificaciones.php(24): App\Models\Clasificaciones_Model->findClasificacionesAll()
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\GetClasificaciones->index()
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetClasificaciones))
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-11-20 13:57:31 --> Undefined variable: descripcion
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/DetalleProducto.php(307): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 307, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1055')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}

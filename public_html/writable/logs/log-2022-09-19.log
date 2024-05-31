@@ -1,0 +1,47 @@
+ERROR - 2022-09-19 13:14:20 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to decimal.
+CRITICAL - 2022-09-19 13:14:20 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to decimal.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('CLSA.sp_InsertP...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('CLSA.sp_InsertP...')
+#2 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(104): CodeIgniter\Database\BaseConnection->query('CLSA.sp_InsertP...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(69): App\Models\Pedidos_Model->sp_InsertPedidoEcommerce('JOSEPGREN', '00000007', 'B-07', NULL, NULL, NULL, NULL, 'P07-10057416', 'NaN', 'NaN', 'NaN', '7', 0, '20220919', NULL, 'E', 'C')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-09-19 13:17:34 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to decimal.
+CRITICAL - 2022-09-19 13:17:34 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to decimal.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('CLSA.sp_InsertP...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('CLSA.sp_InsertP...')
+#2 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(104): CodeIgniter\Database\BaseConnection->query('CLSA.sp_InsertP...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(69): App\Models\Pedidos_Model->sp_InsertPedidoEcommerce('JOSEPGREN', '00000007', 'B-07', NULL, NULL, NULL, NULL, 'P07-10057416', 'NaN', 'NaN', 'NaN', '7', 0, '20220919', NULL, 'E', 'C')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-09-19 13:19:28 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to decimal.
+CRITICAL - 2022-09-19 13:19:28 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to decimal.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('CLSA.sp_InsertP...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('CLSA.sp_InsertP...')
+#2 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(104): CodeIgniter\Database\BaseConnection->query('CLSA.sp_InsertP...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(69): App\Models\Pedidos_Model->sp_InsertPedidoEcommerce('JOSEPGREN', '00000007', 'B-07', NULL, NULL, NULL, NULL, 'P07-10057416', 'NaN', 'NaN', 'NaN', '7', 0, '20220919', NULL, 'E', 'C')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-19 13:23:01 --> Undefined array key "PROMO"
+#0 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 73)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-19 13:30:41 --> Undefined array key "nive_precio"
+#0 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 73)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}

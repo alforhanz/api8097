@@ -1,0 +1,48 @@
+CRITICAL - 2022-09-08 10:37:06 --> Undefined property: stdClass::$CANTIDAD
+#0 E:\SERVER\laragon\www\api\app\Controllers\Promociones.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\SERVER\\larag...', 122)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Promociones->show('2')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Promociones))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-08 10:51:10 --> syntax error, unexpected token "--"
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\SERVER\\larag...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-08 10:51:39 --> syntax error, unexpected token "--"
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\SERVER\\larag...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-08 10:51:50 --> syntax error, unexpected token "--"
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\SERVER\\larag...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-08 15:28:36 --> Undefined variable $kry
+#0 E:\SERVER\laragon\www\api\app\Controllers\Promociones.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 143)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Promociones->show('2')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Promociones))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-08 15:28:44 --> Undefined variable $kry
+#0 E:\SERVER\laragon\www\api\app\Controllers\Promociones.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 143)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Promociones->show('2')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Promociones))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}

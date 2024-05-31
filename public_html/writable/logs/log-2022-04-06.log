@@ -1,0 +1,101 @@
+CRITICAL - 2022-04-06 11:10:07 --> implode(): Argument #2 ($array) must be of type ?array, string given
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(42): implode(',', '13')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-06 11:10:18 --> implode(): Argument #2 ($array) must be of type ?array, string given
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(42): implode(',', '13')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('2')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-06 11:11:02 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '1062'.
+CRITICAL - 2022-04-06 11:11:02 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(62): App\Models\BusquedaRines_Model->BusquedaRines(0, 0, 0, NULL, NULL, '2', '1051', '1062', '13', NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-01')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('2')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-06 11:30:18 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '105'.
+CRITICAL - 2022-04-06 11:30:18 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(62): App\Models\BusquedaRines_Model->BusquedaRines(0, 0, 0, NULL, NULL, '2', '1051', '1062', '13', NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-01')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('2')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-06 11:34:25 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'MEDIDAS1'.
+CRITICAL - 2022-04-06 11:34:25 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(62): App\Models\BusquedaRines_Model->BusquedaRines(0, 0, 0, NULL, NULL, '2', '1051', '1062', '13', NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-01')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('2')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-06 11:48:57 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ALTURA'.
+CRITICAL - 2022-04-06 11:48:57 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(153): App\Models\DetalleProducto_Model->DetalleFiltros('PH-820')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1030')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-06 11:51:11 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ALTURA'.
+CRITICAL - 2022-04-06 11:51:11 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(153): App\Models\DetalleProducto_Model->DetalleFiltros('PH-820')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1030')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-06 11:51:41 --> Undefined variable $filtros
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 156)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1030')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-06 11:52:47 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ALTURA'.
+CRITICAL - 2022-04-06 11:52:47 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(153): App\Models\DetalleProducto_Model->DetalleFiltros('PH-820')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1030')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-06 11:53:13 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ALTURA'.
+CRITICAL - 2022-04-06 11:53:13 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(153): App\Models\DetalleProducto_Model->DetalleFiltros('PH-820')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1030')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-06 11:54:05 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ALTURA'.
+CRITICAL - 2022-04-06 11:54:05 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(153): App\Models\DetalleProducto_Model->DetalleFiltros('PH-820')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1030')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-06 11:54:53 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ALTURA'.
+CRITICAL - 2022-04-06 11:54:53 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(125): App\Models\DetalleProducto_Model->DetalleFiltros('PH-820')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1030')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-06 11:56:04 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ALTURA'.
+CRITICAL - 2022-04-06 11:56:04 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(153): App\Models\DetalleProducto_Model->DetalleFiltros('PH-8A')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1030')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}

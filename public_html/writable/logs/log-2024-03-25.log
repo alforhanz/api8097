@@ -1,0 +1,20 @@
+CRITICAL - 2024-03-25 16:50:08 --> You must set the database table to be used with your query.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Model.php(717): CodeIgniter\Model->builder()
+#2 /opt/lampp/htdocs/api8097/public_html/app/Controllers/WMSbusquedaArticulos.php(85): CodeIgniter\Model->__call('BusquedaConFilt...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\WMSbusquedaArticulos->show('1')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WMSbusquedaArticulos))
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-03-25 16:57:29 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]XML parsing: line 1, character 133, end tag does not match start tag
+CRITICAL - 2024-03-25 16:57:29 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]XML parsing: line 1, character 133, end tag does not match start tag
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('CLSA.sp_get_Des...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('CLSA.sp_get_Des...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/GetDescuentos_Model.php(16): CodeIgniter\Database\BaseConnection->query('CLSA.sp_get_Des...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/GetDescuentos.php(36): App\Models\GetDescuentos_Model->getDescuentoLubricantes('Elitpola', NULL, 'NULL', 'AMA 80W90 QTS', '1020', '2178', 'PRECIO (6)', NULL, '6005', '39.41', '15', NULL, '<Table><Row ID=...')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\GetDescuentos->index()
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetDescuentos))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}

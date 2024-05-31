@@ -1,0 +1,7 @@
+CRITICAL - 2022-05-25 16:50:21 --> Undefined property: stdClass::$ID_CLASE
+#0 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\SERVER\\larag...', 130)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->show(Object(stdClass))
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}

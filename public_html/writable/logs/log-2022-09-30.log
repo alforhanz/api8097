@@ -1,0 +1,30 @@
+CRITICAL - 2022-09-30 12:05:26 --> Undefined property: stdClass::$RESPUESTA
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\SERVER\\larag...', 141)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Borrar_LineaPedido.php(109): App\Models\Pedidos_Model->sp_borrar_pedido_linea(NULL, NULL, '2')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Borrar_LineaPedido->destroy('2')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Borrar_LineaPedido))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-09-30 15:45:55 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PEDIDO_LINEAPK'. Cannot insert duplicate key in object 'BREMEN.PEDIDO_LINEA'. The duplicate key value is (P07-10057423, 3).
+CRITICAL - 2022-09-30 15:45:55 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PEDIDO_LINEAPK'. Cannot insert duplicate key in object 'BREMEN.PEDIDO_LINEA'. The duplicate key value is (P07-10057423, 3).
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('CLSA.sp_InsertP...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('CLSA.sp_InsertP...')
+#2 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(122): CodeIgniter\Database\BaseConnection->query('CLSA.sp_InsertP...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(73): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('P07-10057423', 3, 'NS40L(S)', '65.95000000', 1, '0.00', 'PRECIO (1)', 'JOSEPGREN', 'B-07', '20220930', '133.500000', '9.345000', '142.845000', '4', 'C', 'A')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-09-30 15:46:30 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PEDIDO_LINEAPK'. Cannot insert duplicate key in object 'BREMEN.PEDIDO_LINEA'. The duplicate key value is (P07-10057423, 3).
+CRITICAL - 2022-09-30 15:46:30 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PEDIDO_LINEAPK'. Cannot insert duplicate key in object 'BREMEN.PEDIDO_LINEA'. The duplicate key value is (P07-10057423, 3).
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('CLSA.sp_InsertP...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('CLSA.sp_InsertP...')
+#2 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(122): CodeIgniter\Database\BaseConnection->query('CLSA.sp_InsertP...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(73): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('P07-10057423', 3, 'NS40L(S)', '65.95000000', 1, '0.00', 'PRECIO (1)', 'JOSEPGREN', 'B-07', '20220930', '133.500000', '9.345000', '142.845000', '4', 'C', 'A')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}

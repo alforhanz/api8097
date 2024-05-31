@@ -1,0 +1,33 @@
+ERROR - 2024-05-11 11:28:25 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function 'sp_getDashboardNorwing_Gerencial' expects parameter '@pOpcion', which was not supplied.
+CRITICAL - 2024-05-11 11:28:25 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function 'sp_getDashboardNorwing_Gerencial' expects parameter '@pOpcion', which was not supplied.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/NorwingGetReportes_Model.php(33): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/NorwingGetReportes.php(29): App\Models\NorwingGetReportes_Model->sp_DashboardNorwing('R', 'PRUEBAPMA')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\NorwingGetReportes->index('2')
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NorwingGetReportes))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-05-11 11:29:49 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function 'sp_getDashboardNorwing_Gerencial' expects parameter '@pOpcion', which was not supplied.
+CRITICAL - 2024-05-11 11:29:49 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function 'sp_getDashboardNorwing_Gerencial' expects parameter '@pOpcion', which was not supplied.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/NorwingGetReportes_Model.php(33): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/NorwingGetReportes.php(29): App\Models\NorwingGetReportes_Model->sp_DashboardNorwing('R', 'PRUEBAPMA')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\NorwingGetReportes->index('2')
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NorwingGetReportes))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-05-11 11:30:17 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function 'sp_getDashboardNorwing_Gerencial' expects parameter '@pOpcion', which was not supplied.
+CRITICAL - 2024-05-11 11:30:17 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function 'sp_getDashboardNorwing_Gerencial' expects parameter '@pOpcion', which was not supplied.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/NorwingGetReportes_Model.php(33): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/NorwingGetReportes.php(29): App\Models\NorwingGetReportes_Model->sp_DashboardNorwing('R', 'PRUEBAPMA')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\NorwingGetReportes->index('2')
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NorwingGetReportes))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}

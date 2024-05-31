@@ -1,0 +1,231 @@
+CRITICAL - 2022-03-17 09:02:07 --> Class "App\Controllers\Cliente_Model" not found
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BodegaUsuario->show('1')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BodegaUsuario))
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-17 09:02:47 --> Class "App\Models\Bodegas_Model" not found
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BodegaUsuario->show('1')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BodegaUsuario))
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-17 09:02:57 --> Class "App\Models\Bodegas_Model" not found
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BodegaUsuario->show('1')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BodegaUsuario))
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-03-17 09:03:22 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-03-17 09:03:22 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BodegaUsuario.php(71): App\Models\Bodegas_Model->BodegasUsuarios('1', NULL, NULL, NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BodegaUsuario->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BodegaUsuario))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-17 09:03:41 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-03-17 09:03:41 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BodegaUsuario.php(71): App\Models\Bodegas_Model->BodegasUsuarios('E', NULL, NULL, NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BodegaUsuario->show('E')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BodegaUsuario))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-17 10:39:15 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-03-17 10:39:15 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Cliente.php(73): App\Models\Cliente_Model->BusquedaCliente(NULL, NULL, NULL, NULL, NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Cliente->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 11:33:56 --> Object of class stdClass could not be converted to string
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(354): implode(',', Array)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(304): CodeIgniter\Database\Query->matchSimpleBinds('{CALL [CLSA].[s...', Array, 4, 1)
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 E:\SERVER\laragon\www\api\app\Models\UserModel.php(59): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#5 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(48): App\Models\UserModel->BodegasUsuarios('E', Array, NULL, NULL)
+#6 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(37): App\Controllers\Auth->getJWTForUser('alexcast')
+#7 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#8 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-17 11:35:33 --> Object of class stdClass could not be converted to string
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(354): implode(',', Array)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(304): CodeIgniter\Database\Query->matchSimpleBinds('{CALL [CLSA].[s...', Array, 4, 1)
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 E:\SERVER\laragon\www\api\app\Models\UserModel.php(59): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#5 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(48): App\Models\UserModel->BodegasUsuarios('E', Array, NULL, NULL)
+#6 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(37): App\Controllers\Auth->getJWTForUser('ALEXCAST')
+#7 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#8 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-17 11:36:17 --> Object of class stdClass could not be converted to string
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(354): implode(',', Array)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(304): CodeIgniter\Database\Query->matchSimpleBinds('{CALL [CLSA].[s...', Array, 4, 1)
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 E:\SERVER\laragon\www\api\app\Models\UserModel.php(59): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#5 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(48): App\Models\UserModel->BodegasUsuarios('E', Array, NULL, NULL)
+#6 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(37): App\Controllers\Auth->getJWTForUser('ALEXCAST')
+#7 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#8 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-17 11:37:20 --> Object of class stdClass could not be converted to string
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(354): implode(',', Array)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(304): CodeIgniter\Database\Query->matchSimpleBinds('{CALL [CLSA].[s...', Array, 4, 1)
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 E:\SERVER\laragon\www\api\app\Models\UserModel.php(59): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#5 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(48): App\Models\UserModel->BodegasUsuarios('E', Array, NULL, NULL)
+#6 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(37): App\Controllers\Auth->getJWTForUser('ALEXCAST')
+#7 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#8 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-17 11:40:37 --> Object of class stdClass could not be converted to string
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(354): implode(',', Array)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(304): CodeIgniter\Database\Query->matchSimpleBinds('{CALL [CLSA].[s...', Array, 4, 1)
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 E:\SERVER\laragon\www\api\app\Models\UserModel.php(59): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#5 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(48): App\Models\UserModel->BodegasUsuarios('E', Array, NULL, NULL)
+#6 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(37): App\Controllers\Auth->getJWTForUser('ALEXCAST')
+#7 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#8 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-17 11:40:51 --> Object of class stdClass could not be converted to string
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(354): implode(',', Array)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(304): CodeIgniter\Database\Query->matchSimpleBinds('{CALL [CLSA].[s...', Array, 4, 1)
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 E:\SERVER\laragon\www\api\app\Models\UserModel.php(59): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#5 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(48): App\Models\UserModel->BodegasUsuarios('E', Array, NULL, NULL)
+#6 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(37): App\Controllers\Auth->getJWTForUser('ALEXCAST')
+#7 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#8 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-17 11:40:53 --> Object of class stdClass could not be converted to string
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(354): implode(',', Array)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(304): CodeIgniter\Database\Query->matchSimpleBinds('{CALL [CLSA].[s...', Array, 4, 1)
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 E:\SERVER\laragon\www\api\app\Models\UserModel.php(59): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#5 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(48): App\Models\UserModel->BodegasUsuarios('E', Array, NULL, NULL)
+#6 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(37): App\Controllers\Auth->getJWTForUser('ALEXCAST')
+#7 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#8 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-17 11:41:45 --> Object of class stdClass could not be converted to string
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(354): implode(',', Array)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(304): CodeIgniter\Database\Query->matchSimpleBinds('{CALL [CLSA].[s...', Array, 4, 1)
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 E:\SERVER\laragon\www\api\app\Models\UserModel.php(59): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#5 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(48): App\Models\UserModel->BodegasUsuarios('E', Array, NULL, NULL)
+#6 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(37): App\Controllers\Auth->getJWTForUser('ALEXCAST')
+#7 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#8 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-17 11:42:36 --> Object of class stdClass could not be converted to string
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(354): implode(',', Array)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(304): CodeIgniter\Database\Query->matchSimpleBinds('{CALL [CLSA].[s...', Array, 4, 1)
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 E:\SERVER\laragon\www\api\app\Models\UserModel.php(58): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#5 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(48): App\Models\UserModel->BodegasUsuarios('E', Array, NULL, NULL)
+#6 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(37): App\Controllers\Auth->getJWTForUser('ALEXCAST')
+#7 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#8 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-17 11:42:51 --> Object of class stdClass could not be converted to string
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(354): implode(',', Array)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(304): CodeIgniter\Database\Query->matchSimpleBinds('{CALL [CLSA].[s...', Array, 4, 1)
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 E:\SERVER\laragon\www\api\app\Models\UserModel.php(58): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#5 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(48): App\Models\UserModel->BodegasUsuarios('E', Array, NULL, NULL)
+#6 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(37): App\Controllers\Auth->getJWTForUser('ALEXCAST')
+#7 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#8 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-17 11:51:11 --> Object of class stdClass could not be converted to string
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(354): implode(',', Array)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(304): CodeIgniter\Database\Query->matchSimpleBinds('{CALL [CLSA].[s...', Array, 4, 1)
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 E:\SERVER\laragon\www\api\app\Models\UserModel.php(58): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#5 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(48): App\Models\UserModel->BodegasUsuarios('E', Array, NULL, NULL)
+#6 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(37): App\Controllers\Auth->getJWTForUser('alexcast')
+#7 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#8 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-17 11:51:16 --> Object of class stdClass could not be converted to string
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(354): implode(',', Array)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(304): CodeIgniter\Database\Query->matchSimpleBinds('{CALL [CLSA].[s...', Array, 4, 1)
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 E:\SERVER\laragon\www\api\app\Models\UserModel.php(58): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#5 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(48): App\Models\UserModel->BodegasUsuarios('E', Array, NULL, NULL)
+#6 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(37): App\Controllers\Auth->getJWTForUser('ALEXCAST')
+#7 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#8 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-17 11:52:28 --> Object of class stdClass could not be converted to string
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(354): implode(',', Array)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(304): CodeIgniter\Database\Query->matchSimpleBinds('{CALL [CLSA].[s...', Array, 4, 1)
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 E:\SERVER\laragon\www\api\app\Models\UserModel.php(58): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#5 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(48): App\Models\UserModel->BodegasUsuarios('E', Array, '', '')
+#6 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(37): App\Controllers\Auth->getJWTForUser('ALEXCAST')
+#7 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#8 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-17 15:38:37 --> Class "App\Controllers\Bodegas_Model" not found
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BodegaUsuario->show('E')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BodegaUsuario))
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-17 15:38:41 --> Class "App\Controllers\Bodegas_Model" not found
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BodegaUsuario->show('B')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BodegaUsuario))
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-03-17 16:02:59 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-03-17 16:02:59 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Cliente.php(73): App\Models\Cliente_Model->BusquedaCliente(NULL, NULL, NULL, NULL, NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Cliente->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}

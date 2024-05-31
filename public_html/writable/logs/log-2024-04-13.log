@@ -1,0 +1,44 @@
+ERROR - 2024-04-13 11:27:06 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function ECOMMERCE.ftabla_rines has too many arguments specified.
+CRITICAL - 2024-04-13 11:27:06 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function ECOMMERCE.ftabla_rines has too many arguments specified.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/BusquedaRines_Model.php(15): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/BusquedaRines.php(59): App\Models\BusquedaRines_Model->BusquedaRines(0, 0, 0, NULL, NULL, '2', '1051', '1063', '13,14,15,16,17,...', NULL, NULL, NULL, NULL, NULL, 'N', NULL, 0, 0, 0, 'B-01')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\BusquedaRines->show('2')
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-04-13 11:28:08 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function ECOMMERCE.ftabla_rines has too many arguments specified.
+CRITICAL - 2024-04-13 11:28:08 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function ECOMMERCE.ftabla_rines has too many arguments specified.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/BusquedaRines_Model.php(15): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/BusquedaRines.php(59): App\Models\BusquedaRines_Model->BusquedaRines(0, 0, 0, NULL, NULL, '2', '1051', '1063', '13,14', NULL, NULL, NULL, NULL, NULL, 'N', NULL, 0, 0, 0, 'B-01')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\BusquedaRines->show('2')
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-04-13 11:33:18 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function ECOMMERCE.ftabla_rines has too many arguments specified.
+CRITICAL - 2024-04-13 11:33:18 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function ECOMMERCE.ftabla_rines has too many arguments specified.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/BusquedaRines_Model.php(15): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/BusquedaRines.php(59): App\Models\BusquedaRines_Model->BusquedaRines(0, 0, 0, NULL, NULL, '2', '1051', '1062', '13,14,15,16', NULL, NULL, NULL, NULL, NULL, 'N', NULL, 0, 0, 0, 'B-01')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\BusquedaRines->show('2')
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-04-13 11:44:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function ECOMMERCE.ftabla_rines has too many arguments specified.
+CRITICAL - 2024-04-13 11:44:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function ECOMMERCE.ftabla_rines has too many arguments specified.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/BusquedaRines_Model.php(15): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/BusquedaRines.php(59): App\Models\BusquedaRines_Model->BusquedaRines(0, 0, 0, NULL, NULL, '2', '1051', '1062', '17,18,20', NULL, NULL, NULL, NULL, NULL, 'N', NULL, 0, 0, 0, 'B-01')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\BusquedaRines->show('2')
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}

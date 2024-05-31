@@ -1,0 +1,59 @@
+CRITICAL - 2022-03-08 09:00:57 --> Too few arguments to function CodeIgniter\Database\BaseConnection::query(), 0 passed in E:\SERVER\laragon\www\api\app\Models\MarcasModel.php on line 15 and at least 1 expected
+#0 E:\SERVER\laragon\www\api\app\Models\MarcasModel.php(15): CodeIgniter\Database\BaseConnection->query()
+#1 E:\SERVER\laragon\www\api\app\Controllers\Marcas.php(23): App\Models\MarcasModel->findMarcasAll()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Marcas->index()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marcas))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-08 09:04:28 --> Too few arguments to function CodeIgniter\Database\BaseConnection::query(), 0 passed in E:\SERVER\laragon\www\api\app\Models\MarcasModel.php on line 15 and at least 1 expected
+#0 E:\SERVER\laragon\www\api\app\Models\MarcasModel.php(15): CodeIgniter\Database\BaseConnection->query()
+#1 E:\SERVER\laragon\www\api\app\Controllers\Marcas.php(23): App\Models\MarcasModel->findMarcasAll()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Marcas->index()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marcas))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-08 09:06:32 --> Too few arguments to function CodeIgniter\Database\BaseConnection::query(), 0 passed in E:\SERVER\laragon\www\api\app\Models\MarcasModel.php on line 15 and at least 1 expected
+#0 E:\SERVER\laragon\www\api\app\Models\MarcasModel.php(15): CodeIgniter\Database\BaseConnection->query()
+#1 E:\SERVER\laragon\www\api\app\Controllers\Marcas.php(23): App\Models\MarcasModel->findMarcasAll()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Marcas->index()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marcas))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-08 09:06:57 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+ERROR - 2022-03-08 09:07:14 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+CRITICAL - 2022-03-08 15:12:29 --> Too few arguments to function App\Models\ModelosVehiculo_Model::findModelosById(), 1 passed in E:\SERVER\laragon\www\api\app\Controllers\Modelos_vehiculo.php on line 71 and exactly 2 expected
+#0 E:\SERVER\laragon\www\api\app\Controllers\Modelos_vehiculo.php(71): App\Models\ModelosVehiculo_Model->findModelosById('1016')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Modelos_vehiculo->show('1016')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelos_vehiculo))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-08 15:12:40 --> Too few arguments to function App\Models\ModelosVehiculo_Model::findModelosById(), 1 passed in E:\SERVER\laragon\www\api\app\Controllers\Modelos_vehiculo.php on line 71 and exactly 2 expected
+#0 E:\SERVER\laragon\www\api\app\Controllers\Modelos_vehiculo.php(71): App\Models\ModelosVehiculo_Model->findModelosById('1016')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Modelos_vehiculo->show('1016', '2019')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelos_vehiculo))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-08 16:20:12 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+ERROR - 2022-03-08 16:20:31 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+ERROR - 2022-03-08 16:20:32 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+CRITICAL - 2022-03-08 16:43:15 --> Class "App\Controllers\AnioVehiculo_Model" not found
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Anio_vehiculo->show('1016', '2019')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anio_vehiculo))
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-08 16:43:19 --> Class "App\Controllers\AnioVehiculo_Model" not found
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Anio_vehiculo->index()
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anio_vehiculo))
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-03-08 16:44:11 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function 'sp_getAnioMarcasVehiculo' expects parameter '@p_idmarca', which was not supplied.
+ERROR - 2022-03-08 16:44:34 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function 'sp_getAnioMarcasVehiculo' expects parameter '@p_idmarca', which was not supplied.
+ERROR - 2022-03-08 16:44:37 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function 'sp_getAnioMarcasVehiculo' expects parameter '@p_idmarca', which was not supplied.
+ERROR - 2022-03-08 16:57:05 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'ECOMMERCE.sp_getAnioMarcasVehiculo'.

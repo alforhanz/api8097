@@ -1,0 +1,12 @@
+ERROR - 2024-04-25 14:10:56 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The ROLLBACK TRANSACTION request has no corresponding BEGIN TRANSACTION.
+CRITICAL - 2024-04-25 14:10:56 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The ROLLBACK TRANSACTION request has no corresponding BEGIN TRANSACTION.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('CLSA.sp_insert_...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('CLSA.sp_insert_...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/GetEncuestas_Model.php(65): CodeIgniter\Database\BaseConnection->query('CLSA.sp_insert_...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/GetEncuestas.php(39): App\Models\GetEncuestas_Model->sp_insert_Encuestas('Pruebapma', 'P', '1', 3, NULL, NULL, 'PBA-10003721')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\GetEncuestas->show('4')
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetEncuestas))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-04-25 16:10:32 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function WMS_sp_getOrdenesCompras has too many arguments specified.

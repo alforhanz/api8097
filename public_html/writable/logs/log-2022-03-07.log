@@ -1,0 +1,30 @@
+CRITICAL - 2022-03-07 15:49:13 --> Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded".
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(317): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(243): CodeIgniter\HTTP\Response->formatBody(Array, 'json')
+#3 E:\SERVER\laragon\www\api\app\Controllers\BaseController.php(43): CodeIgniter\HTTP\Response->setJSON(Array)
+#4 E:\SERVER\laragon\www\api\app\Controllers\Marcas.php(23): App\Controllers\BaseController->getResponse(Array)
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Marcas->index()
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marcas))
+#7 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 15:52:52 --> Call to undefined method App\Controllers\Llantas::getResponse()
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-03-07 16:35:29 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'Prueba2.sys.ECOMMERCE.MARCAS'.
+CRITICAL - 2022-03-07 16:35:29 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'Prueba2.sys.ECOMMERCE.MARCAS'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *\nFROM "...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\SQLSRV\Builder.php(614): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 E:\SERVER\laragon\www\api\app\Controllers\Marcas.php(23): CodeIgniter\BaseModel->findAll()
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Marcas->index()
+#7 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marcas))
+#8 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#10 {main}

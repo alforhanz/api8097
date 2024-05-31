@@ -1,0 +1,58 @@
+ERROR - 2023-01-17 09:27:07 --> Memory limit of 50240 KB exceeded for buffered query
+CRITICAL - 2023-01-17 09:49:20 --> Undefined property: stdClass::$COD_ESTILO
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/DetalleProducto.php(189): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 189, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1030')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 09:51:41 --> Undefined property: stdClass::$COD_ESTILO
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/DetalleProducto.php(189): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 189, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1030')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-01-17 10:29:19 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-17 15:11:58 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]ORDER BY items must appear in the select list if SELECT DISTINCT is specified.
+ERROR - 2023-01-17 16:29:18 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to int.
+CRITICAL - 2023-01-17 16:29:18 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to int.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/LlantasModel.php(14): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Llantas.php(117): App\Models\LlantasModel->getBusquedaLlantas('1000', 'undefined', 'undefined', NULL, NULL, '1', 0, 0, NULL, NULL, NULL, 'N', 0, 0, 0, 'B-07')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Llantas->show('5')
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-17 16:40:54 --> Undefined property: stdClass::$COD_ESTILO
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/DetalleProducto.php(189): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 189, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1030')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 16:41:45 --> Undefined property: stdClass::$COD_ESTILO
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/DetalleProducto.php(189): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 189, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1030')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 16:47:47 --> Undefined property: stdClass::$COD_ESTILO
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/DetalleProducto.php(189): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 189, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1030')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-17 16:48:18 --> Undefined property: stdClass::$COD_ESTILO
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/DetalleProducto.php(189): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 189, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1030')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-01-17 16:56:24 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function 'sp_getAnioVehiculo' expects parameter '@p_idmodelo', which was not supplied.
+ERROR - 2023-01-17 16:56:37 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function 'sp_getAnioVehiculo' expects parameter '@p_idmodelo', which was not supplied.

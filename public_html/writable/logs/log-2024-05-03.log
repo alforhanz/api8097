@@ -1,0 +1,120 @@
+ERROR - 2024-05-03 08:27:01 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+ERROR - 2024-05-03 08:27:38 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+ERROR - 2024-05-03 08:34:54 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+ERROR - 2024-05-03 08:45:53 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+ERROR - 2024-05-03 08:47:04 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+ERROR - 2024-05-03 08:49:59 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+ERROR - 2024-05-03 08:55:34 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+ERROR - 2024-05-03 08:56:21 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+ERROR - 2024-05-03 09:07:13 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+ERROR - 2024-05-03 09:21:22 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+ERROR - 2024-05-03 09:34:18 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+ERROR - 2024-05-03 09:41:40 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+ERROR - 2024-05-03 09:42:07 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+ERROR - 2024-05-03 09:42:18 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+ERROR - 2024-05-03 09:42:19 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+ERROR - 2024-05-03 09:47:40 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+ERROR - 2024-05-03 09:47:42 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+ERROR - 2024-05-03 09:47:43 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+ERROR - 2024-05-03 09:47:44 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+ERROR - 2024-05-03 09:47:45 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+ERROR - 2024-05-03 09:47:46 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+ERROR - 2024-05-03 09:47:48 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+ERROR - 2024-05-03 09:47:50 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+ERROR - 2024-05-03 09:48:11 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+ERROR - 2024-05-03 09:48:49 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+ERROR - 2024-05-03 09:57:04 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+ERROR - 2024-05-03 09:59:13 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+ERROR - 2024-05-03 10:00:23 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+ERROR - 2024-05-03 10:00:52 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+CRITICAL - 2024-05-03 10:03:16 --> You must set the database table to be used with your query.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Model.php(717): CodeIgniter\Model->builder()
+#2 /opt/lampp/htdocs/api8097/public_html/app/Controllers/WMSguardaOdenesDeCompras.php(59): CodeIgniter\Model->__call('spGuardaCont', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\WMSguardaOdenesDeCompras->show('G')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WMSguardaOdenesDeCompras))
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-05-03 10:03:19 --> You must set the database table to be used with your query.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Model.php(717): CodeIgniter\Model->builder()
+#2 /opt/lampp/htdocs/api8097/public_html/app/Controllers/WMSguardaOdenesDeCompras.php(59): CodeIgniter\Model->__call('spGuardaCont', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\WMSguardaOdenesDeCompras->show('G')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WMSguardaOdenesDeCompras))
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-05-03 10:04:54 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+CRITICAL - 2024-05-03 12:05:19 --> Undefined property: stdClass::$MODULO
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Menu.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 83, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->show('1')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-03 13:34:15 --> Too few arguments to function App\Controllers\WMSodenesDeCompras::show_OrdenesDeCompras(), 0 passed in /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\WMSodenesDeCompras->show_OrdenesDeCompras()
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WMSodenesDeCompras))
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-03 13:34:44 --> Too few arguments to function App\Controllers\WMSodenesDeCompras::show_OrdenesDeCompras(), 0 passed in /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\WMSodenesDeCompras->show_OrdenesDeCompras()
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WMSodenesDeCompras))
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-03 14:45:13 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-05-03 14:46:11 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-05-03 14:47:18 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-05-03 14:47:20 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-05-03 14:48:00 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-05-03 14:54:50 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-05-03 16:18:09 --> Undefined property: stdClass::$MODULO
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Menu.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 83, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->show('1')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-03 16:23:38 --> Undefined property: stdClass::$MODULO
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Menu.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 83, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->show('1')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}

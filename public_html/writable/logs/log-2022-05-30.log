@@ -1,0 +1,186 @@
+CRITICAL - 2022-05-30 09:31:10 --> Undefined variable $descripcion
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 213)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1040')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:31:26 --> Undefined variable $descripcion
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 213)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1040')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-30 10:08:16 --> Error connecting to the database: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2022-05-30 10:08:16 --> Unable to connect to the database.
+Main connection [sqlsrv]: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\SERVER\laragon\www\api\app\Models\Buscador_Model.php(16): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#2 E:\SERVER\laragon\www\api\app\Controllers\Buscador.php(80): App\Models\Buscador_Model->Busqueda('W', '', '11R24.5 FAL', 'B-51')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Buscador->show('1')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buscador))
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-30 10:14:44 --> Undefined variable $descripcion
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 213)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1040')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 10:14:54 --> Undefined variable $descripcion
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 213)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1040')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-30 10:15:21 --> [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+
+ERROR - 2022-05-30 10:15:21 --> Error connecting to the database: Call to a member function getResultObject() on bool
+ERROR - 2022-05-30 10:15:21 --> [Microsoft][ODBC Driver 17 for SQL Server]SMux Provider: Physical connection is not usable [xFFFFFFFF]. 
+CRITICAL - 2022-05-30 10:15:21 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(78): App\Models\SeccionesModel->precioArticulo('PRUEBAPMA', '11R24.5 FAL')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1040')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-30 10:15:48 --> Error connecting to the database: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2022-05-30 10:15:48 --> Unable to connect to the database.
+Main connection [sqlsrv]: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(65): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#2 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(78): App\Models\SeccionesModel->precioArticulo('PRUEBAPMA', '11R24.5 FAL')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1010')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-30 10:15:48 --> Error connecting to the database: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2022-05-30 10:15:48 --> Unable to connect to the database.
+Main connection [sqlsrv]: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(65): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#2 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(78): App\Models\SeccionesModel->precioArticulo('PRUEBAPMA', '11R24.5 FAL')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1010')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-30 10:15:52 --> [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: Se ha forzado la interrupción de una conexión existente por el host remoto.
+
+ERROR - 2022-05-30 10:15:52 --> Error connecting to the database: Call to a member function getResultObject() on bool
+ERROR - 2022-05-30 10:15:52 --> [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: Se ha forzado la interrupción de una conexión existente por el host remoto.
+
+CRITICAL - 2022-05-30 10:15:52 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(78): App\Models\SeccionesModel->precioArticulo('PRUEBAPMA', '11R24.5 FAL')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1010')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-30 10:16:10 --> Error connecting to the database: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2022-05-30 10:16:10 --> Unable to connect to the database.
+Main connection [sqlsrv]: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(65): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#2 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(78): App\Models\SeccionesModel->precioArticulo('PRUEBAPMA', '11R24.5 FAL')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1010')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-30 10:16:57 --> Error connecting to the database: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2022-05-30 10:16:57 --> Unable to connect to the database.
+Main connection [sqlsrv]: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(65): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#2 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(78): App\Models\SeccionesModel->precioArticulo('PRUEBAPMA', '11R24.5 FAL')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1010')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-30 10:16:57 --> Error connecting to the database: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2022-05-30 10:16:57 --> Unable to connect to the database.
+Main connection [sqlsrv]: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(65): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#2 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(78): App\Models\SeccionesModel->precioArticulo('PRUEBAPMA', '11R24.5 FAL')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1010')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-30 10:17:05 --> Error connecting to the database: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2022-05-30 10:17:05 --> Unable to connect to the database.
+Main connection [sqlsrv]: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(65): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#2 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(78): App\Models\SeccionesModel->precioArticulo('PRUEBAPMA', '11R24.5 FAL')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1010')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-30 10:17:10 --> Error connecting to the database: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2022-05-30 10:17:10 --> Unable to connect to the database.
+Main connection [sqlsrv]: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(65): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#2 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(78): App\Models\SeccionesModel->precioArticulo('PRUEBAPMA', '11R24.5 FAL')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1010')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-30 10:20:14 --> Error connecting to the database: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2022-05-30 10:20:14 --> Unable to connect to the database.
+Main connection [sqlsrv]: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(65): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#2 E:\SERVER\laragon\www\api\app\Controllers\DetalleProducto.php(78): App\Models\SeccionesModel->precioArticulo('PRUEBAPMA', '11R24.5 FAL')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\DetalleProducto->show('1010')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetalleProducto))
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}

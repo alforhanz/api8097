@@ -1,0 +1,142 @@
+CRITICAL - 2023-03-09 08:39:59 --> Undefined variable: psistema
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 87, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-03-09 08:56:08 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Must declare the scalar variable "@pRespuesta".
+CRITICAL - 2023-03-09 08:56:08 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Must declare the scalar variable "@pRespuesta".
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('CLSA.sp_Insert_...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('CLSA.sp_Insert_...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/Pedidos_Model.php(176): CodeIgniter\Database\BaseConnection->query('CLSA.sp_Insert_...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(87): App\Models\Pedidos_Model->sp_Insert_OrdenTallerDesdeCLSAWEB('E', 'JAIMARAN', 0, 'P01-19905112', NULL)
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-03-09 09:16:00 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function sp_InsertPedido_LineaEcommerce has too many arguments specified.
+CRITICAL - 2023-03-09 09:16:00 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function sp_InsertPedido_LineaEcommerce has too many arguments specified.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_In...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_In...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/Pedidos_Model.php(122): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_In...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(85): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('P01-19905113', 2, '235/55R19 LAU', 82,5, 1, '0.00', '16_Precio (1)', 'JAIMARAN', 'B-01', '20230309', '273.500000', '19.150000', '292.640000', '3', 'P', 'I', 'undefined')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-03-09 09:51:28 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function sp_InsertPedido_LineaEcommerce has too many arguments specified.
+CRITICAL - 2023-03-09 09:51:28 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function sp_InsertPedido_LineaEcommerce has too many arguments specified.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_In...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_In...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/Pedidos_Model.php(122): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_In...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(85): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('P01-19905114', 2, '235/55R19 MIR', 60,925, 1, '0.00', '16_Precio (1)', 'JAIMARAN', 'B-01', '20230309', '208.775000', '14.610000', '223.390000', '3', 'P', 'I', 'Algo')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-03-09 11:12:07 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function sp_InsertPedido_LineaEcommerce has too many arguments specified.
+CRITICAL - 2023-03-09 11:12:07 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function sp_InsertPedido_LineaEcommerce has too many arguments specified.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_In...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_In...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/Pedidos_Model.php(122): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_In...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(85): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('P01-19905115', 2, '235/55R19 MIR', 60,925, 1, '0.00', '16_Precio (1)', 'JAIMARAN', 'B-01', '20230309', '208.775000', '14.610000', '223.390000', '3', 'P', 'I', 'undefined')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-03-09 11:25:14 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function sp_InsertPedido_LineaEcommerce has too many arguments specified.
+CRITICAL - 2023-03-09 11:25:14 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function sp_InsertPedido_LineaEcommerce has too many arguments specified.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_In...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_In...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/Pedidos_Model.php(122): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_In...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(85): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('P01-19905116', 2, '235/55R19 LAU', 82,5, 1, '0.00', '16_Precio (1)', 'JAIMARAN', 'B-01', '20230309', '273.500000', '19.150000', '292.640000', '3', 'P', 'I', 'undefined')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-03-09 11:35:08 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function sp_InsertPedido_LineaEcommerce has too many arguments specified.
+CRITICAL - 2023-03-09 11:35:08 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function sp_InsertPedido_LineaEcommerce has too many arguments specified.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_In...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_In...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/Pedidos_Model.php(122): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_In...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(85): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('P01-19905117', 2, '235/55R19 K', 82,5, 1, '0.00', '16_Precio (1)', 'JAIMARAN', 'B-01', '20230309', '273.500000', '19.150000', '292.640000', '3', 'P', 'I', 'undefined')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-03-09 14:02:06 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function sp_InsertPedido_LineaEcommerce has too many arguments specified.
+CRITICAL - 2023-03-09 14:02:06 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function sp_InsertPedido_LineaEcommerce has too many arguments specified.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_In...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_In...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/Pedidos_Model.php(122): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_In...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(85): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('P01-19905118', 2, '235/55R19 MIR', 60,925, 1, '0.00', '16_Precio (1)', 'JAIMARAN', 'B-01', '20230309', '208.775000', '14.610000', '223.390000', '3', 'P', 'I', 'undefined')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-03-09 14:24:05 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function sp_InsertPedido_LineaEcommerce has too many arguments specified.
+CRITICAL - 2023-03-09 14:24:05 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function sp_InsertPedido_LineaEcommerce has too many arguments specified.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_In...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_In...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/Pedidos_Model.php(122): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_In...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(85): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('P01-19905122', 2, '235/55R19 LAU', 82,5, 1, '0.00', '16_Precio (1)', 'JAIMARAN', 'B-01', '20230309', '273.500000', '19.150000', '292.640000', '3', 'P', 'I', 'undefined')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-03-09 14:24:53 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function sp_InsertPedido_LineaEcommerce has too many arguments specified.
+CRITICAL - 2023-03-09 14:24:53 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function sp_InsertPedido_LineaEcommerce has too many arguments specified.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_In...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_In...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/Pedidos_Model.php(122): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_In...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(85): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('P01-19905123', 2, '235/55R19 LAU', 82,5, 1, '0.00', '16_Precio (1)', 'JAIMARAN', 'B-01', '20230309', '273.500000', '19.150000', '292.640000', '3', 'P', 'I', 'undefined')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-03-09 14:25:11 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function sp_InsertPedido_LineaEcommerce has too many arguments specified.
+CRITICAL - 2023-03-09 14:25:11 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function sp_InsertPedido_LineaEcommerce has too many arguments specified.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_In...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_In...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/Pedidos_Model.php(122): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_In...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(85): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('P01-19905124', 2, '235/55R19 LAU', 82,5, 1, '0.00', '16_Precio (1)', 'JAIMARAN', 'B-01', '20230309', '252.500000', '17.680000', '270.180000', '3', 'P', 'I', 'undefined')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-03-09 14:28:17 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function sp_InsertPedido_LineaEcommerce has too many arguments specified.
+CRITICAL - 2023-03-09 14:28:17 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function sp_InsertPedido_LineaEcommerce has too many arguments specified.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_In...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_In...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/Pedidos_Model.php(122): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_In...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(85): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('P01-19905127', 2, '235/55R19 K', 82,5, 1, '0.00', '16_Precio (1)', 'JAIMARAN', 'B-01', '20230309', '252.500000', '17.680000', '270.180000', '3', 'P', 'I', 'undefined')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-09 14:57:59 --> Undefined variable: pSistema
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 90, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 15:38:22 --> Undefined variable: pSistema
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 90, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}

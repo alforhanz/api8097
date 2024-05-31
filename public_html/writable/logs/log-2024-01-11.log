@@ -1,0 +1,106 @@
+CRITICAL - 2024-01-11 12:11:07 --> Undefined variable: arrMenu
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Menu.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 111, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->show('1')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-01-11 13:52:25 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PEDIDO_LINEAPK'. Cannot insert duplicate key in object 'BREMEN.PEDIDO_LINEA'. The duplicate key value is (PBA-10003718, 1).
+CRITICAL - 2024-01-11 13:52:25 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PEDIDO_LINEAPK'. Cannot insert duplicate key in object 'BREMEN.PEDIDO_LINEA'. The duplicate key value is (PBA-10003718, 1).
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_In...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_In...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/Pedidos_Model.php(122): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_In...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(88): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('PBA-10003718', 1, '235/55R19 LAU', '165.00', '4.00000000', '0.00', 'Precio (1)', 'PRUEBAPMA', 'B-01', '20240111', '660.00', '46.200000', '706.20', '4', 'C', 'A', NULL, NULL)
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-01-11 13:52:26 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PEDIDO_LINEAPK'. Cannot insert duplicate key in object 'BREMEN.PEDIDO_LINEA'. The duplicate key value is (PBA-10003718, 1).
+CRITICAL - 2024-01-11 13:52:26 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PEDIDO_LINEAPK'. Cannot insert duplicate key in object 'BREMEN.PEDIDO_LINEA'. The duplicate key value is (PBA-10003718, 1).
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_In...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_In...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/Pedidos_Model.php(122): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_In...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(88): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('PBA-10003718', 1, '235/55R19 LAU', '165.00', '4.00000000', '0.00', 'Precio (1)', 'PRUEBAPMA', 'B-01', '20240111', '660.00', '46.200000', '706.20', '4', 'C', 'A', NULL, NULL)
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-01-11 13:52:26 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PEDIDO_LINEAPK'. Cannot insert duplicate key in object 'BREMEN.PEDIDO_LINEA'. The duplicate key value is (PBA-10003718, 1).
+CRITICAL - 2024-01-11 13:52:26 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PEDIDO_LINEAPK'. Cannot insert duplicate key in object 'BREMEN.PEDIDO_LINEA'. The duplicate key value is (PBA-10003718, 1).
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_In...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_In...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/Pedidos_Model.php(122): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_In...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(88): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('PBA-10003718', 1, '235/55R19 LAU', '165.00', '4.00000000', '0.00', 'Precio (1)', 'PRUEBAPMA', 'B-01', '20240111', '660.00', '46.200000', '706.20', '4', 'C', 'A', NULL, NULL)
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-01-11 13:52:26 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PEDIDO_LINEAPK'. Cannot insert duplicate key in object 'BREMEN.PEDIDO_LINEA'. The duplicate key value is (PBA-10003718, 1).
+CRITICAL - 2024-01-11 13:52:26 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PEDIDO_LINEAPK'. Cannot insert duplicate key in object 'BREMEN.PEDIDO_LINEA'. The duplicate key value is (PBA-10003718, 1).
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_In...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_In...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/Pedidos_Model.php(122): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_In...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(88): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('PBA-10003718', 1, '235/55R19 LAU', '165.00', '4.00000000', '0.00', 'Precio (1)', 'PRUEBAPMA', 'B-01', '20240111', '660.00', '46.200000', '706.20', '4', 'C', 'A', NULL, NULL)
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-01-11 13:52:26 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PEDIDO_LINEAPK'. Cannot insert duplicate key in object 'BREMEN.PEDIDO_LINEA'. The duplicate key value is (PBA-10003718, 1).
+CRITICAL - 2024-01-11 13:52:26 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PEDIDO_LINEAPK'. Cannot insert duplicate key in object 'BREMEN.PEDIDO_LINEA'. The duplicate key value is (PBA-10003718, 1).
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_In...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_In...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/Pedidos_Model.php(122): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_In...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(88): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('PBA-10003718', 1, '235/55R19 LAU', '165.00', '4.00000000', '0.00', 'Precio (1)', 'PRUEBAPMA', 'B-01', '20240111', '660.00', '46.200000', '706.20', '4', 'C', 'A', NULL, NULL)
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-01-11 13:52:26 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PEDIDO_LINEAPK'. Cannot insert duplicate key in object 'BREMEN.PEDIDO_LINEA'. The duplicate key value is (PBA-10003718, 1).
+CRITICAL - 2024-01-11 13:52:26 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PEDIDO_LINEAPK'. Cannot insert duplicate key in object 'BREMEN.PEDIDO_LINEA'. The duplicate key value is (PBA-10003718, 1).
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_In...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_In...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/Pedidos_Model.php(122): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_In...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(88): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('PBA-10003718', 1, '235/55R19 LAU', '165.00', '4.00000000', '0.00', 'Precio (1)', 'PRUEBAPMA', 'B-01', '20240111', '660.00', '46.200000', '706.20', '4', 'C', 'A', NULL, NULL)
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-01-11 13:52:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PEDIDO_LINEAPK'. Cannot insert duplicate key in object 'BREMEN.PEDIDO_LINEA'. The duplicate key value is (PBA-10003718, 1).
+CRITICAL - 2024-01-11 13:52:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PEDIDO_LINEAPK'. Cannot insert duplicate key in object 'BREMEN.PEDIDO_LINEA'. The duplicate key value is (PBA-10003718, 1).
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_In...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_In...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/Pedidos_Model.php(122): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_In...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(88): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('PBA-10003718', 1, '235/55R19 LAU', '165.00', '4.00000000', '0.00', 'Precio (1)', 'PRUEBAPMA', 'B-01', '20240111', '660.00', '46.200000', '706.20', '4', 'C', 'A', NULL, NULL)
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-01-11 13:52:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PEDIDO_LINEAPK'. Cannot insert duplicate key in object 'BREMEN.PEDIDO_LINEA'. The duplicate key value is (PBA-10003718, 1).
+CRITICAL - 2024-01-11 13:52:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PEDIDO_LINEAPK'. Cannot insert duplicate key in object 'BREMEN.PEDIDO_LINEA'. The duplicate key value is (PBA-10003718, 1).
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_In...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_In...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/Pedidos_Model.php(122): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_In...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(88): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('PBA-10003718', 1, '235/55R19 LAU', '165.00', '4.00000000', '0.00', 'Precio (1)', 'PRUEBAPMA', 'B-01', '20240111', '660.00', '46.200000', '706.20', '4', 'C', 'A', NULL, NULL)
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-01-11 13:52:28 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PEDIDO_LINEAPK'. Cannot insert duplicate key in object 'BREMEN.PEDIDO_LINEA'. The duplicate key value is (PBA-10003718, 1).
+CRITICAL - 2024-01-11 13:52:28 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PEDIDO_LINEAPK'. Cannot insert duplicate key in object 'BREMEN.PEDIDO_LINEA'. The duplicate key value is (PBA-10003718, 1).
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_In...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_In...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/Pedidos_Model.php(122): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_In...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(88): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('PBA-10003718', 1, '235/55R19 LAU', '165.00', '4.00000000', '0.00', 'Precio (1)', 'PRUEBAPMA', 'B-01', '20240111', '660.00', '46.200000', '706.20', '4', 'C', 'A', NULL, NULL)
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,191 @@
+CRITICAL - 2022-01-06 08:22:13 --> Failed to parse json string, error: "Type is not supported".
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Object(CodeIgniter\Database\SQLSRV\Result))
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(99): App\Controllers\Llantas->format(Object(CodeIgniter\Database\SQLSRV\Result))
+#3 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(50): App\Controllers\Llantas->respond(Object(CodeIgniter\Database\SQLSRV\Result), 200)
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-06 08:43:16 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+CRITICAL - 2022-01-06 08:43:16 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('{EXEC [ECOMMERC...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('{EXEC [ECOMMERC...')
+#2 E:\SERVER\laragon\www\api\app\Models\LlantasModel.php(26): CodeIgniter\Database\BaseConnection->query('{EXEC [ECOMMERC...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(47): App\Models\LlantasModel->getBusquedaLlantas(0, 0, 0, 'null', 'null', 1, 0, '0', 0, 'null', 'null', 'N', '3116', '4006', 1, 'null')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-06 08:48:08 --> Undefined constant "App\Controllers\N"
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-01-06 09:09:27 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-01-06 09:09:27 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('{CALL [ECOMMERC...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('{CALL [ECOMMERC...')
+#2 E:\SERVER\laragon\www\api\app\Models\LlantasModel.php(25): CodeIgniter\Database\BaseConnection->query('{CALL [ECOMMERC...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(47): App\Models\LlantasModel->getBusquedaLlantas(0, 0, 0, 'null', 'null', 1, 0, '0', 0, 'null', 'null', 'N', 3116, 4006, 1, 'null')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-06 09:13:22 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-01-06 09:13:22 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('{CALL [ECOMMERC...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('{CALL [ECOMMERC...')
+#2 E:\SERVER\laragon\www\api\app\Models\LlantasModel.php(25): CodeIgniter\Database\BaseConnection->query('{CALL [ECOMMERC...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(47): App\Models\LlantasModel->getBusquedaLlantas(0, 0, 0, 'null', 'null', 1, 0, '0', 0, 'null', 'null', 'N', 3116, 4006, 1, 'null')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-06 09:22:08 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to int.
+CRITICAL - 2022-01-06 09:22:08 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to int.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('{CALL [ECOMMERC...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('{CALL [ECOMMERC...')
+#2 E:\SERVER\laragon\www\api\app\Models\LlantasModel.php(30): CodeIgniter\Database\BaseConnection->query('{CALL [ECOMMERC...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(47): App\Models\LlantasModel->getBusquedaLlantas('null', 'null', 'null', 'null', 'null', 3, 'null', 'null', 'null', 'null', 'null', 'N', 3116, 4006, 'null', 'null')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-06 09:23:03 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to int.
+CRITICAL - 2022-01-06 09:23:03 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to int.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('{CALL [ECOMMERC...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('{CALL [ECOMMERC...')
+#2 E:\SERVER\laragon\www\api\app\Models\LlantasModel.php(30): CodeIgniter\Database\BaseConnection->query('{CALL [ECOMMERC...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(47): App\Models\LlantasModel->getBusquedaLlantas(0, 0, 0, 'null', 'null', 3, 'null', 'null', 'null', 'null', 'null', 'N', 3116, 4006, 'null', 'null')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-06 09:23:05 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to int.
+CRITICAL - 2022-01-06 09:23:05 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to int.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('{CALL [ECOMMERC...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('{CALL [ECOMMERC...')
+#2 E:\SERVER\laragon\www\api\app\Models\LlantasModel.php(30): CodeIgniter\Database\BaseConnection->query('{CALL [ECOMMERC...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(47): App\Models\LlantasModel->getBusquedaLlantas(0, 0, 0, 'null', 'null', 3, 'null', 'null', 'null', 'null', 'null', 'N', 3116, 4006, 'null', 'null')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-06 09:26:05 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to int.
+CRITICAL - 2022-01-06 09:26:05 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to int.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('{CALL [ECOMMERC...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('{CALL [ECOMMERC...')
+#2 E:\SERVER\laragon\www\api\app\Models\LlantasModel.php(30): CodeIgniter\Database\BaseConnection->query('{CALL [ECOMMERC...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(47): App\Models\LlantasModel->getBusquedaLlantas(0, 0, 0, 'null', 'null', 3, 0, 0, 'null', 'null', 'null', 'N', '3116', '4006', 'null', 'null')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-06 09:28:44 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to int.
+CRITICAL - 2022-01-06 09:28:44 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to int.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('{CALL [ECOMMERC...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('{CALL [ECOMMERC...')
+#2 E:\SERVER\laragon\www\api\app\Models\LlantasModel.php(30): CodeIgniter\Database\BaseConnection->query('{CALL [ECOMMERC...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(47): App\Models\LlantasModel->getBusquedaLlantas(0, 0, 0, 'null', 'null', 3, 0, 0, 'null', 'null', 'null', 'N', '3116', '4006', 'null', 'null')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-06 09:32:42 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Must declare the scalar variable "@pbodega".
+CRITICAL - 2022-01-06 09:32:42 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Must declare the scalar variable "@pbodega".
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('{CALL [ECOMMERC...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('{CALL [ECOMMERC...')
+#2 E:\SERVER\laragon\www\api\app\Models\LlantasModel.php(30): CodeIgniter\Database\BaseConnection->query('{CALL [ECOMMERC...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(47): App\Models\LlantasModel->getBusquedaLlantas(0, 0, 0, 'null', 'null', 3, 'null', 'null', 'null', 'null', 'null', 'N', '3116', '4006', 0, 'null')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-06 09:33:30 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Must declare the scalar variable "@pbodega".
+CRITICAL - 2022-01-06 09:33:30 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Must declare the scalar variable "@pbodega".
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('{CALL [ECOMMERC...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('{CALL [ECOMMERC...')
+#2 E:\SERVER\laragon\www\api\app\Models\LlantasModel.php(30): CodeIgniter\Database\BaseConnection->query('{CALL [ECOMMERC...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(47): App\Models\LlantasModel->getBusquedaLlantas(0, 0, 0, 'null', 'null', 3, 'null', 'null', 'null', 'null', 'null', 'N', '3116', '4006', 0, 'null')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-06 09:39:49 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '311'.
+CRITICAL - 2022-01-06 09:39:49 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '311'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('{CALL [ECOMMERC...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('{CALL [ECOMMERC...')
+#2 E:\SERVER\laragon\www\api\app\Models\LlantasModel.php(30): CodeIgniter\Database\BaseConnection->query('{CALL [ECOMMERC...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(47): App\Models\LlantasModel->getBusquedaLlantas(0, 0, 0, 'null', 'null', 3, 'null', 'null', 'null', 'null', 'null', 'N', '3116', '4006', 0, 'null')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-06 09:40:51 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '400'.
+CRITICAL - 2022-01-06 09:40:51 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '400'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('{CALL [ECOMMERC...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('{CALL [ECOMMERC...')
+#2 E:\SERVER\laragon\www\api\app\Models\LlantasModel.php(30): CodeIgniter\Database\BaseConnection->query('{CALL [ECOMMERC...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(47): App\Models\LlantasModel->getBusquedaLlantas(0, 0, 0, 'null', 'null', 3, 'null', 'null', 'null', 'null', 'null', 'N', '3116', '4006', 0, 'null')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-06 09:41:11 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'R'.
+CRITICAL - 2022-01-06 09:41:11 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'R'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('{CALL [ECOMMERC...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('{CALL [ECOMMERC...')
+#2 E:\SERVER\laragon\www\api\app\Models\LlantasModel.php(30): CodeIgniter\Database\BaseConnection->query('{CALL [ECOMMERC...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(47): App\Models\LlantasModel->getBusquedaLlantas(0, 0, 0, 'null', 'null', 3, 'null', 'null', 'null', 'null', 'null', 'N', '3116', '4006', 0, 'null')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-06 09:41:28 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'null'.
+CRITICAL - 2022-01-06 09:41:28 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'null'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('{CALL [ECOMMERC...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('{CALL [ECOMMERC...')
+#2 E:\SERVER\laragon\www\api\app\Models\LlantasModel.php(30): CodeIgniter\Database\BaseConnection->query('{CALL [ECOMMERC...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(47): App\Models\LlantasModel->getBusquedaLlantas(0, 0, 0, 'null', 'null', 3, 'null', 'null', 'null', 'null', 'null', 'N', '3116', '4006', 0, 'null')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-06 09:57:28 --> Undefined variable $tipoBusqueda
+#0 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 47)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-06 10:42:56 --> Undefined variable $tipoBusqueda
+#0 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 47)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-06 10:43:08 --> Undefined variable $tipoBusqueda
+#0 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 47)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

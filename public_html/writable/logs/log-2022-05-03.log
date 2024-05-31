@@ -1,0 +1,160 @@
+ERROR - 2022-05-03 17:29:24 --> [Microsoft][ODBC Driver 17 for SQL Server]Unspecified error occurred on SQL Server. Connection may have been terminated by the server.
+ERROR - 2022-05-03 17:29:24 --> [Microsoft][ODBC Driver 17 for SQL Server]Unspecified error occurred on SQL Server. Connection may have been terminated by the server.
+ERROR - 2022-05-03 17:29:24 --> [Microsoft][ODBC Driver 17 for SQL Server]Unspecified error occurred on SQL Server. Connection may have been terminated by the server.
+ERROR - 2022-05-03 17:29:24 --> [Microsoft][ODBC Driver 17 for SQL Server]Unspecified error occurred on SQL Server. Connection may have been terminated by the server.
+ERROR - 2022-05-03 17:29:24 --> [Microsoft][ODBC Driver 17 for SQL Server]Unspecified error occurred on SQL Server. Connection may have been terminated by the server.
+ERROR - 2022-05-03 17:29:24 --> Error connecting to the database: Call to a member function getResultObject() on bool
+ERROR - 2022-05-03 17:29:24 --> Error connecting to the database: Call to a member function getResultObject() on bool
+ERROR - 2022-05-03 17:29:24 --> Error connecting to the database: Call to a member function getResultObject() on bool
+ERROR - 2022-05-03 17:29:24 --> Error connecting to the database: Call to a member function getResultObject() on bool
+ERROR - 2022-05-03 17:29:24 --> Error connecting to the database: Call to a member function getResultObject() on bool
+ERROR - 2022-05-03 17:29:24 --> [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: Se ha forzado la interrupción de una conexión existente por el host remoto.
+
+ERROR - 2022-05-03 17:29:24 --> [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: Se ha forzado la interrupción de una conexión existente por el host remoto.
+
+ERROR - 2022-05-03 17:29:24 --> [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: Se ha forzado la interrupción de una conexión existente por el host remoto.
+
+ERROR - 2022-05-03 17:29:24 --> [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: Se ha forzado la interrupción de una conexión existente por el host remoto.
+
+ERROR - 2022-05-03 17:29:24 --> [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: Se ha forzado la interrupción de una conexión existente por el host remoto.
+
+CRITICAL - 2022-05-03 17:29:24 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Image.php(71): App\Models\Image_Model->getImage('P111035')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Image->show('P111035')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 17:29:24 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Image.php(71): App\Models\Image_Model->getImage('SPR SPRAYPROTBT...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Image->show('SPR SPRAYPROTBT...')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 17:29:24 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Image.php(71): App\Models\Image_Model->getImage('RC-0002')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Image->show('RC-0002')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 17:29:24 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Image.php(71): App\Models\Image_Model->getImage('T900')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Image->show('T900')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 17:29:24 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Image.php(71): App\Models\Image_Model->getImage('T805M')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Image->show('T805M')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-03 17:29:24 --> Error connecting to the database: SSL Provider: Se ha forzado la interrupción de una conexión existente por el host remoto.
+
+Client unable to establish connection
+CRITICAL - 2022-05-03 17:29:24 --> Unable to connect to the database.
+Main connection [sqlsrv]: SSL Provider: Se ha forzado la interrupción de una conexión existente por el host remoto.
+
+Client unable to establish connection
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\SERVER\laragon\www\api\app\Models\Image_Model.php(15): CodeIgniter\Database\BaseConnection->query('SELECT REPLACE(...')
+#2 E:\SERVER\laragon\www\api\app\Controllers\Image.php(71): App\Models\Image_Model->getImage('TBM-1010')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Image->show('TBM-1010')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-03 17:29:24 --> Error connecting to the database: SSL Provider: Se ha forzado la interrupción de una conexión existente por el host remoto.
+
+Client unable to establish connection
+CRITICAL - 2022-05-03 17:29:24 --> Unable to connect to the database.
+Main connection [sqlsrv]: SSL Provider: Se ha forzado la interrupción de una conexión existente por el host remoto.
+
+Client unable to establish connection
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\SERVER\laragon\www\api\app\Models\Image_Model.php(15): CodeIgniter\Database\BaseConnection->query('SELECT REPLACE(...')
+#2 E:\SERVER\laragon\www\api\app\Controllers\Image.php(71): App\Models\Image_Model->getImage('YH-7708')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Image->show('YH-7708')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-03 17:30:34 --> Error connecting to the database: . 
+Login timeout expired
+Unable to complete login process due to delay in prelogin response
+CRITICAL - 2022-05-03 17:30:34 --> Unable to connect to the database.
+Main connection [sqlsrv]: . 
+Login timeout expired
+Unable to complete login process due to delay in prelogin response
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(16): CodeIgniter\Database\BaseConnection->query('{CALL [ECOMMERC...', Array)
+#2 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(41): App\Models\SeccionesModel->findTipoById('1050')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->show('1', '1050')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-03 17:30:41 --> Error connecting to the database: . 
+Login timeout expired
+Unable to complete login process due to delay in prelogin response
+CRITICAL - 2022-05-03 17:30:41 --> Unable to connect to the database.
+Main connection [sqlsrv]: . 
+Login timeout expired
+Unable to complete login process due to delay in prelogin response
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(49): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#2 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(47): App\Models\SeccionesModel->BusquedaSecciones('1050', NULL, NULL, NULL, 0, NULL, 'B-51')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->show('3', '1050')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-03 17:32:04 --> Error connecting to the database: . 
+Login timeout expired
+Unable to complete login process due to delay in prelogin response
+CRITICAL - 2022-05-03 17:32:04 --> Unable to connect to the database.
+Main connection [sqlsrv]: . 
+Login timeout expired
+Unable to complete login process due to delay in prelogin response
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(16): CodeIgniter\Database\BaseConnection->query('{CALL [ECOMMERC...', Array)
+#2 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(41): App\Models\SeccionesModel->findTipoById('1050')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->show('1', '1050')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-03 17:32:13 --> Error connecting to the database: . 
+Login timeout expired
+Unable to complete login process due to delay in prelogin response
+CRITICAL - 2022-05-03 17:32:13 --> Unable to connect to the database.
+Main connection [sqlsrv]: . 
+Login timeout expired
+Unable to complete login process due to delay in prelogin response
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(49): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#2 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(47): App\Models\SeccionesModel->BusquedaSecciones('1050', NULL, NULL, NULL, 0, NULL, 'B-51')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->show('3', '1050')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-03 17:32:28 --> Error connecting to the database: . 
+Login timeout expired
+Unable to complete login process due to delay in prelogin response
+CRITICAL - 2022-05-03 17:32:28 --> Unable to connect to the database.
+Main connection [sqlsrv]: . 
+Login timeout expired
+Unable to complete login process due to delay in prelogin response
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(49): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#2 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(47): App\Models\SeccionesModel->BusquedaSecciones('1050', NULL, NULL, NULL, 0, NULL, 'B-51')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->show('3', '1050')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}

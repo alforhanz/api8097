@@ -1,0 +1,60 @@
+CRITICAL - 2022-07-02 12:45:54 --> Required parameter $bodega follows optional parameter $articulo
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', 'E:\\SERVER\\larag...', 27)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\SERVER\\larag...')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Filt...')
+#4 E:\SERVER\laragon\www\api\app\Controllers\Filtros.php(29): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Filt...')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Filtros->show('3')
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Filtros))
+#7 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-02 12:46:18 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-07-02 12:46:18 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Filtros.php(43): App\Models\Filtros_Model->BusquedaFiltrosCruzado('PH8A', 'B-01')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Filtros->show('3')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Filtros))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-02 12:46:49 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-07-02 12:46:49 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_Ob...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_Ob...')
+#2 E:\SERVER\laragon\www\api\app\Models\Filtros_Model.php(50): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_Ob...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Filtros.php(43): App\Models\Filtros_Model->BusquedaFiltrosCruzado('PH8A', 'B-01')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Filtros->show('3')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Filtros))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-07-02 12:47:05 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-07-02 12:47:05 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Filtros.php(43): App\Models\Filtros_Model->BusquedaFiltrosCruzado('PH8A', 'B-01')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Filtros->show('3')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Filtros))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-02 12:47:16 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-07-02 12:47:16 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_Ob...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_Ob...')
+#2 E:\SERVER\laragon\www\api\app\Models\Filtros_Model.php(50): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_Ob...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Filtros.php(43): App\Models\Filtros_Model->BusquedaFiltrosCruzado('PH8A', 'B-01')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Filtros->show('3')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Filtros))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-07-02 12:47:27 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-07-02 12:47:27 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_Ob...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_Ob...')
+#2 E:\SERVER\laragon\www\api\app\Models\Filtros_Model.php(50): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_Ob...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Filtros.php(43): App\Models\Filtros_Model->BusquedaFiltrosCruzado('PH8A', 'B-01')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Filtros->show('3')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Filtros))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}

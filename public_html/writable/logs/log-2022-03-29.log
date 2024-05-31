@@ -1,0 +1,273 @@
+CRITICAL - 2022-03-29 10:18:31 --> implode(): Argument #2 ($array) must be of type ?array, string given
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(36): implode(',', '16,17')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-29 10:18:51 --> implode(): Argument #2 ($array) must be of type ?array, string given
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(36): implode(',', '16,17')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-29 10:34:40 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-03-29 10:34:40 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(62): App\Models\BusquedaRines_Model->BusquedaRines('1042', '2019', '322', NULL, Array, '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-29 10:34:54 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-03-29 10:34:54 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(62): App\Models\BusquedaRines_Model->BusquedaRines('1042', '2019', '322', NULL, Array, '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-29 10:35:27 --> [Microsoft][ODBC Driver 17 for SQL Server]Invalid character value for cast specification
+CRITICAL - 2022-03-29 10:35:27 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(62): App\Models\BusquedaRines_Model->BusquedaRines('1042', '2019', '322', NULL, Array, '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-29 10:35:48 --> [Microsoft][ODBC Driver 17 for SQL Server]Invalid character value for cast specification
+CRITICAL - 2022-03-29 10:35:48 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(62): App\Models\BusquedaRines_Model->BusquedaRines('1042', '2019', '322', NULL, Array, '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-29 10:36:26 --> [Microsoft][ODBC Driver 17 for SQL Server]Invalid character value for cast specification
+CRITICAL - 2022-03-29 10:36:26 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(62): App\Models\BusquedaRines_Model->BusquedaRines('1042', '2019', '322', NULL, Array, '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-29 10:38:40 --> Array to string conversion
+#0 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'E:\\SERVER\\larag...', 21)
+#1 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(62): App\Models\BusquedaRines_Model->BusquedaRines('1042', '2019', '322', NULL, Array, '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, NULL)
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-29 10:39:14 --> Array to string conversion
+#0 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'E:\\SERVER\\larag...', 21)
+#1 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(62): App\Models\BusquedaRines_Model->BusquedaRines('1042', '2019', '322', NULL, Array, '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, NULL)
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-29 10:39:16 --> Array to string conversion
+#0 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'E:\\SERVER\\larag...', 21)
+#1 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(62): App\Models\BusquedaRines_Model->BusquedaRines('1042', '2019', '322', NULL, Array, '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, NULL)
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-29 10:39:56 --> implode(): Argument #2 ($array) must be of type ?array, string given
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(36): implode(',', 'RIN 16,RIN 17')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-29 10:42:37 --> Array to string conversion
+#0 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'E:\\SERVER\\larag...', 21)
+#1 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(62): App\Models\BusquedaRines_Model->BusquedaRines('1042', '2019', '322', NULL, 'RIN 16,RIN 17', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, NULL)
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-29 10:44:22 --> implode(): Argument #2 ($array) must be of type ?array, string given
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(36): implode(',', 'RIN 16,RIN 17')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-29 11:04:27 --> Array to string conversion
+#0 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'E:\\SERVER\\larag...', 15)
+#1 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(62): App\Models\BusquedaRines_Model->BusquedaRines(0, 0, 0, NULL, NULL, '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, NULL)
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-29 11:05:33 --> Array to string conversion
+#0 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'E:\\SERVER\\larag...', 15)
+#1 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(62): App\Models\BusquedaRines_Model->BusquedaRines(0, 0, 0, NULL, NULL, '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, NULL)
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-29 11:05:59 --> Array to string conversion
+#0 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'E:\\SERVER\\larag...', 15)
+#1 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(62): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2019', '86', NULL, 'RIN 18', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, NULL)
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-29 11:07:22 --> Array to string conversion
+#0 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'E:\\SERVER\\larag...', 15)
+#1 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(62): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2019', '86', NULL, 'RIN 18', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, NULL)
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-29 11:07:22 --> Array to string conversion
+#0 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'E:\\SERVER\\larag...', 15)
+#1 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(62): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2019', '86', NULL, 'RIN 18', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, NULL)
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-29 11:07:23 --> Array to string conversion
+#0 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'E:\\SERVER\\larag...', 15)
+#1 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(62): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2019', '86', NULL, 'RIN 18', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, NULL)
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-29 11:07:23 --> Array to string conversion
+#0 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'E:\\SERVER\\larag...', 15)
+#1 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(62): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2019', '86', NULL, 'RIN 18', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, NULL)
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-29 11:07:23 --> Array to string conversion
+#0 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'E:\\SERVER\\larag...', 15)
+#1 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(62): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2019', '86', NULL, 'RIN 18', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, NULL)
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-29 11:07:23 --> Array to string conversion
+#0 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'E:\\SERVER\\larag...', 15)
+#1 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(62): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2019', '86', NULL, 'RIN 18', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, NULL)
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-29 11:07:23 --> Array to string conversion
+#0 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'E:\\SERVER\\larag...', 15)
+#1 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(62): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2019', '86', NULL, 'RIN 18', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, NULL)
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-29 11:10:15 --> Array to string conversion
+#0 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'E:\\SERVER\\larag...', 15)
+#1 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(62): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2019', '86', NULL, 'RIN 18', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-01')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-29 11:10:55 --> Array to string conversion
+#0 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'E:\\SERVER\\larag...', 15)
+#1 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(62): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2019', '86', NULL, 'RIN 18', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-01')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-29 11:18:45 --> implode(): Argument #2 ($array) must be of type ?array, string given
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(36): implode(',', 'RIN 16,RIN 18')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-29 11:19:13 --> implode(): Argument #2 ($array) must be of type ?array, string given
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(36): implode(',', 'RIN 16,RIN 18')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-29 11:19:15 --> implode(): Argument #2 ($array) must be of type ?array, string given
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(36): implode(',', 'RIN 16,RIN 18')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-29 11:20:18 --> implode(): Argument #2 ($array) must be of type ?array, string given
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(36): implode(',', 'RIN 16,RIN 17')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-29 11:20:32 --> implode(): Argument #2 ($array) must be of type ?array, string given
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(36): implode(',', 'RIN 16,RIN 17')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-29 11:20:51 --> implode(): Argument #2 ($array) must be of type ?array, string given
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(36): implode(',', 'RIN 16,RIN 17')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-29 11:20:51 --> implode(): Argument #2 ($array) must be of type ?array, string given
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(36): implode(',', 'RIN 16,RIN 17')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-29 11:20:52 --> implode(): Argument #2 ($array) must be of type ?array, string given
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(36): implode(',', 'RIN 16,RIN 17')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-29 11:20:52 --> implode(): Argument #2 ($array) must be of type ?array, string given
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(36): implode(',', 'RIN 16,RIN 17')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-29 11:21:00 --> implode(): Argument #2 ($array) must be of type ?array, string given
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(36): implode(',', 'RIN 16,RIN 17')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-29 11:35:46 --> implode(): Argument #2 ($array) must be of type ?array, string given
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(36): implode(',', 'RIN 16,RIN 17')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,107 @@
+CRITICAL - 2024-03-18 14:19:33 --> syntax error, unexpected ';', expecting ')'
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-03-18 14:26:26 --> syntax error, unexpected ';', expecting ')'
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-03-18 14:27:11 --> syntax error, unexpected ';', expecting ')'
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-03-18 14:28:08 --> syntax error, unexpected ')', expecting variable (T_VARIABLE)
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\GetC...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\GetC...')
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/GetContenedores.php(20): spl_autoload_call('App\\Models\\GetC...')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\GetContenedores->show('G')
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetContenedores))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-03-18 14:28:30 --> Undefined variable: pConsecutivo
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/GetContenedores.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 58, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\GetContenedores->show('G')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetContenedores))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-18 14:32:39 --> Undefined variable: pBodega
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/GetContenedores.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 62, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\GetContenedores->show('G')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetContenedores))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-18 14:36:09 --> Undefined variable: pBodega
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/GetContenedores.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 64, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\GetContenedores->show('G')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetContenedores))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-03-18 14:51:19 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The ROLLBACK TRANSACTION request has no corresponding BEGIN TRANSACTION.
+CRITICAL - 2024-03-18 14:51:19 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The ROLLBACK TRANSACTION request has no corresponding BEGIN TRANSACTION.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('CLSA.WMS_sp_Ins...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('CLSA.WMS_sp_Ins...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/GetContenedores_Model.php(35): CodeIgniter\Database\BaseConnection->query('CLSA.WMS_sp_Ins...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/GetContenedores.php(64): App\Models\GetContenedores_Model->spGuardaCont('WMS', 'pruebapma', 'G', 'WMS_BC', 'M81-0000015294', NULL, NULL, NULL, NULL, NULL)
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\GetContenedores->show('G')
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetContenedores))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-03-18 14:55:06 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The ROLLBACK TRANSACTION request has no corresponding BEGIN TRANSACTION.
+CRITICAL - 2024-03-18 14:55:06 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The ROLLBACK TRANSACTION request has no corresponding BEGIN TRANSACTION.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('CLSA.WMS_sp_Ins...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('CLSA.WMS_sp_Ins...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/GetContenedores_Model.php(35): CodeIgniter\Database\BaseConnection->query('CLSA.WMS_sp_Ins...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/GetContenedores.php(64): App\Models\GetContenedores_Model->spGuardaCont('WMS', 'pruebapma', 'G', 'WMS_BC', 'M81-0000015294', NULL, NULL, NULL, NULL, NULL)
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\GetContenedores->show('G')
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetContenedores))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-03-18 14:59:19 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The ROLLBACK TRANSACTION request has no corresponding BEGIN TRANSACTION.
+CRITICAL - 2024-03-18 14:59:19 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The ROLLBACK TRANSACTION request has no corresponding BEGIN TRANSACTION.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('CLSA.WMS_sp_Ins...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('CLSA.WMS_sp_Ins...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/GetContenedores_Model.php(35): CodeIgniter\Database\BaseConnection->query('CLSA.WMS_sp_Ins...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/GetContenedores.php(64): App\Models\GetContenedores_Model->spGuardaCont('WMS', 'pruebapma', 'G', 'WMS_BC', 'M81-0000015294', NULL, NULL, NULL, NULL, NULL)
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\GetContenedores->show('G')
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetContenedores))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-03-18 15:00:38 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The ROLLBACK TRANSACTION request has no corresponding BEGIN TRANSACTION.
+CRITICAL - 2024-03-18 15:00:38 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The ROLLBACK TRANSACTION request has no corresponding BEGIN TRANSACTION.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('CLSA.WMS_sp_Ins...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('CLSA.WMS_sp_Ins...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/GetContenedores_Model.php(35): CodeIgniter\Database\BaseConnection->query('CLSA.WMS_sp_Ins...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/GetContenedores.php(64): App\Models\GetContenedores_Model->spGuardaCont('WMS', 'pruebapma', 'G', 'WMS_BC', 'M81-0000015294', NULL, NULL, NULL, NULL, NULL)
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\GetContenedores->show('G')
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetContenedores))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-03-18 16:45:33 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+ERROR - 2024-03-18 16:46:52 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error

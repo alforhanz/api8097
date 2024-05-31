@@ -1,0 +1,240 @@
+CRITICAL - 2023-04-19 08:34:29 --> implode(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Inva...', '/opt/lampp/htdo...', 90, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Llantas.php(90): implode(',', '1.8 121hp')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Llantas->show('5')
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-19 08:57:14 --> Undefined variable: arrMenu
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Menu.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 111, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->show('1')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-04-19 10:21:18 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '100'.
+ERROR - 2023-04-19 10:23:43 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '100'.
+ERROR - 2023-04-19 10:39:13 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '100'.
+ERROR - 2023-04-19 10:48:00 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '100'.
+ERROR - 2023-04-19 10:49:17 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '100'.
+ERROR - 2023-04-19 10:49:45 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '100'.
+ERROR - 2023-04-19 10:51:09 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '100'.
+ERROR - 2023-04-19 10:55:15 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '100'.
+ERROR - 2023-04-19 10:55:49 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '100'.
+ERROR - 2023-04-19 11:01:00 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '139.7'.
+ERROR - 2023-04-19 11:04:19 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '100'.
+ERROR - 2023-04-19 11:05:35 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '100'.
+ERROR - 2023-04-19 11:06:37 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '100'.
+ERROR - 2023-04-19 11:07:47 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '100'.
+ERROR - 2023-04-19 11:08:36 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '100'.
+ERROR - 2023-04-19 11:11:36 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '100'.
+ERROR - 2023-04-19 11:46:49 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '100'.
+ERROR - 2023-04-19 11:47:26 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '100'.
+ERROR - 2023-04-19 11:49:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '139.7'.
+CRITICAL - 2023-04-19 11:50:02 --> Undefined variable: arrMenu
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Menu.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 111, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->show('1')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-04-19 11:50:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '100'.
+CRITICAL - 2023-04-19 11:51:21 --> Undefined variable: arrMenu
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Menu.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 111, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->show('1')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-19 11:51:26 --> Undefined variable: arrMenu
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Menu.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 111, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->show('1')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-19 11:52:34 --> Undefined variable: arrMenu
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Menu.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 111, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->show('1')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-04-19 11:53:25 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '100'.
+ERROR - 2023-04-19 11:57:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '100'.
+ERROR - 2023-04-19 12:01:23 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '100'.
+CRITICAL - 2023-04-19 12:37:16 --> Undefined variable: arrMenu
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Menu.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 111, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->show('1')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-04-19 12:40:17 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '100'.
+ERROR - 2023-04-19 12:42:15 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '100'.
+ERROR - 2023-04-19 12:42:48 --> Error connecting to the database: Cannot open database "Exactus" requested by the login. The login failed.
+Login failed for user 'sa'.
+ERROR - 2023-04-19 12:42:48 --> Error connecting to the database: Cannot open database "Exactus" requested by the login. The login failed.
+Login failed for user 'sa'.
+CRITICAL - 2023-04-19 12:42:48 --> Unable to connect to the database.
+Main connection [SQLSRV]: Cannot open database "Exactus" requested by the login. The login failed.
+Login failed for user 'sa'.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/Menu_Model.php(17): CodeIgniter\Database\BaseConnection->query('CLSA.sp_getModu...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Menu.php(70): App\Models\Menu_Model->sp_getModulosUsuario('JAIMARAN', 'W', NULL)
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->show('1')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-19 12:42:48 --> Unable to connect to the database.
+Main connection [SQLSRV]: Cannot open database "Exactus" requested by the login. The login failed.
+Login failed for user 'sa'.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/Clasificaciones_Model.php(15): CodeIgniter\Database\BaseConnection->query('{CALL [ECOMMERC...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Controllers/GetClasificaciones.php(24): App\Models\Clasificaciones_Model->findClasificacionesAll()
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\GetClasificaciones->index()
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetClasificaciones))
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-04-19 12:42:55 --> Error connecting to the database: Cannot open database "Exactus" requested by the login. The login failed.
+Login failed for user 'sa'.
+CRITICAL - 2023-04-19 12:42:55 --> Unable to connect to the database.
+Main connection [SQLSRV]: Cannot open database "Exactus" requested by the login. The login failed.
+Login failed for user 'sa'.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/UserModel.php(43): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Validation/UserRules.php(13): App\Models\UserModel->validarLogin('jaimaran', 'asdasd')
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(277): App\Validation\UserRules->validateUser('asdasd', 'username, passw...', Array, NULL)
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password', 'asdasd', Array, Array)
+#5 /opt/lampp/htdocs/api8097/public_html/app/Controllers/BaseController.php(75): CodeIgniter\Validation\Validation->run(Array)
+#6 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Auth.php(31): App\Controllers\BaseController->validateRequest(Array, Array, Array)
+#7 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#8 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-19 12:43:13 --> Error connecting to the database: Cannot open database "Exactus" requested by the login. The login failed.
+Login failed for user 'sa'.
+CRITICAL - 2023-04-19 12:43:13 --> Unable to connect to the database.
+Main connection [SQLSRV]: Cannot open database "Exactus" requested by the login. The login failed.
+Login failed for user 'sa'.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/UserModel.php(43): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Validation/UserRules.php(13): App\Models\UserModel->validarLogin('pruebapma', 'expruebapma')
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(277): App\Validation\UserRules->validateUser('expruebapma', 'username, passw...', Array, NULL)
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password', 'expruebapma', Array, Array)
+#5 /opt/lampp/htdocs/api8097/public_html/app/Controllers/BaseController.php(75): CodeIgniter\Validation\Validation->run(Array)
+#6 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Auth.php(31): App\Controllers\BaseController->validateRequest(Array, Array, Array)
+#7 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#8 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-19 12:43:28 --> Error connecting to the database: Cannot open database "Exactus" requested by the login. The login failed.
+Login failed for user 'sa'.
+CRITICAL - 2023-04-19 12:43:28 --> Unable to connect to the database.
+Main connection [SQLSRV]: Cannot open database "Exactus" requested by the login. The login failed.
+Login failed for user 'sa'.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/UserModel.php(43): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Validation/UserRules.php(13): App\Models\UserModel->validarLogin('jaimaran', 'expruebapma')
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(277): App\Validation\UserRules->validateUser('expruebapma', 'username, passw...', Array, NULL)
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password', 'expruebapma', Array, Array)
+#5 /opt/lampp/htdocs/api8097/public_html/app/Controllers/BaseController.php(75): CodeIgniter\Validation\Validation->run(Array)
+#6 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Auth.php(31): App\Controllers\BaseController->validateRequest(Array, Array, Array)
+#7 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#8 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-19 12:44:09 --> Error connecting to the database: Cannot open database "Exactus" requested by the login. The login failed.
+Login failed for user 'sa'.
+CRITICAL - 2023-04-19 12:44:09 --> Unable to connect to the database.
+Main connection [SQLSRV]: Cannot open database "Exactus" requested by the login. The login failed.
+Login failed for user 'sa'.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/UserModel.php(43): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Validation/UserRules.php(13): App\Models\UserModel->validarLogin('pruebapma', 'expruebapma')
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(277): App\Validation\UserRules->validateUser('expruebapma', 'username, passw...', Array, NULL)
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password', 'expruebapma', Array, Array)
+#5 /opt/lampp/htdocs/api8097/public_html/app/Controllers/BaseController.php(75): CodeIgniter\Validation\Validation->run(Array)
+#6 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Auth.php(31): App\Controllers\BaseController->validateRequest(Array, Array, Array)
+#7 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#8 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-19 12:44:20 --> Error connecting to the database: Cannot open database "Exactus" requested by the login. The login failed.
+Login failed for user 'sa'.
+CRITICAL - 2023-04-19 12:44:20 --> Unable to connect to the database.
+Main connection [SQLSRV]: Cannot open database "Exactus" requested by the login. The login failed.
+Login failed for user 'sa'.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/UserModel.php(43): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Validation/UserRules.php(13): App\Models\UserModel->validarLogin('pruebapma', 'expruebapma')
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(277): App\Validation\UserRules->validateUser('expruebapma', 'username, passw...', Array, NULL)
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password', 'expruebapma', Array, Array)
+#5 /opt/lampp/htdocs/api8097/public_html/app/Controllers/BaseController.php(75): CodeIgniter\Validation\Validation->run(Array)
+#6 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Auth.php(31): App\Controllers\BaseController->validateRequest(Array, Array, Array)
+#7 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#8 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-19 12:44:37 --> Error connecting to the database: Cannot open database "Exactus" requested by the login. The login failed.
+Login failed for user 'sa'.
+CRITICAL - 2023-04-19 12:44:37 --> Unable to connect to the database.
+Main connection [SQLSRV]: Cannot open database "Exactus" requested by the login. The login failed.
+Login failed for user 'sa'.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/UserModel.php(43): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Validation/UserRules.php(13): App\Models\UserModel->validarLogin('jaimaran', 'expruebapma')
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(277): App\Validation\UserRules->validateUser('expruebapma', 'username, passw...', Array, NULL)
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password', 'expruebapma', Array, Array)
+#5 /opt/lampp/htdocs/api8097/public_html/app/Controllers/BaseController.php(75): CodeIgniter\Validation\Validation->run(Array)
+#6 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Auth.php(31): App\Controllers\BaseController->validateRequest(Array, Array, Array)
+#7 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#8 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-19 12:44:48 --> Error connecting to the database: Cannot open database "Exactus" requested by the login. The login failed.
+Login failed for user 'sa'.
+CRITICAL - 2023-04-19 12:44:48 --> Unable to connect to the database.
+Main connection [SQLSRV]: Cannot open database "Exactus" requested by the login. The login failed.
+Login failed for user 'sa'.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/UserModel.php(43): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Validation/UserRules.php(13): App\Models\UserModel->validarLogin('jaimaran', 'akjskdjasd')
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(277): App\Validation\UserRules->validateUser('akjskdjasd', 'username, passw...', Array, NULL)
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password', 'akjskdjasd', Array, Array)
+#5 /opt/lampp/htdocs/api8097/public_html/app/Controllers/BaseController.php(75): CodeIgniter\Validation\Validation->run(Array)
+#6 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Auth.php(31): App\Controllers\BaseController->validateRequest(Array, Array, Array)
+#7 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#8 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-19 12:44:53 --> Error connecting to the database: Cannot open database "Exactus" requested by the login. The login failed.
+Login failed for user 'sa'.
+CRITICAL - 2023-04-19 12:44:53 --> Unable to connect to the database.
+Main connection [SQLSRV]: Cannot open database "Exactus" requested by the login. The login failed.
+Login failed for user 'sa'.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/UserModel.php(43): CodeIgniter\Database\BaseConnection->query('{CALL [CLSA].[s...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Validation/UserRules.php(13): App\Models\UserModel->validarLogin('pruebapma', 'expruebapma')
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(277): App\Validation\UserRules->validateUser('expruebapma', 'username, passw...', Array, NULL)
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password', 'expruebapma', Array, Array)
+#5 /opt/lampp/htdocs/api8097/public_html/app/Controllers/BaseController.php(75): CodeIgniter\Validation\Validation->run(Array)
+#6 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Auth.php(31): App\Controllers\BaseController->validateRequest(Array, Array, Array)
+#7 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#8 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-19 12:53:55 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot resolve the collation conflict between "SQL_Latin1_General_CP1_CI_AS" and "Modern_Spanish_CI_AS" in the equal to operation.
+ERROR - 2023-04-19 12:55:24 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '100'.
+ERROR - 2023-04-19 14:05:55 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '100'.

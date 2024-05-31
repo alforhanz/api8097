@@ -1,0 +1,8 @@
+CRITICAL - 2023-07-28 13:46:17 --> Too few arguments to function App\Models\UserModel::validarLogin(), 1 passed in /opt/lampp/htdocs/api8097/public_html/app/Controllers/Auth.php on line 48 and exactly 2 expected
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Auth.php(48): App\Models\UserModel->validarLogin('JAIMARAN')
+#1 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Auth.php(37): App\Controllers\Auth->getJWTForUser('JAIMARAN')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}

@@ -1,0 +1,238 @@
+CRITICAL - 2022-05-26 12:04:11 --> Undefined property: stdClass::$ESTADO
+#0 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\SERVER\\larag...', 88)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-26 12:04:24 --> Undefined property: stdClass::$ESTADO
+#0 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\SERVER\\larag...', 88)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-26 12:07:58 --> Undefined variable $vPedido
+#0 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 100)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-26 14:29:29 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to datetime.
+CRITICAL - 2022-05-26 14:29:29 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(74): App\Models\Pedidos_Model->reportePedidos('D', 'PBA-10003347', NULL, '2021-11-19', '2022-5-', 'PRUEBAPMA', NULL, ' ')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-26 14:29:51 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to datetime.
+CRITICAL - 2022-05-26 14:29:51 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(74): App\Models\Pedidos_Model->reportePedidos('D', 'PBA-10003347', NULL, '2021-11-19', '2022-5-', 'PRUEBAPMA', NULL, ' ')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-26 14:29:52 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to datetime.
+CRITICAL - 2022-05-26 14:29:52 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(74): App\Models\Pedidos_Model->reportePedidos('D', 'PBA-10003347', NULL, '2021-11-19', '2022-5-', 'PRUEBAPMA', NULL, ' ')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-26 14:29:53 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to datetime.
+CRITICAL - 2022-05-26 14:29:53 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(74): App\Models\Pedidos_Model->reportePedidos('D', 'PBA-10003347', NULL, '2021-11-19', '2022-5-', 'PRUEBAPMA', NULL, ' ')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-26 14:29:53 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to datetime.
+CRITICAL - 2022-05-26 14:29:53 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(74): App\Models\Pedidos_Model->reportePedidos('D', 'PBA-10003347', NULL, '2021-11-19', '2022-5-', 'PRUEBAPMA', NULL, ' ')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-26 14:29:53 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to datetime.
+CRITICAL - 2022-05-26 14:29:53 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(74): App\Models\Pedidos_Model->reportePedidos('D', 'PBA-10003347', NULL, '2021-11-19', '2022-5-', 'PRUEBAPMA', NULL, ' ')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-26 14:35:07 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to datetime.
+CRITICAL - 2022-05-26 14:35:07 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(74): App\Models\Pedidos_Model->reportePedidos('D', 'PBA-10003347', NULL, '2021-11-19', '2022-5-', 'PRUEBAPMA', NULL, ' ')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-26 14:36:12 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to datetime.
+CRITICAL - 2022-05-26 14:36:12 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(74): App\Models\Pedidos_Model->reportePedidos('D', 'PBA-10003347', NULL, '2021-11-19', '2022-5-', 'PRUEBAPMA', NULL, ' ')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-26 14:36:13 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to datetime.
+CRITICAL - 2022-05-26 14:36:13 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(74): App\Models\Pedidos_Model->reportePedidos('D', 'PBA-10003347', NULL, '2021-11-19', '2022-5-', 'PRUEBAPMA', NULL, ' ')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-26 14:36:14 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to datetime.
+CRITICAL - 2022-05-26 14:36:14 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(74): App\Models\Pedidos_Model->reportePedidos('D', 'PBA-10003347', NULL, '2021-11-19', '2022-5-', 'PRUEBAPMA', NULL, ' ')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-26 14:36:14 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to datetime.
+CRITICAL - 2022-05-26 14:36:14 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(74): App\Models\Pedidos_Model->reportePedidos('D', 'PBA-10003347', NULL, '2021-11-19', '2022-5-', 'PRUEBAPMA', NULL, ' ')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-26 14:38:52 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to datetime.
+ERROR - 2022-05-26 14:39:26 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to datetime.
+CRITICAL - 2022-05-26 14:39:26 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(74): App\Models\Pedidos_Model->reportePedidos('D', 'PBA-10003347', NULL, '2021-11-19', '2022-5-', 'PRUEBAPMA', NULL, ' ')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-26 14:39:30 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to datetime.
+CRITICAL - 2022-05-26 14:39:30 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(74): App\Models\Pedidos_Model->reportePedidos('D', 'PBA-10003347', NULL, '2021-11-19', '2022-5-', 'PRUEBAPMA', NULL, ' ')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-26 14:39:48 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to datetime.
+CRITICAL - 2022-05-26 14:39:48 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(74): App\Models\Pedidos_Model->reportePedidos('D', 'PBA-10003347', NULL, '2021-11-19', '2022-5-', 'PRUEBAPMA', NULL, ' ')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-26 14:39:48 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to datetime.
+CRITICAL - 2022-05-26 14:39:48 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(74): App\Models\Pedidos_Model->reportePedidos('D', 'PBA-10003347', NULL, '2021-11-19', '2022-5-', 'PRUEBAPMA', NULL, ' ')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-26 14:39:49 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to datetime.
+CRITICAL - 2022-05-26 14:39:49 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(74): App\Models\Pedidos_Model->reportePedidos('D', 'PBA-10003347', NULL, '2021-11-19', '2022-5-', 'PRUEBAPMA', NULL, ' ')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-26 14:44:08 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to datetime.
+CRITICAL - 2022-05-26 14:44:08 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(74): App\Models\Pedidos_Model->reportePedidos('D', 'PBA-10003347', NULL, '2021-11-19', '2022-5-', 'PRUEBAPMA', NULL, ' ')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-26 14:44:50 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to datetime.
+CRITICAL - 2022-05-26 14:44:50 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(74): App\Models\Pedidos_Model->reportePedidos('D', 'PBA-10003347', NULL, '2021-11-19', '2022-5-', 'PRUEBAPMA', NULL, ' ')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-26 14:51:01 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to datetime.
+CRITICAL - 2022-05-26 14:51:01 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(74): App\Models\Pedidos_Model->reportePedidos('D', 'PBA-10003347', NULL, '2021-11-19', '2022-5-', 'PRUEBAPMA', NULL, ' ')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-26 14:54:28 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to datetime.
+CRITICAL - 2022-05-26 14:54:28 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(74): App\Models\Pedidos_Model->reportePedidos('D', 'PBA-10003347', NULL, '2021-11-19', '2022-5-', 'PRUEBAPMA', NULL, ' ')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-26 14:54:36 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to datetime.
+CRITICAL - 2022-05-26 14:54:36 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(74): App\Models\Pedidos_Model->reportePedidos('D', 'PBA-10003347', NULL, '2021-11-19', '2022-5-', 'PRUEBAPMA', NULL, ' ')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-26 14:54:36 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to datetime.
+CRITICAL - 2022-05-26 14:54:36 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(74): App\Models\Pedidos_Model->reportePedidos('D', 'PBA-10003347', NULL, '2021-11-19', '2022-5-', 'PRUEBAPMA', NULL, ' ')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-26 15:01:59 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to datetime.
+CRITICAL - 2022-05-26 15:01:59 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(74): App\Models\Pedidos_Model->reportePedidos('D', 'PBA-10003347', NULL, '2021-11-19', '2022-5-', 'PRUEBAPMA', NULL, ' ')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-26 15:48:01 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to int.
+CRITICAL - 2022-05-26 15:48:01 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('undefined', 'undefined', 'undefined', NULL, NULL, '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-26 16:17:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Must declare the scalar variable "@pbodega".
+CRITICAL - 2022-05-26 16:17:27 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Buscador.php(79): App\Models\Buscador_Model->Busqueda('W', NULL, '185/70R14')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Buscador->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buscador))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-26 16:17:32 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Must declare the scalar variable "@pbodega".
+CRITICAL - 2022-05-26 16:17:32 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Buscador.php(79): App\Models\Buscador_Model->Busqueda('W', NULL, '185/70R14')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Buscador->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buscador))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-26 16:34:02 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-05-26 16:34:02 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Buscador.php(80): App\Models\Buscador_Model->Busqueda('W', '', '185/70R14', 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Buscador->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buscador))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}

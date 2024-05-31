@@ -1,0 +1,387 @@
+CRITICAL - 2022-06-03 08:08:08 --> Attempt to read property "ARTICULO" on array
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'E:\\SERVER\\larag...', 90)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(71): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('PBA-10003378', Array, 'PRUEBAPMA', 'B-51', '20220603')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-03 08:48:40 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-06-03 08:48:40 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(71): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('PBA-10003378', Array, 'PRUEBAPMA', 'B-51', '20220603')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-03 08:49:37 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-06-03 08:49:37 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(71): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('PBA-10003379', Array, 'PRUEBAPMA', 'B-51', '20220603')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-03 09:01:03 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-06-03 09:01:03 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(71): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('PBA-10003380', Array, 'PRUEBAPMA', 'B-51', '20220603')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-03 09:01:48 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-06-03 09:01:48 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(71): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('PBA-10003380', Array, 'PRUEBAPMA', 'B-51', '20220603')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-03 09:05:23 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+ERROR - 2022-06-03 09:05:23 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+ERROR - 2022-06-03 09:13:07 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function 'sp_InsertPedido_LineaEcommerce' expects parameter '@RESPUESTA', which was not supplied.
+ERROR - 2022-06-03 09:13:07 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function 'sp_InsertPedido_LineaEcommerce' expects parameter '@RESPUESTA', which was not supplied.
+ERROR - 2022-06-03 09:13:39 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function 'sp_InsertPedido_LineaEcommerce' expects parameter '@RESPUESTA', which was not supplied.
+ERROR - 2022-06-03 09:13:39 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function 'sp_InsertPedido_LineaEcommerce' expects parameter '@RESPUESTA', which was not supplied.
+CRITICAL - 2022-06-03 09:13:39 --> Trying to access array offset on value of type bool
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'E:\\SERVER\\larag...', 103)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(71): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('PBA-10003380', Array, 'PRUEBAPMA', 'B-51', '20220603')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-03 09:14:44 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function 'sp_InsertPedido_LineaEcommerce' expects parameter '@RESPUESTA', which was not supplied.
+ERROR - 2022-06-03 09:14:44 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function 'sp_InsertPedido_LineaEcommerce' expects parameter '@RESPUESTA', which was not supplied.
+CRITICAL - 2022-06-03 09:14:44 --> Trying to access array offset on value of type bool
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'E:\\SERVER\\larag...', 103)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(71): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('PBA-10003380', Array, 'PRUEBAPMA', 'B-51', '20220603')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-03 09:15:17 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function 'sp_InsertPedido_LineaEcommerce' expects parameter '@RESPUESTA', which was not supplied.
+ERROR - 2022-06-03 09:15:17 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function 'sp_InsertPedido_LineaEcommerce' expects parameter '@RESPUESTA', which was not supplied.
+CRITICAL - 2022-06-03 09:15:17 --> Trying to access array offset on value of type bool
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'E:\\SERVER\\larag...', 103)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(71): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('PBA-10003380', Array, 'PRUEBAPMA', 'B-51', '20220603')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-03 09:18:17 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function 'sp_InsertPedido_LineaEcommerce' expects parameter '@RESPUESTA', which was not supplied.
+ERROR - 2022-06-03 09:18:17 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function 'sp_InsertPedido_LineaEcommerce' expects parameter '@RESPUESTA', which was not supplied.
+ERROR - 2022-06-03 09:18:57 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function 'sp_InsertPedido_LineaEcommerce' expects parameter '@RESPUESTA', which was not supplied.
+CRITICAL - 2022-06-03 09:18:57 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(71): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('PBA-10003380', Array, 'PRUEBAPMA', 'B-51', '20220603')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-03 09:22:49 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function 'sp_InsertPedido_LineaEcommerce' expects parameter '@RESPUESTA', which was not supplied.
+CRITICAL - 2022-06-03 09:22:49 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(71): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('PBA-10003380', Array, 'PRUEBAPMA', 'B-51', '20220603')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-03 09:23:41 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function 'sp_InsertPedido_LineaEcommerce' expects parameter '@RESPUESTA', which was not supplied.
+CRITICAL - 2022-06-03 09:23:41 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(71): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('PBA-10003380', Array, 'PRUEBAPMA', 'B-51', '20220603')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-03 09:25:20 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-06-03 09:25:20 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(71): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('PBA-10003380', Array, 'PRUEBAPMA', 'B-51', '20220603')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-03 09:26:20 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-06-03 09:26:20 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(71): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('PBA-10003380', Array, 'PRUEBAPMA', 'B-51', '20220603')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-03 09:51:05 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-06-03 09:51:05 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(71): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('PBA-10003380', Array, 'PRUEBAPMA', 'B-51', '20220603')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-03 09:51:27 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-06-03 09:51:27 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(71): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('PBA-10003380', Array, 'PRUEBAPMA', 'B-51', '20220603')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-03 10:04:13 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-06-03 10:04:13 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(71): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('PBA-10003380', Array, 'PRUEBAPMA', 'B-51', '20220603')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-03 10:04:45 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-06-03 10:04:45 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(71): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('PBA-10003380', Array, 'PRUEBAPMA', 'B-51', '20220603')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-03 10:05:05 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-06-03 10:05:05 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(71): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('PBA-10003380', Array, 'PRUEBAPMA', 'B-51', '20220603')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-03 10:05:31 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-06-03 10:05:31 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(71): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('PBA-10003380', Array, 'PRUEBAPMA', 'B-51', '20220603')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-03 10:06:17 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-06-03 10:06:17 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(71): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('PBA-10003380', Array, 'PRUEBAPMA', 'B-51', '20220603')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 10:19:34 --> Attempt to read property "ARTICULO" on int
+#0 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'E:\\SERVER\\larag...', 77)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 10:20:11 --> Attempt to read property "ARTICULO" on int
+#0 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'E:\\SERVER\\larag...', 77)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 10:20:29 --> Attempt to read property "ARTICULO" on array
+#0 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'E:\\SERVER\\larag...', 77)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 10:20:58 --> Array to string conversion
+#0 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'E:\\SERVER\\larag...', 77)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 10:25:27 --> Undefined variable $item
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 89)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(77): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('PBA-10003379', 1, 'BAT D-22F-450', '81.50000000', '1', '0.00', 'PRECIO (1)', 'PRUEBAPMA', 'B-51', '20220603')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-03 10:31:51 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-06-03 10:31:51 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(77): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('PBA-10003379', 1, 'BAT D-22F-450', '81.50000000', '1', '0.00', 'PRECIO (1)', 'PRUEBAPMA', 'B-51', '20220603')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-03 10:35:06 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-06-03 10:35:07 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(76): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('PBA-10003379', 1, 'BAT D-22F-450', '81.50000000', '1', '0.00', 'PRECIO (1)', 'PRUEBAPMA', 'B-51', '20220603')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 10:38:04 --> Undefined variable $query
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 96)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(76): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('PBA-10003380', 1, 'BAT D-22F-450', '81.50000000', '1', '0.00', 'PRECIO (1)', 'PRUEBAPMA', 'B-51', '20220603')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-03 10:38:43 --> Undefined variable $query
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 96)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(76): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('PBA-10003380', 1, 'BAT D-22F-450', '81.50000000', '1', '0.00', 'PRECIO (1)', 'PRUEBAPMA', 'B-51', '20220603')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-03 10:45:49 --> [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+
+ERROR - 2022-06-03 10:45:49 --> Error connecting to the database: Call to a member function getResultObject() on bool
+ERROR - 2022-06-03 10:45:49 --> [Microsoft][ODBC Driver 17 for SQL Server]SMux Provider: Physical connection is not usable [xFFFFFFFF]. 
+CRITICAL - 2022-06-03 10:45:49 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\ConsecutivoPedido.php(75): App\Models\Pedidos_Model->sp_PEDIDOS_WEB_ONLINE_CONSECUTIVO_PEDIDO('PBA')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ConsecutivoPedido->show('2')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsecutivoPedido))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-03 14:21:41 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PEDIDO_LINEAPK'. Cannot insert duplicate key in object 'BREMEN.PEDIDO_LINEA'. The duplicate key value is (PBA-10003380, 1).
+CRITICAL - 2022-06-03 14:21:41 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(70): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('PBA-10003380', 1, 'BAT D-24-530', '92.75000000', 1, '0.00', 'Precio (1)', 'PRUEBAPMA', 'B-51', '20220603')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-03 14:24:21 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PEDIDO_LINEAPK'. Cannot insert duplicate key in object 'BREMEN.PEDIDO_LINEA'. The duplicate key value is (PBA-10003380, 1).
+CRITICAL - 2022-06-03 14:24:21 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(70): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('PBA-10003380', 1, 'BAT D-24-530', '92.75000000', 1, '0.00', 'Precio (1)', 'PRUEBAPMA', 'B-51', '20220603')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-03 14:24:35 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PEDIDO_LINEAPK'. Cannot insert duplicate key in object 'BREMEN.PEDIDO_LINEA'. The duplicate key value is (PBA-10003380, 1).
+CRITICAL - 2022-06-03 14:24:35 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(70): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('PBA-10003380', 1, 'BAT D-24-530', '92.75000000', 1, '0.00', 'Precio (1)', 'PRUEBAPMA', 'B-51', '20220603')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-03 14:27:04 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PEDIDO_LINEAPK'. Cannot insert duplicate key in object 'BREMEN.PEDIDO_LINEA'. The duplicate key value is (PBA-10003380, 1).
+CRITICAL - 2022-06-03 14:27:04 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(70): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('PBA-10003380', 1, 'BAT D-24-530', '92.75000000', 1, '0.00', 'Precio (1)', 'PRUEBAPMA', 'B-51', '20220603')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-03 15:49:59 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-03 15:49:59 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Cliente.php(70): App\Models\Cliente_Model->getBusquedaglobalClientes('00000008 ')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Cliente->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-03 15:50:17 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-03 15:50:17 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Cliente.php(70): App\Models\Cliente_Model->getBusquedaglobalClientes('00000008 ')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Cliente->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-03 15:52:04 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-03 15:52:04 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Cliente.php(70): App\Models\Cliente_Model->getBusquedaglobalClientes('00000008 ')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Cliente->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-03 15:52:57 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-03 15:52:57 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Cliente.php(70): App\Models\Cliente_Model->getBusquedaglobalClientes('00000008 ')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Cliente->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-03 15:54:00 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-03 15:54:00 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Cliente.php(70): App\Models\Cliente_Model->getBusquedaglobalClientes('00000008 ')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Cliente->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-03 15:54:23 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-03 15:54:23 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Cliente.php(70): App\Models\Cliente_Model->getBusquedaglobalClientes('00000008 ')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Cliente->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-03 15:54:33 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-03 15:54:33 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Cliente.php(70): App\Models\Cliente_Model->getBusquedaglobalClientes('00000008  ')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Cliente->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-03 15:56:01 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-03 15:56:01 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Cliente.php(70): App\Models\Cliente_Model->getBusquedaglobalClientes('00000008 ')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Cliente->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-03 15:56:19 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-03 15:56:19 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Cliente.php(70): App\Models\Cliente_Model->getBusquedaglobalClientes('00000008 ')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Cliente->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-03 16:06:07 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-03 16:06:07 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Cliente.php(70): App\Models\Cliente_Model->getBusquedaglobalClientes('00000008 ')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Cliente->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-03 16:07:31 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-03 16:07:31 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Cliente.php(70): App\Models\Cliente_Model->getBusquedaglobalClientes('00000008 ')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Cliente->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-03 16:07:46 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-03 16:07:46 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Cliente.php(70): App\Models\Cliente_Model->getBusquedaglobalClientes('00000008 ')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Cliente->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-03 16:11:58 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-03 16:11:58 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\Cliente.php(70): App\Models\Cliente_Model->getBusquedaglobalClientes('00000008 ')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Cliente->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}

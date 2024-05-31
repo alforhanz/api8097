@@ -1,0 +1,27 @@
+ERROR - 2024-03-27 08:50:07 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2024-03-27 08:50:22 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2024-03-27 08:50:24 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2024-03-27 08:50:59 --> Memory limit of 50240 KB exceeded for buffered query
+CRITICAL - 2024-03-27 12:51:27 --> Undefined variable: arrMenu
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Menu.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 111, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->show('1')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-27 13:50:27 --> Undefined variable: arrMenu
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Menu.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 111, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->show('1')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-03-27 14:46:49 --> Memory limit of 50240 KB exceeded for buffered query
+CRITICAL - 2024-03-27 15:22:46 --> Class 'App\Models\WMSExistenciasArticulosBodega_Model' not found
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\WMSExistenciasArticulosBodega->show('1')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WMSExistenciasArticulosBodega))
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2024-03-27 15:31:25 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2024-03-27 15:32:43 --> Memory limit of 50240 KB exceeded for buffered query

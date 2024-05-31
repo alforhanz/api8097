@@ -1,0 +1,22 @@
+ERROR - 2022-10-14 08:41:14 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'ECOMMERCE.sp_getCONSECUFA_USUARIO'.
+CRITICAL - 2022-10-14 08:41:14 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'ECOMMERCE.sp_getCONSECUFA_USUARIO'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(70): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\ConsecutivoPedido.php(71): App\Models\Pedidos_Model->sp_getCONSECUFA_USUARIO('JOSEPGREN')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ConsecutivoPedido->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsecutivoPedido))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-10-14 08:45:24 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'ECOMMERCE.sp_InsertPedido_LineaEcommerce'.
+CRITICAL - 2022-10-14 08:45:24 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'ECOMMERCE.sp_InsertPedido_LineaEcommerce'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_In...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_In...')
+#2 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(126): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_In...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(73): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('P07-10057428', 1, '102-0800-0101 B...', '25.50000000', 1, '0.00', 'Precio (1)', 'JOSEPGREN', 'B-07', '20221014', '28.300000', '1.981000', '30.281000', '2', 'C', 'I')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}

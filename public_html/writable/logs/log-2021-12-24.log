@@ -1,0 +1,572 @@
+CRITICAL - 2021-12-24 07:29:59 --> You must set the database table to be used with your query.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(688): CodeIgniter\Model->builder()
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(15): CodeIgniter\Model->__get('sqlsrvr')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-24 07:30:15 --> You must set the database table to be used with your query.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(688): CodeIgniter\Model->builder()
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(15): CodeIgniter\Model->__get('sqlsrvr')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-24 07:35:18 --> You must set the database table to be used with your query.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(688): CodeIgniter\Model->builder()
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(15): CodeIgniter\Model->__get('sqlsrvr')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-24 07:35:19 --> You must set the database table to be used with your query.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(688): CodeIgniter\Model->builder()
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(15): CodeIgniter\Model->__get('sqlsrvr')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-24 07:37:31 --> You must set the database table to be used with your query.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(688): CodeIgniter\Model->builder()
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(15): CodeIgniter\Model->__get('sqlsrvr')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-24 07:42:03 --> You must set the database table to be used with your query.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(688): CodeIgniter\Model->builder()
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(15): CodeIgniter\Model->__get('sqlsrvr')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-24 07:42:05 --> You must set the database table to be used with your query.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(688): CodeIgniter\Model->builder()
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(15): CodeIgniter\Model->__get('sqlsrvr')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-24 07:43:51 --> You must set the database table to be used with your query.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(688): CodeIgniter\Model->builder()
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(15): CodeIgniter\Model->__get('sqlsrvr')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-24 07:43:57 --> You must set the database table to be used with your query.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(688): CodeIgniter\Model->builder()
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(15): CodeIgniter\Model->__get('sqlsrvr')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-24 07:44:21 --> You must set the database table to be used with your query.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(688): CodeIgniter\Model->builder()
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(15): CodeIgniter\Model->__get('sqlsrvr')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-24 07:45:15 --> Call to a member function query() on null
+#0 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-24 07:47:15 --> You must set the database table to be used with your query.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(688): CodeIgniter\Model->builder()
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(16): CodeIgniter\Model->__get('sqlsrvr')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-24 08:49:13 --> You must set the database table to be used with your query.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(688): CodeIgniter\Model->builder()
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(15): CodeIgniter\Model->__get('sqlsrvr')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-24 08:49:14 --> You must set the database table to be used with your query.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(688): CodeIgniter\Model->builder()
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(15): CodeIgniter\Model->__get('sqlsrvr')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-24 08:49:14 --> You must set the database table to be used with your query.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(688): CodeIgniter\Model->builder()
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(15): CodeIgniter\Model->__get('sqlsrvr')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-24 08:49:14 --> You must set the database table to be used with your query.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(688): CodeIgniter\Model->builder()
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(15): CodeIgniter\Model->__get('sqlsrvr')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-24 08:49:15 --> You must set the database table to be used with your query.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(688): CodeIgniter\Model->builder()
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(15): CodeIgniter\Model->__get('sqlsrvr')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-24 08:54:39 --> You must set the database table to be used with your query.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(688): CodeIgniter\Model->builder()
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(15): CodeIgniter\Model->__get('sqlsrvr')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-24 10:08:36 --> Undefined variable $db
+#0 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 15)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-12-24 10:29:00 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '.'.
+CRITICAL - 2021-12-24 10:29:00 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '.'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('CALL CLSA.sp_Lo...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('CALL CLSA.sp_Lo...')
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(21): CodeIgniter\Database\BaseConnection->query('CALL CLSA.sp_Lo...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-24 10:29:34 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '.'.
+CRITICAL - 2021-12-24 10:29:34 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '.'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('CALL CLSA.sp_Lo...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('CALL CLSA.sp_Lo...')
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(21): CodeIgniter\Database\BaseConnection->query('CALL CLSA.sp_Lo...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-24 10:30:58 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'alexcast'.
+CRITICAL - 2021-12-24 10:30:58 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'alexcast'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('EXEC CLSA.sp_Lo...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('EXEC CLSA.sp_Lo...')
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(21): CodeIgniter\Database\BaseConnection->query('EXEC CLSA.sp_Lo...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-24 10:33:47 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'alexcast'.
+CRITICAL - 2021-12-24 10:33:47 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'alexcast'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('EXEC CLSA.sp_Lo...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('EXEC CLSA.sp_Lo...')
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(21): CodeIgniter\Database\BaseConnection->query('EXEC CLSA.sp_Lo...')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-24 11:25:38 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'alexcast'.
+CRITICAL - 2021-12-24 11:25:38 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'alexcast'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('EXEC CLSA.sp_Lo...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('EXEC CLSA.sp_Lo...')
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(21): CodeIgniter\Database\BaseConnection->query('EXEC CLSA.sp_Lo...')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-24 11:26:52 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'alexcast'.
+CRITICAL - 2021-12-24 11:26:52 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'alexcast'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('EXEC CLSA.sp_Lo...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('EXEC CLSA.sp_Lo...')
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(21): CodeIgniter\Database\BaseConnection->query('EXEC CLSA.sp_Lo...')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-24 11:29:22 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '.'.
+CRITICAL - 2021-12-24 11:29:22 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '.'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('CALL CLSA.sp_Lo...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('CALL CLSA.sp_Lo...')
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(21): CodeIgniter\Database\BaseConnection->query('CALL CLSA.sp_Lo...')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-24 11:29:28 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'alexcast'.
+CRITICAL - 2021-12-24 11:29:28 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'alexcast'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('EXEC CLSA.sp_Lo...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('EXEC CLSA.sp_Lo...')
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(21): CodeIgniter\Database\BaseConnection->query('EXEC CLSA.sp_Lo...')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-24 11:29:34 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '.'.
+CRITICAL - 2021-12-24 11:29:34 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '.'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('CALL CLSA.sp_Lo...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('CALL CLSA.sp_Lo...')
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(21): CodeIgniter\Database\BaseConnection->query('CALL CLSA.sp_Lo...')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-24 11:29:55 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'alexcast'.
+CRITICAL - 2021-12-24 11:29:55 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'alexcast'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('EXEC CLSA.sp_Lo...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('EXEC CLSA.sp_Lo...')
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(21): CodeIgniter\Database\BaseConnection->query('EXEC CLSA.sp_Lo...')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-24 11:30:11 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'alexcast'.
+CRITICAL - 2021-12-24 11:30:11 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'alexcast'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('EXEC CLSA.sp_Lo...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('EXEC CLSA.sp_Lo...')
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(22): CodeIgniter\Database\BaseConnection->query('EXEC CLSA.sp_Lo...')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-24 11:30:46 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'alexcast'.
+CRITICAL - 2021-12-24 11:30:46 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'alexcast'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('EXEC sp_Login('...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('EXEC sp_Login('...')
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(21): CodeIgniter\Database\BaseConnection->query('EXEC sp_Login('...')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-24 11:31:12 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'alexcast'.
+CRITICAL - 2021-12-24 11:31:12 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'alexcast'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('EXEC sp_Login('...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('EXEC sp_Login('...')
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(21): CodeIgniter\Database\BaseConnection->query('EXEC sp_Login('...')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-24 11:31:16 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'alexcast'.
+CRITICAL - 2021-12-24 11:31:16 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'alexcast'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('EXEC sp_Login('...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('EXEC sp_Login('...')
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(21): CodeIgniter\Database\BaseConnection->query('EXEC sp_Login('...')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-24 11:31:16 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'alexcast'.
+CRITICAL - 2021-12-24 11:31:16 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'alexcast'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('EXEC sp_Login('...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('EXEC sp_Login('...')
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(21): CodeIgniter\Database\BaseConnection->query('EXEC sp_Login('...')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-24 11:31:16 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'alexcast'.
+CRITICAL - 2021-12-24 11:31:16 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'alexcast'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('EXEC sp_Login('...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('EXEC sp_Login('...')
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(21): CodeIgniter\Database\BaseConnection->query('EXEC sp_Login('...')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-24 11:31:16 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'alexcast'.
+CRITICAL - 2021-12-24 11:31:16 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'alexcast'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('EXEC sp_Login('...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('EXEC sp_Login('...')
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(21): CodeIgniter\Database\BaseConnection->query('EXEC sp_Login('...')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-24 11:31:53 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'alexcast'.
+CRITICAL - 2021-12-24 11:31:53 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'alexcast'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('EXEC CLSA.sp_Lo...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('EXEC CLSA.sp_Lo...')
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(21): CodeIgniter\Database\BaseConnection->query('EXEC CLSA.sp_Lo...')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-24 11:32:35 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'alexcast'.
+CRITICAL - 2021-12-24 11:32:35 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'alexcast'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('EXEC CLSA.sp_Lo...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('EXEC CLSA.sp_Lo...')
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(21): CodeIgniter\Database\BaseConnection->query('EXEC CLSA.sp_Lo...')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-24 11:35:00 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'alexcast'.
+CRITICAL - 2021-12-24 11:35:00 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'alexcast'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('EXEC CLSA.sp_Lo...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('EXEC CLSA.sp_Lo...')
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(21): CodeIgniter\Database\BaseConnection->query('EXEC CLSA.sp_Lo...')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-24 11:37:21 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'alexcast'.
+CRITICAL - 2021-12-24 11:37:21 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'alexcast'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('EXEC CLSA.sp_Lo...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('EXEC CLSA.sp_Lo...')
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(21): CodeIgniter\Database\BaseConnection->query('EXEC CLSA.sp_Lo...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-24 11:37:39 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '?'.
+CRITICAL - 2021-12-24 11:37:39 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '?'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('EXEC CLSA.sp_Lo...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('EXEC CLSA.sp_Lo...')
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(21): CodeIgniter\Database\BaseConnection->query('EXEC CLSA.sp_Lo...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-24 11:37:48 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'alexcast'.
+CRITICAL - 2021-12-24 11:37:48 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'alexcast'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('EXEC CLSA.sp_Lo...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('EXEC CLSA.sp_Lo...')
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(21): CodeIgniter\Database\BaseConnection->query('EXEC CLSA.sp_Lo...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-24 11:38:51 --> Call to undefined method CodeIgniter\Database\SQLSRV\Connection::sqlsrv_query()
+#0 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-24 11:39:40 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+CRITICAL - 2021-12-24 11:39:40 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('{EXEC CLSA.sp_L...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('{EXEC CLSA.sp_L...')
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(21): CodeIgniter\Database\BaseConnection->query('{EXEC CLSA.sp_L...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-24 12:23:16 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+CRITICAL - 2021-12-24 12:23:16 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('{EXEC CLSA.sp_L...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('{EXEC CLSA.sp_L...')
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(20): CodeIgniter\Database\BaseConnection->query('{EXEC CLSA.sp_L...')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-24 12:24:09 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+CRITICAL - 2021-12-24 12:24:09 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('CALL {CLSA.sp_L...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('CALL {CLSA.sp_L...')
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(20): CodeIgniter\Database\BaseConnection->query('CALL {CLSA.sp_L...')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-24 12:24:37 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+CRITICAL - 2021-12-24 12:24:37 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('CALL {CLSA.sp_L...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('CALL {CLSA.sp_L...')
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(20): CodeIgniter\Database\BaseConnection->query('CALL {CLSA.sp_L...')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-24 12:24:41 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+CRITICAL - 2021-12-24 12:24:41 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('CALL {CLSA.sp_L...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('CALL {CLSA.sp_L...')
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(20): CodeIgniter\Database\BaseConnection->query('CALL {CLSA.sp_L...')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-24 12:28:03 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '.'.
+CRITICAL - 2021-12-24 12:28:03 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '.'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('CALL CLSA.sp_Lo...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('CALL CLSA.sp_Lo...')
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(20): CodeIgniter\Database\BaseConnection->query('CALL CLSA.sp_Lo...')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-24 12:28:42 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'alexcast'.
+CRITICAL - 2021-12-24 12:28:42 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'alexcast'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('EXEC CLSA.sp_Lo...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('EXEC CLSA.sp_Lo...')
+#2 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(20): CodeIgniter\Database\BaseConnection->query('EXEC CLSA.sp_Lo...')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-24 12:50:34 --> Too few arguments to function CodeIgniter\Database\BaseConnection::query(), 0 passed in E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php on line 21 and at least 1 expected
+#0 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(21): CodeIgniter\Database\BaseConnection->query()
+#1 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-24 13:52:19 --> Failed to parse json string, error: "Type is not supported".
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Object(CodeIgniter\Database\SQLSRV\Result))
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(99): App\Controllers\Secciones->format(Object(CodeIgniter\Database\SQLSRV\Result))
+#3 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(15): App\Controllers\Secciones->respond(Object(CodeIgniter\Database\SQLSRV\Result), 200)
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-24 13:53:57 --> Undefined property: CodeIgniter\Database\SQLSRV\Result::$USUARIO
+#0 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\SERVER\\larag...', 35)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-24 13:54:31 --> Attempt to read property "USUARIO" on array
+#0 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'E:\\SERVER\\larag...', 35)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-24 13:55:01 --> Undefined array key "USUARIO"
+#0 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 35)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-24 13:55:13 --> Attempt to read property "USUARIO" on array
+#0 E:\SERVER\laragon\www\api\app\Models\SeccionesModel.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'E:\\SERVER\\larag...', 35)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Secciones.php(14): App\Models\SeccionesModel->getSubTipo('alexcast', '161616')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Secciones->index()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Secciones))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

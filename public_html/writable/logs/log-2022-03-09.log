@@ -1,0 +1,143 @@
+CRITICAL - 2022-03-09 09:17:43 --> Class "App\Controllers\ModelosVehiculo_Model" not found
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\VersionesTamano_vehiculo->index()
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VersionesTamano_vehiculo))
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-09 09:17:52 --> You must set the database table to be used with your query.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 E:\SERVER\laragon\www\api\app\Controllers\VersionesTamano_vehiculo.php(23): CodeIgniter\Model->__call('findModelosAll', Array)
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\VersionesTamano_vehiculo->index()
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VersionesTamano_vehiculo))
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-09 09:18:09 --> Too few arguments to function App\Models\VersionesTamanovehiculo_Model::findVersionesTamanoByIds(), 0 passed in E:\SERVER\laragon\www\api\app\Controllers\VersionesTamano_vehiculo.php on line 23 and exactly 4 expected
+#0 E:\SERVER\laragon\www\api\app\Controllers\VersionesTamano_vehiculo.php(23): App\Models\VersionesTamanovehiculo_Model->findVersionesTamanoByIds()
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\VersionesTamano_vehiculo->index()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VersionesTamano_vehiculo))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-09 09:20:11 --> Too few arguments to function App\Models\VersionesTamanovehiculo_Model::findVersionesTamanoByIds(), 0 passed in E:\SERVER\laragon\www\api\app\Controllers\VersionesTamano_vehiculo.php on line 23 and exactly 4 expected
+#0 E:\SERVER\laragon\www\api\app\Controllers\VersionesTamano_vehiculo.php(23): App\Models\VersionesTamanovehiculo_Model->findVersionesTamanoByIds()
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\VersionesTamano_vehiculo->index()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VersionesTamano_vehiculo))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-09 09:22:31 --> Undefined variable $tipo
+#0 E:\SERVER\laragon\www\api\app\Controllers\VersionesTamano_vehiculo.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 67)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\VersionesTamano_vehiculo->show('1', '1016', '2019', '86')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VersionesTamano_vehiculo))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-09 10:50:08 --> Class "App\Models\BusquedaRines_Model" not found
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->index()
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-09 10:56:57 --> You must set the database table to be used with your query.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(176): CodeIgniter\Model->builder()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(16): CodeIgniter\BaseModel->findAll()
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-09 11:24:30 --> Declaration of App\Controllers\BusquedaRines::show($p_idmarca, $p_year, $p_idmodelo, $p_version, $p_tamano_rin, $p_tipobusqueda, $p_cantidad_pernos_vehiculo, $p_distancia_pernos_vehiculo, $p_tamano_rin_por_tamano, $p_idmarcas, $p_idanchos, $p_idcb, $p_idet, $ordenamiento, $premate, $pincompleto, $ptipo, $psubtipo, $paginador, $pbodega, $pag) must be compatible with CodeIgniter\RESTful\ResourceController::show($id = null)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-09 11:31:58 --> Declaration of App\Controllers\BusquedaRines::show($p_idmarca, $p_year, $p_idmodelo, $p_version, $p_tamano_rin, $p_tipobusqueda, $p_cantidad_pernos_vehiculo, $p_distancia_pernos_vehiculo, $p_tamano_rin_por_tamano, $p_idmarcas, $p_idanchos, $p_idcb, $p_idet, $ordenamiento, $premate, $pincompleto, $ptipo, $psubtipo, $paginador, $pbodega, $pag) must be compatible with CodeIgniter\RESTful\ResourceController::show($id = null)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-09 11:33:23 --> Call to undefined method App\Controllers\Llantas::getResponse()
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-09 14:20:44 --> Declaration of App\Controllers\BusquedaRines::show() must be compatible with CodeIgniter\RESTful\ResourceController::show($id = null)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-09 14:48:11 --> Declaration of App\Controllers\BusquedaRines::show() must be compatible with CodeIgniter\RESTful\ResourceController::show($id = null)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-09 14:49:13 --> Declaration of App\Controllers\BusquedaRines::show() must be compatible with CodeIgniter\RESTful\ResourceController::show($id = null)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-09 14:49:24 --> Declaration of App\Controllers\BusquedaRines::show() must be compatible with CodeIgniter\RESTful\ResourceController::show($id = null)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-09 14:52:16 --> Declaration of App\Controllers\BusquedaRines::show($id) must be compatible with CodeIgniter\RESTful\ResourceController::show($id = null)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-09 14:52:32 --> Undefined variable $p_idmarca
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 52)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-09 14:55:42 --> Undefined variable $p_tipobusqueda
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 52)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-09 14:55:53 --> Undefined variable $tipobusqueda
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 52)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-09 15:50:50 --> Undefined variable $tipobusqueda
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 58)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-09 15:51:05 --> Undefined variable $tipobusqueda
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 58)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-09 15:51:11 --> Undefined variable $tipobusqueda
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 58)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-09 15:52:09 --> Undefined variable $incompleto
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 58)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-09 15:52:18 --> Undefined variable $pag
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 58)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-09 15:52:26 --> Too few arguments to function App\Models\BusquedaRines_Model::BusquedaRines(), 20 passed in E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php on line 58 and exactly 21 expected
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(58): App\Models\BusquedaRines_Model->BusquedaRines(1016, 2019, 86, NULL, '18', 1, 0, 0, 'null', NULL, 'null', 'null', 'null', NULL, 'N', 'C', NULL, NULL, 0, NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-09 15:52:56 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error

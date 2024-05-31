@@ -1,0 +1,119 @@
+CRITICAL - 2023-04-29 08:38:11 --> Undefined variable: arrMenu
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Menu.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 111, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->show('1')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-04-29 09:22:14 --> Error connecting to the database: Login timeout expired
+. 
+Unable to complete login process due to delay in prelogin response
+CRITICAL - 2023-04-29 09:22:14 --> Unable to connect to the database.
+Main connection [SQLSRV]: Login timeout expired
+. 
+Unable to complete login process due to delay in prelogin response
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/Clasificaciones_Model.php(15): CodeIgniter\Database\BaseConnection->query('{CALL [ECOMMERC...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Controllers/GetClasificaciones.php(24): App\Models\Clasificaciones_Model->findClasificacionesAll()
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\GetClasificaciones->index()
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetClasificaciones))
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-04-29 09:22:14 --> Error connecting to the database: Login timeout expired
+. 
+Unable to complete login process due to delay in prelogin response
+CRITICAL - 2023-04-29 09:22:14 --> Unable to connect to the database.
+Main connection [SQLSRV]: Login timeout expired
+. 
+Unable to complete login process due to delay in prelogin response
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/GetInformeVentaFacturador_Model.php(16): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Controllers/GetInformeVentaFacturador.php(27): App\Models\GetInformeVentaFacturador_Model->GetInformeVentaFacturador('JAIMARAN', 'A', NULL)
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\GetInformeVentaFacturador->index()
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetInformeVentaFacturador))
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-04-29 09:22:14 --> Error connecting to the database: Login timeout expired
+. 
+Unable to complete login process due to delay in prelogin response
+CRITICAL - 2023-04-29 09:22:14 --> Unable to connect to the database.
+Main connection [SQLSRV]: Login timeout expired
+. 
+Unable to complete login process due to delay in prelogin response
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/GetInformeVentaFacturador_Model.php(16): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Controllers/GetInformeVentaFacturador.php(27): App\Models\GetInformeVentaFacturador_Model->GetInformeVentaFacturador('JAIMARAN', 'C', NULL)
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\GetInformeVentaFacturador->index()
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetInformeVentaFacturador))
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-04-29 09:22:14 --> Error connecting to the database: Login timeout expired
+. 
+Unable to complete login process due to delay in prelogin response
+CRITICAL - 2023-04-29 09:22:14 --> Unable to connect to the database.
+Main connection [SQLSRV]: Login timeout expired
+. 
+Unable to complete login process due to delay in prelogin response
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/GetInformeVentaFacturador_Model.php(16): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Controllers/GetInformeVentaFacturador.php(27): App\Models\GetInformeVentaFacturador_Model->GetInformeVentaFacturador('JAIMARAN', 'D', NULL)
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\GetInformeVentaFacturador->index()
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetInformeVentaFacturador))
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-04-29 09:22:14 --> Error connecting to the database: Login timeout expired
+. 
+Unable to complete login process due to delay in prelogin response
+CRITICAL - 2023-04-29 09:22:14 --> Unable to connect to the database.
+Main connection [SQLSRV]: Login timeout expired
+. 
+Unable to complete login process due to delay in prelogin response
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/GetInformeVentaFacturador_Model.php(16): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Controllers/GetInformeVentaFacturador.php(27): App\Models\GetInformeVentaFacturador_Model->GetInformeVentaFacturador('JAIMARAN', 'B', NULL)
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\GetInformeVentaFacturador->index()
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetInformeVentaFacturador))
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-04-29 09:22:14 --> Error connecting to the database: Login timeout expired
+. 
+Unable to complete login process due to delay in prelogin response
+CRITICAL - 2023-04-29 09:22:14 --> Unable to connect to the database.
+Main connection [SQLSRV]: Login timeout expired
+. 
+Unable to complete login process due to delay in prelogin response
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/api8097/public_html/app/Models/Menu_Model.php(17): CodeIgniter\Database\BaseConnection->query('CLSA.sp_getModu...', Array)
+#2 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Menu.php(70): App\Models\Menu_Model->sp_getModulosUsuario('JAIMARAN', 'W', NULL)
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->show('1')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-04-29 09:22:33 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The query processor could not start the necessary thread resources for parallel query execution.
+CRITICAL - 2023-04-29 09:22:33 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The query processor could not start the necessary thread resources for parallel query execution.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/GetInformeVentaFacturador_Model.php(16): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/GetInformeVentaFacturador.php(27): App\Models\GetInformeVentaFacturador_Model->GetInformeVentaFacturador('JAIMARAN', 'C', NULL)
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\GetInformeVentaFacturador->index()
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetInformeVentaFacturador))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-04-29 09:31:17 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The query processor could not start the necessary thread resources for parallel query execution.
+CRITICAL - 2023-04-29 09:31:17 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The query processor could not start the necessary thread resources for parallel query execution.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/GetInformeVentaFacturador_Model.php(16): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/GetInformeVentaFacturador.php(27): App\Models\GetInformeVentaFacturador_Model->GetInformeVentaFacturador('JAIMARAN', 'D', NULL)
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\GetInformeVentaFacturador->index()
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetInformeVentaFacturador))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}

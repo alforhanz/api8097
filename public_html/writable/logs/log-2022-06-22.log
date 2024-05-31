@@ -1,0 +1,1045 @@
+ERROR - 2022-06-22 09:13:31 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 09:13:31 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 09:14:00 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 09:14:00 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 09:15:51 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 09:15:51 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 09:18:03 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 09:18:03 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 09:18:17 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 09:18:17 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 09:18:38 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 09:18:38 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 09:20:22 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 09:20:22 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 09:23:34 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 09:23:34 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16,RIN 17', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 09:23:41 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 09:23:41 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16,RIN 17', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 09:24:00 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 09:24:00 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 09:27:20 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 09:27:20 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 09:28:02 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 09:28:02 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 09:29:27 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 09:29:27 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 09:30:11 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-06-22 09:30:11 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 09:30:14 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-06-22 09:30:14 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-22 09:31:06 --> Undefined variable: sql
+#0 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\SERVER\\larag...', 19, Array)
+#1 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 17', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-22 09:31:44 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 09:31:44 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 17', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 09:35:12 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 09:35:12 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 17', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 09:35:34 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 09:35:34 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 17', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 09:38:18 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-06-22 09:38:18 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 09:38:20 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-06-22 09:38:20 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 09:45:32 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-06-22 09:45:32 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1042', '2018', '294', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 09:46:19 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-06-22 09:46:19 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1042', '2018', '294', NULL, 'RIN 15', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 09:46:28 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-06-22 09:46:28 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1042', '2018', '294', NULL, 'RIN 15', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 10:18:53 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-06-22 10:18:53 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 17', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 10:19:04 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-06-22 10:19:04 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1042', '2018', '294', NULL, 'RIN 15', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 10:20:12 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-06-22 10:20:12 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 10:20:21 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-06-22 10:20:21 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 10:20:48 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-06-22 10:20:48 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 17', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 10:21:08 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-06-22 10:21:08 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 17', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 10:21:17 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-06-22 10:21:17 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 18', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 10:21:45 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-06-22 10:21:45 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 18', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 10:25:38 --> [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error
+CRITICAL - 2022-06-22 10:25:38 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 17', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 10:56:22 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 10:56:22 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 10:57:15 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 11:02:21 --> Call to undefined method CodeIgniter\Database\SQLSRV\Connection::sqlsrv_query()
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-22 11:02:33 --> sqlsrv_query() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'sqlsrv_query() ...', 'E:\\SERVER\\larag...', 19, Array)
+#1 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): sqlsrv_query('ECOMMERCE.sp_ge...', Array)
+#2 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-22 11:05:59 --> Memory limit of 10240 KB exceeded for buffered query
+ERROR - 2022-06-22 11:06:26 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 11:08:08 --> Failed to parse json string, error: "Type is not supported".
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(317): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(243): CodeIgniter\HTTP\Response->formatBody(Array, 'json')
+#3 E:\SERVER\laragon\www\api\app\Controllers\BaseController.php(43): CodeIgniter\HTTP\Response->setJSON(Array)
+#4 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(62): App\Controllers\BaseController->getResponse(Array)
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#7 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-22 11:08:08 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(110): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Format\Exceptions\FormatException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-06-22 11:11:02 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 11:11:02 --> Call to a member function getResultArray() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 11:14:44 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 11:14:44 --> Call to a member function getRow() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 11:45:36 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 11:45:36 --> Call to a member function getRow() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 12:08:47 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 12:08:47 --> Call to a member function getRowArray() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 12:14:02 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 12:14:02 --> Call to a member function getResultArray() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-22 12:25:57 --> Call to undefined method CodeIgniter\Database\SQLSRV\Result::result()
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1014', '2018', '1887', NULL, 'RIN 14', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 12:26:14 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 12:26:14 --> Call to a member function result() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-22 12:26:48 --> Call to undefined method CodeIgniter\Database\SQLSRV\Result::result()
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '86', NULL, 'RIN 20', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-22 12:27:00 --> Call to undefined method CodeIgniter\Database\SQLSRV\Result::result()
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '86', NULL, 'RIN 20', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-22 12:28:09 --> Call to undefined method CodeIgniter\Database\SQLSRV\Result::result()
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '86', NULL, 'RIN 20', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-22 12:31:51 --> Call to a member function result() on array
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '86', NULL, 'RIN 20', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 12:33:10 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 12:33:10 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 12:33:16 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 12:33:16 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 14:12:46 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 14:12:46 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 14:26:03 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 14:26:03 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 14:28:00 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 14:28:00 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 14:31:02 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 14:31:02 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 14:44:03 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 14:44:03 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 14:47:12 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 14:47:12 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 14:47:26 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 14:47:26 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 14:47:26 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 14:47:26 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 14:47:26 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 14:47:26 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 14:47:34 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 14:47:34 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 14:47:49 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 14:47:49 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 14:52:55 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 14:52:55 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 14:55:51 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 14:55:51 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 14:57:19 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 14:57:19 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 14:57:36 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 14:57:36 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 15:04:35 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 15:04:35 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 15:05:20 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 15:05:20 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 15:05:54 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 15:05:54 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 15:12:07 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 15:12:07 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 15:13:01 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 15:13:01 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 15:14:36 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 15:14:36 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 15:14:48 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 15:14:48 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 15:14:49 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 15:14:49 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 15:14:49 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 15:14:49 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 15:14:59 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 15:14:59 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 15:15:20 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 15:15:20 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 15:17:09 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 15:17:09 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 15:17:43 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 15:17:43 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 15:17:59 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 15:17:59 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 15:17:59 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 15:17:59 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 15:18:11 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 15:18:11 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 15:23:31 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 15:23:31 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 15:27:49 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 15:27:49 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 15:28:19 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 15:28:19 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 15:28:25 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 15:28:25 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 15:28:44 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 15:28:44 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 15:31:14 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 15:31:14 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 15:36:15 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 15:36:15 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 15:36:59 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 15:36:59 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 15:43:56 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 15:43:56 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 15:44:32 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 15:44:32 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 15:44:54 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 15:44:54 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 15:44:55 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 15:44:55 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 15:59:54 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 15:59:54 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 15:59:59 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 15:59:59 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 16:00:03 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 16:00:03 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 16:02:12 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 16:02:12 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 16:08:37 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 16:08:37 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 16:13:44 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 16:13:44 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 16:15:44 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 16:15:44 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 16:40:50 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 16:40:50 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 16:41:14 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 16:41:14 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 16:41:43 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 16:41:43 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 16:41:43 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 16:41:43 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 16:41:44 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 16:41:44 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 16:42:22 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 16:42:22 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 16:42:32 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 16:42:32 --> Call to a member function getResult() on bool
+#0 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-22 16:43:58 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 16:43:58 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 16:44:33 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 16:44:33 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-22 16:46:22 --> syntax error, unexpected single-quoted string "DBDebug", expecting "]"
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\SERVER\\larag...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Database')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Debug\Toolbar\Collectors\Database.php(204): CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Database')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Debug\Toolbar\Collectors\Database.php(69): CodeIgniter\Debug\Toolbar\Collectors\Database->getConnections()
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Debug\Toolbar.php(62): CodeIgniter\Debug\Toolbar\Collectors\Database->__construct()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Config\Services.php(626): CodeIgniter\Debug\Toolbar->__construct(Object(Config\Toolbar))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::toolbar(Object(Config\Toolbar), false)
+#7 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('toolbar', Array)
+#8 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Config\Services.php(621): CodeIgniter\Config\BaseService::getSharedInstance('toolbar', NULL)
+#9 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::toolbar()
+#10 E:\SERVER\laragon\www\api\app\Config\Events.php(48): CodeIgniter\Config\BaseService::__callStatic('toolbar', Array)
+#11 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#12 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#13 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2022-06-22 16:46:33 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 16:46:33 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-22 16:52:50 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2022-06-22 16:52:50 --> Memory limit of 10240 KB exceeded for buffered query
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\BusquedaRines_Model.php(19): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BusquedaRines.php(57): App\Models\BusquedaRines_Model->BusquedaRines('1016', '2018', '103', NULL, 'RIN 16', '1', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 'N', 'C', 0, 0, 0, 'B-51')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\BusquedaRines->show('1')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BusquedaRines))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}

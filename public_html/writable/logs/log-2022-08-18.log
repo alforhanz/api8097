@@ -1,0 +1,24 @@
+CRITICAL - 2022-08-18 11:27:01 --> Cannot modify header information - headers already sent by (output started at E:\SERVER\laragon\www\api\app\Config\Events.php:32)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'E:\\SERVER\\larag...', 28)
+#1 E:\SERVER\laragon\www\api\app\Filters\Cors.php(28): header('Access-Control-...')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Cors->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('detalle/1050', 'before')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-18 11:27:01 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at E:\SERVER\laragon\www\api\app\Config\Events.php:32) in E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'E:\\SERVER\\larag...', 107)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-18 11:27:09 --> Undefined property: stdClass::$CANTIDAD
+#0 E:\SERVER\laragon\www\api\app\Controllers\Promociones.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\SERVER\\larag...', 121)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Promociones->show('2')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Promociones))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}

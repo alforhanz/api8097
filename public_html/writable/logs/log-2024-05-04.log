@@ -1,0 +1,12 @@
+CRITICAL - 2024-05-04 10:32:22 --> Undefined property: stdClass::$MODULO
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Menu.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 83, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->show('1')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-05-04 13:01:15 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function WMS_sp_getOrdenesCompras has too many arguments specified.
+ERROR - 2024-05-04 13:01:17 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function WMS_sp_getOrdenesCompras has too many arguments specified.
+ERROR - 2024-05-04 13:01:25 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function WMS_sp_getOrdenesCompras has too many arguments specified.
+ERROR - 2024-05-04 13:01:55 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function WMS_sp_getOrdenesCompras has too many arguments specified.
+ERROR - 2024-05-04 13:02:00 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function WMS_sp_getOrdenesCompras has too many arguments specified.

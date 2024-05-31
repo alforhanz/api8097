@@ -1,0 +1,223 @@
+CRITICAL - 2022-01-05 10:49:51 --> Too few arguments to function App\Models\LlantasModel::getBusquedaLlantas(), 2 passed in E:\SERVER\laragon\www\api\app\Controllers\Llantas.php on line 44 and exactly 16 expected
+#0 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(44): App\Models\LlantasModel->getBusquedaLlantas('alexcast', '161616')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-05 10:50:18 --> Too few arguments to function App\Models\LlantasModel::getBusquedaLlantas(), 2 passed in E:\SERVER\laragon\www\api\app\Controllers\Llantas.php on line 43 and exactly 16 expected
+#0 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(43): App\Models\LlantasModel->getBusquedaLlantas('alexcast', '161616')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-05 14:14:53 --> Undefined variable $ordenamiento
+#0 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 45)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-05 14:15:45 --> Undefined variable $tipo
+#0 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 46)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-05 14:17:31 --> Undefined variable $tipo
+#0 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 46)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-05 14:18:21 --> Undefined variable $subtipo
+#0 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 47)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-05 14:18:31 --> Undefined variable $idmarca
+#0 E:\SERVER\laragon\www\api\app\Models\LlantasModel.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 17)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(47): App\Models\LlantasModel->getBusquedaLlantas(0, 0, 0, NULL, NULL, 1, 0, '0', 0, NULL, NULL, 'N', NULL, NULL, 1, NULL)
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-01-05 14:22:37 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+CRITICAL - 2022-01-05 14:22:37 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('EXEC [ECOMMERCE...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('EXEC [ECOMMERCE...')
+#2 E:\SERVER\laragon\www\api\app\Models\LlantasModel.php(19): CodeIgniter\Database\BaseConnection->query('EXEC [ECOMMERCE...')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(47): App\Models\LlantasModel->getBusquedaLlantas(0, 0, 0, NULL, NULL, 1, 0, '0', 0, NULL, NULL, 'N', NULL, NULL, 1, NULL)
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-05 14:23:15 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+CRITICAL - 2022-01-05 14:23:15 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('EXEC [ECOMMERCE...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('EXEC [ECOMMERCE...')
+#2 E:\SERVER\laragon\www\api\app\Models\LlantasModel.php(19): CodeIgniter\Database\BaseConnection->query('EXEC [ECOMMERCE...')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(47): App\Models\LlantasModel->getBusquedaLlantas(0, 0, 0, NULL, NULL, 1, 0, '0', 0, NULL, NULL, 'N', NULL, NULL, 1, NULL)
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-05 14:26:11 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+CRITICAL - 2022-01-05 14:26:11 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('EXEC [ECOMMERCE...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('EXEC [ECOMMERCE...')
+#2 E:\SERVER\laragon\www\api\app\Models\LlantasModel.php(19): CodeIgniter\Database\BaseConnection->query('EXEC [ECOMMERCE...')
+#3 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(47): App\Models\LlantasModel->getBusquedaLlantas(0, 0, 0, NULL, NULL, 1, 0, '0', 0, NULL, NULL, 'N', NULL, NULL, 1, NULL)
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-05 15:05:04 --> syntax error, unexpected token ","
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\SERVER\\larag...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Llan...')
+#2 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Llan...')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-05 15:12:46 --> sqlsrv_query(): Argument #1 ($conn) must be of type resource, string given
+#0 E:\SERVER\laragon\www\api\app\Models\LlantasModel.php(28): sqlsrv_query('{CALL [ECOMMERC...', Array)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(47): App\Models\LlantasModel->getBusquedaLlantas(0, 0, 0, 'null', 'null', 1, 0, '0', 0, 'null', 'null', 'N', 'null', 'null', 1, 'null')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-05 15:40:44 --> sqlsrv_next_result(): Argument #1 ($stmt) must be of type resource, array given
+#0 E:\SERVER\laragon\www\api\app\Models\LlantasModel.php(36): sqlsrv_next_result(Array)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(47): App\Models\LlantasModel->getBusquedaLlantas(0, 0, 0, 'null', 'null', 1, 0, '0', 0, 'null', 'null', 'N', 'null', 'null', 1, 'null')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-05 16:37:58 --> sqlsrv_query(): Argument #1 ($conn) must be of type resource, CodeIgniter\Database\SQLSRV\Connection given
+#0 E:\SERVER\laragon\www\api\app\Models\LlantasModel.php(21): sqlsrv_query(Object(CodeIgniter\Database\SQLSRV\Connection), '{CALL [ECOMMERC...', Array)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(47): App\Models\LlantasModel->getBusquedaLlantas(0, 0, 0, 'null', 'null', 1, 0, '0', 0, 'null', 'null', 'N', 'null', 'null', 1, 'null')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-05 16:38:57 --> sqlsrv_query(): Argument #1 ($conn) must be of type resource, CodeIgniter\Database\SQLSRV\Connection given
+#0 E:\SERVER\laragon\www\api\app\Models\LlantasModel.php(21): sqlsrv_query(Object(CodeIgniter\Database\SQLSRV\Connection), '{CALL [ECOMMERC...', Array)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(47): App\Models\LlantasModel->getBusquedaLlantas(0, 0, 0, 'null', 'null', 1, 0, '0', 0, 'null', 'null', 'N', 'null', 'null', 1, 'null')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-01-05 16:43:30 --> Error connecting to the database: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2022-01-05 16:43:30 --> Unable to connect to the database.
+Main connection [sqlsrv]: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\SERVER\laragon\www\api\app\Models\LlantasModel.php(24): CodeIgniter\Database\BaseConnection->query('{CALL [ECOMMERC...', Array)
+#2 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(47): App\Models\LlantasModel->getBusquedaLlantas(0, 0, 0, 'null', 'null', 1, 0, '0', 0, 'null', 'null', 'N', 'null', 'null', 1, 'null')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-05 16:44:03 --> CodeIgniter\Database\BaseConnection::query(): Argument #1 ($sql) must be of type string, CodeIgniter\Database\SQLSRV\Connection given, called in E:\SERVER\laragon\www\api\app\Models\LlantasModel.php on line 24
+#0 E:\SERVER\laragon\www\api\app\Models\LlantasModel.php(24): CodeIgniter\Database\BaseConnection->query(Object(CodeIgniter\Database\SQLSRV\Connection), '{CALL [ECOMMERC...', Array)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(47): App\Models\LlantasModel->getBusquedaLlantas(0, 0, 0, 'null', 'null', 1, 0, '0', 0, 'null', 'null', 'N', 'null', 'null', 1, 'null')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-05 16:44:13 --> Undefined variable $stmt3
+#0 E:\SERVER\laragon\www\api\app\Models\LlantasModel.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 28)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(47): App\Models\LlantasModel->getBusquedaLlantas(0, 0, 0, 'null', 'null', 1, 0, '0', 0, 'null', 'null', 'N', 'null', 'null', 1, 'null')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-05 16:44:48 --> Failed to parse json string, error: "Type is not supported".
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Object(CodeIgniter\Database\SQLSRV\Result))
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(99): App\Controllers\Llantas->format(Object(CodeIgniter\Database\SQLSRV\Result))
+#3 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(50): App\Controllers\Llantas->respond(Object(CodeIgniter\Database\SQLSRV\Result), 200)
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-05 16:46:00 --> Failed to parse json string, error: "Type is not supported".
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Object(CodeIgniter\Database\SQLSRV\Result))
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(99): App\Controllers\Llantas->format(Object(CodeIgniter\Database\SQLSRV\Result))
+#3 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(50): App\Controllers\Llantas->respond(Object(CodeIgniter\Database\SQLSRV\Result), 200)
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-05 16:46:21 --> Failed to parse json string, error: "Type is not supported".
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Object(CodeIgniter\Database\SQLSRV\Result))
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(99): App\Controllers\Llantas->format(Object(CodeIgniter\Database\SQLSRV\Result))
+#3 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(50): App\Controllers\Llantas->respond(Object(CodeIgniter\Database\SQLSRV\Result), 200)
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-05 16:47:19 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+CRITICAL - 2022-01-05 16:47:19 --> [Microsoft][ODBC Driver 17 for SQL Server]Syntax error, permission violation, or other nonspecific error
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('{EXEC [ECOMMERC...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('{EXEC [ECOMMERC...')
+#2 E:\SERVER\laragon\www\api\app\Models\LlantasModel.php(24): CodeIgniter\Database\BaseConnection->query('{EXEC [ECOMMERC...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(47): App\Models\LlantasModel->getBusquedaLlantas(0, 0, 0, 'null', 'null', 1, 0, '0', 0, 'null', 'null', 'N', 'null', 'null', 1, 'null')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-05 16:49:01 --> syntax error, unexpected single-quoted string "N", expecting variable
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\SERVER\\larag...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Llan...')
+#2 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Llan...')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-05 16:50:32 --> syntax error, unexpected single-quoted string "N", expecting variable
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\SERVER\\larag...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Llan...')
+#2 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Llan...')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-05 16:50:55 --> syntax error, unexpected token ",", expecting variable
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\SERVER\\larag...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Llan...')
+#2 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Llan...')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->index()
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

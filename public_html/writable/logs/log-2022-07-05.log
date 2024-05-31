@@ -1,0 +1,11 @@
+ERROR - 2022-07-05 15:24:17 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'ECOMMERCE.sp_getDiametroLLanta'.
+CRITICAL - 2022-07-05 15:24:17 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'ECOMMERCE.sp_getDiametroLLanta'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_ge...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_ge...')
+#2 E:\SERVER\laragon\www\api\app\Models\LlantasModel.php(113): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_ge...', Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Llantas.php(170): App\Models\LlantasModel->sp_getDiametroLLanta('265', '70')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Llantas->show('8')
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Llantas))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}

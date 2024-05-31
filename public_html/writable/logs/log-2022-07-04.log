@@ -1,0 +1,30 @@
+CRITICAL - 2022-07-04 15:09:30 --> Undefined array key 0
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 96)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(66): App\Models\Pedidos_Model->sp_InsertPedidoEcommerce('PRUEBAPMA', 'RAENCOIN', 'B-01', NULL, NULL, NULL, NULL, NULL, '42.850000', '2.999500', '45.849500', '2', 0, '20220704', NULL, 'E', 'P')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-04 15:09:35 --> Undefined array key 0
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 96)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(66): App\Models\Pedidos_Model->sp_InsertPedidoEcommerce('PRUEBAPMA', 'RAENCOIN', 'B-01', NULL, NULL, NULL, NULL, NULL, '42.850000', '2.999500', '45.849500', '2', 0, '20220704', NULL, 'E', 'P')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-04 15:26:00 --> Undefined array key "NIVELPRECIO"
+#0 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 69)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-04 15:42:12 --> Undefined array key "NIVELPRECIO"
+#0 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 69)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}

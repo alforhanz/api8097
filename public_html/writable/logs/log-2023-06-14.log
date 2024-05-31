@@ -1,0 +1,11 @@
+ERROR - 2023-06-14 14:29:41 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PEDIDO_LINEAPK'. Cannot insert duplicate key in object 'BREMEN.PEDIDO_LINEA'. The duplicate key value is (P01-19905253, 1).
+CRITICAL - 2023-06-14 14:29:41 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PEDIDO_LINEAPK'. Cannot insert duplicate key in object 'BREMEN.PEDIDO_LINEA'. The duplicate key value is (P01-19905253, 1).
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_In...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_In...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/Pedidos_Model.php(122): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_In...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(88): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('P01-19905253', 1, 'BAT EP-4891LN3-...', '86.00', '1.00000000', '0.00', 'Precio (6)', 'JAIMARAN', 'B-01', '20230614', '86.00', '6.020000', '92.02', '1', 'P', 'A', NULL)
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}

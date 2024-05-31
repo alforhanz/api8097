@@ -1,0 +1,350 @@
+CRITICAL - 2022-01-11 08:20:25 --> Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded".
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(317): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(243): CodeIgniter\HTTP\Response->formatBody(Array, 'json')
+#3 E:\SERVER\laragon\www\api\app\Controllers\BaseController.php(43): CodeIgniter\HTTP\Response->setJSON(Array)
+#4 E:\SERVER\laragon\www\api\app\Controllers\Marcas.php(23): App\Controllers\BaseController->getResponse(Array)
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Marcas->index()
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marcas))
+#7 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-11 08:22:12 --> Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded".
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(317): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(243): CodeIgniter\HTTP\Response->formatBody(Array, 'json')
+#3 E:\SERVER\laragon\www\api\app\Controllers\BaseController.php(43): CodeIgniter\HTTP\Response->setJSON(Array)
+#4 E:\SERVER\laragon\www\api\app\Controllers\Marcas.php(23): App\Controllers\BaseController->getResponse(Array)
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Marcas->index()
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marcas))
+#7 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-11 08:40:17 --> Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded".
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(317): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(243): CodeIgniter\HTTP\Response->formatBody(Array, 'json')
+#3 E:\SERVER\laragon\www\api\app\Controllers\BaseController.php(43): CodeIgniter\HTTP\Response->setJSON(Array)
+#4 E:\SERVER\laragon\www\api\app\Controllers\Marcas.php(23): App\Controllers\BaseController->getResponse(Array)
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Marcas->index()
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marcas))
+#7 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-11 08:40:27 --> Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded".
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(317): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(243): CodeIgniter\HTTP\Response->formatBody(Array, 'json')
+#3 E:\SERVER\laragon\www\api\app\Controllers\BaseController.php(43): CodeIgniter\HTTP\Response->setJSON(Array)
+#4 E:\SERVER\laragon\www\api\app\Controllers\Marcas.php(23): App\Controllers\BaseController->getResponse(Array)
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Marcas->index()
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marcas))
+#7 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-11 08:45:11 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.
+ERROR - 2022-01-11 08:47:01 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.
+ERROR - 2022-01-11 08:47:32 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.
+ERROR - 2022-01-11 08:47:53 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.
+ERROR - 2022-01-11 08:48:05 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.
+CRITICAL - 2022-01-11 08:48:09 --> Class "App\Controllers\ClientModel" not found
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Marcas->update('1016')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marcas))
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-01-11 08:48:45 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.
+ERROR - 2022-01-11 08:51:20 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.
+ERROR - 2022-01-11 08:51:32 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.
+ERROR - 2022-01-11 08:53:29 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.
+ERROR - 2022-01-11 08:53:55 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.
+ERROR - 2022-01-11 08:54:04 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.
+ERROR - 2022-01-11 08:54:57 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.
+ERROR - 2022-01-11 08:55:45 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.
+ERROR - 2022-01-11 08:55:46 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.
+ERROR - 2022-01-11 08:57:14 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.
+ERROR - 2022-01-11 08:57:15 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.
+CRITICAL - 2022-01-11 08:58:14 --> Class "App\Controllers\ClientModel" not found
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Marcas->update('1016')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marcas))
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-01-11 08:58:55 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'id'.
+CRITICAL - 2022-01-11 08:58:55 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'id'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT COUNT(*)...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1527): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(592): CodeIgniter\Model->countAllResults()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\BaseModel.php(655): CodeIgniter\Model->shouldUpdate(Array)
+#6 E:\SERVER\laragon\www\api\app\Controllers\Marcas.php(52): CodeIgniter\BaseModel->save(Array)
+#7 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Marcas->store()
+#8 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marcas))
+#9 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-01-11 09:00:30 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'Prueba2.sys.MARCAS'.
+CRITICAL - 2022-01-11 09:00:30 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'Prueba2.sys.MARCAS'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT COUNT(*)...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1527): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(592): CodeIgniter\Model->countAllResults()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\BaseModel.php(655): CodeIgniter\Model->shouldUpdate(Array)
+#6 E:\SERVER\laragon\www\api\app\Controllers\Marcas.php(52): CodeIgniter\BaseModel->save(Array)
+#7 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Marcas->store()
+#8 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marcas))
+#9 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-01-11 09:03:02 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'id'.
+CRITICAL - 2022-01-11 09:03:02 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'id'.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT COUNT(*)...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1527): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(592): CodeIgniter\Model->countAllResults()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\BaseModel.php(655): CodeIgniter\Model->shouldUpdate(Array)
+#6 E:\SERVER\laragon\www\api\app\Controllers\Marcas.php(52): CodeIgniter\BaseModel->save(Array)
+#7 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Marcas->store()
+#8 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marcas))
+#9 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-01-11 09:03:33 --> Class "App\Controllers\ClientModel" not found
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Marcas->update('1016')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marcas))
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-11 09:04:55 --> Class "App\Models\Model" not found
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once()
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\SERVER\\larag...')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 E:\SERVER\laragon\www\api\app\Validation\UserRules.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Validation\Validation.php(277): App\Validation\UserRules->validateUser('161616', 'name, password', Array, NULL)
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password', '161616', Array, Array)
+#6 E:\SERVER\laragon\www\api\app\Controllers\BaseController.php(75): CodeIgniter\Validation\Validation->run(Array)
+#7 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(64): App\Controllers\BaseController->validateRequest(Array, Array, Array)
+#8 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#9 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-01-11 09:04:59 --> Class "App\Models\Model" not found
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once()
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\SERVER\\larag...')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 E:\SERVER\laragon\www\api\app\Validation\UserRules.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Validation\Validation.php(277): App\Validation\UserRules->validateUser('161616', 'name, password', Array, NULL)
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password', '161616', Array, Array)
+#6 E:\SERVER\laragon\www\api\app\Controllers\BaseController.php(75): CodeIgniter\Validation\Validation->run(Array)
+#7 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(64): App\Controllers\BaseController->validateRequest(Array, Array, Array)
+#8 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#9 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-01-11 09:08:41 --> Class "App\Models\Model" not found
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once()
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\SERVER\\larag...')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 E:\SERVER\laragon\www\api\app\Validation\UserRules.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Validation\Validation.php(277): App\Validation\UserRules->validateUser('161616', 'name, password', Array, NULL)
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password', '161616', Array, Array)
+#6 E:\SERVER\laragon\www\api\app\Controllers\BaseController.php(75): CodeIgniter\Validation\Validation->run(Array)
+#7 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(64): App\Controllers\BaseController->validateRequest(Array, Array, Array)
+#8 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#9 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-01-11 09:09:55 --> Class "App\Models\Model" not found
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once()
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\SERVER\\larag...')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 E:\SERVER\laragon\www\api\app\Validation\UserRules.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Validation\Validation.php(277): App\Validation\UserRules->validateUser('161616', 'name, password', Array, NULL)
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password', '161616', Array, Array)
+#6 E:\SERVER\laragon\www\api\app\Controllers\BaseController.php(75): CodeIgniter\Validation\Validation->run(Array)
+#7 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(64): App\Controllers\BaseController->validateRequest(Array, Array, Array)
+#8 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#9 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-01-11 09:12:14 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.
+ERROR - 2022-01-11 09:20:25 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.
+ERROR - 2022-01-11 10:45:11 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.
+CRITICAL - 2022-01-11 10:45:35 --> Undefined variable $user
+#0 E:\SERVER\laragon\www\api\app\Validation\UserRules.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 12)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Validation\Validation.php(277): App\Validation\UserRules->validateUser('161616', 'name, password', Array, NULL)
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password', '161616', Array, Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\BaseController.php(75): CodeIgniter\Validation\Validation->run(Array)
+#4 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(36): App\Controllers\BaseController->validateRequest(Array, Array, Array)
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-11 11:15:21 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]An object or column name is missing or empty. For SELECT INTO statements, verify each column has a name. For other statements, look for empty alias names. Aliases defined as "" or [] are not allowed. Change the alias to a valid name.
+ERROR - 2022-01-11 11:15:38 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.
+ERROR - 2022-01-11 12:16:39 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.
+ERROR - 2022-01-11 12:16:44 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.
+ERROR - 2022-01-11 12:27:49 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.
+ERROR - 2022-01-11 12:28:20 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.
+ERROR - 2022-01-11 12:28:30 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.
+CRITICAL - 2022-01-11 14:57:39 --> Array to string conversion
+#0 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'E:\\SERVER\\larag...', 34)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-11 15:26:07 --> Too few arguments to function App\Models\UserModel::findUserByName(), 1 passed in E:\SERVER\laragon\www\api\app\Controllers\Auth.php on line 53 and exactly 2 expected
+#0 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(53): App\Models\UserModel->findUserByName('ALEXCAST')
+#1 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(42): App\Controllers\Auth->getJWTForUser('ALEXCAST')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-11 15:52:57 --> Unsupported operand types: string - bool
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Validation\Validation.php(277): App\Validation\UserRules->validateUser('161616', 'name, password', Array, NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password', '161616', Array, Array)
+#2 E:\SERVER\laragon\www\api\app\Controllers\BaseController.php(75): CodeIgniter\Validation\Validation->run(Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(35): App\Controllers\BaseController->validateRequest(Array, Array, Array)
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-11 15:59:21 --> Too few arguments to function App\Models\UserModel::findUserByName(), 1 passed in E:\SERVER\laragon\www\api\app\Controllers\Auth.php on line 53 and exactly 2 expected
+#0 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(53): App\Models\UserModel->findUserByName('ALEXCAST')
+#1 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(42): App\Controllers\Auth->getJWTForUser('ALEXCAST')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-11 16:01:05 --> App\Validation\UserRules::validateUser(): Return value must be of type bool, none returned
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Validation\Validation.php(277): App\Validation\UserRules->validateUser('16161616', 'name, password', Array, NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password', '16161616', Array, Array)
+#2 E:\SERVER\laragon\www\api\app\Controllers\BaseController.php(75): CodeIgniter\Validation\Validation->run(Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(35): App\Controllers\BaseController->validateRequest(Array, Array, Array)
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-11 16:01:34 --> App\Validation\UserRules::validateUser(): Return value must be of type bool, none returned
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Validation\Validation.php(277): App\Validation\UserRules->validateUser('16161616', 'name, password', Array, NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password', '16161616', Array, Array)
+#2 E:\SERVER\laragon\www\api\app\Controllers\BaseController.php(75): CodeIgniter\Validation\Validation->run(Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(35): App\Controllers\BaseController->validateRequest(Array, Array, Array)
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-11 16:11:27 --> Too few arguments to function App\Models\UserModel::findUserByName(), 1 passed in E:\SERVER\laragon\www\api\app\Controllers\Auth.php on line 52 and exactly 2 expected
+#0 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(52): App\Models\UserModel->findUserByName('ALEXCAST')
+#1 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(41): App\Controllers\Auth->getJWTForUser('ALEXCAST')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-11 16:13:29 --> Too few arguments to function App\Models\UserModel::findUserByName(), 1 passed in E:\SERVER\laragon\www\api\app\Controllers\Auth.php on line 52 and exactly 2 expected
+#0 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(52): App\Models\UserModel->findUserByName('ALEXCAST')
+#1 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(41): App\Controllers\Auth->getJWTForUser('ALEXCAST')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-01-11 16:48:24 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.
+CRITICAL - 2022-01-11 16:48:24 --> App\Validation\UserRules::validateUser(): Return value must be of type bool, null returned
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Validation\Validation.php(277): App\Validation\UserRules->validateUser('161616', 'name, password', Array, NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password', '161616', Array, Array)
+#2 E:\SERVER\laragon\www\api\app\Controllers\BaseController.php(75): CodeIgniter\Validation\Validation->run(Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(35): App\Controllers\BaseController->validateRequest(Array, Array, Array)
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-11 16:48:52 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.
+CRITICAL - 2022-01-11 16:48:52 --> App\Validation\UserRules::validateUser(): Return value must be of type bool, null returned
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Validation\Validation.php(277): App\Validation\UserRules->validateUser('161616', 'name, password', Array, NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password', '161616', Array, Array)
+#2 E:\SERVER\laragon\www\api\app\Controllers\BaseController.php(75): CodeIgniter\Validation\Validation->run(Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(35): App\Controllers\BaseController->validateRequest(Array, Array, Array)
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-11 16:50:16 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.
+CRITICAL - 2022-01-11 16:50:16 --> App\Validation\UserRules::validateUser(): Return value must be of type bool, null returned
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Validation\Validation.php(277): App\Validation\UserRules->validateUser('161616', 'name, password', Array, NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password', '161616', Array, Array)
+#2 E:\SERVER\laragon\www\api\app\Controllers\BaseController.php(75): CodeIgniter\Validation\Validation->run(Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(35): App\Controllers\BaseController->validateRequest(Array, Array, Array)
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-11 16:51:04 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.
+CRITICAL - 2022-01-11 16:51:04 --> App\Validation\UserRules::validateUser(): Return value must be of type bool, null returned
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Validation\Validation.php(277): App\Validation\UserRules->validateUser('161616', 'name, password', Array, NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password', '161616', Array, Array)
+#2 E:\SERVER\laragon\www\api\app\Controllers\BaseController.php(75): CodeIgniter\Validation\Validation->run(Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(35): App\Controllers\BaseController->validateRequest(Array, Array, Array)
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-11 16:51:54 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.
+CRITICAL - 2022-01-11 16:51:54 --> App\Validation\UserRules::validateUser(): Return value must be of type bool, null returned
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Validation\Validation.php(277): App\Validation\UserRules->validateUser('161616', 'name, password', Array, NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password', '161616', Array, Array)
+#2 E:\SERVER\laragon\www\api\app\Controllers\BaseController.php(75): CodeIgniter\Validation\Validation->run(Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(35): App\Controllers\BaseController->validateRequest(Array, Array, Array)
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-11 16:52:01 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.
+CRITICAL - 2022-01-11 16:52:01 --> App\Validation\UserRules::validateUser(): Return value must be of type bool, null returned
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Validation\Validation.php(277): App\Validation\UserRules->validateUser('161616', 'name, password', Array, NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password', '161616', Array, Array)
+#2 E:\SERVER\laragon\www\api\app\Controllers\BaseController.php(75): CodeIgniter\Validation\Validation->run(Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(35): App\Controllers\BaseController->validateRequest(Array, Array, Array)
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-11 16:52:31 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.
+CRITICAL - 2022-01-11 16:52:31 --> App\Validation\UserRules::validateUser(): Return value must be of type bool, null returned
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Validation\Validation.php(277): App\Validation\UserRules->validateUser('161616', 'name, password', Array, NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password', '161616', Array, Array)
+#2 E:\SERVER\laragon\www\api\app\Controllers\BaseController.php(75): CodeIgniter\Validation\Validation->run(Array)
+#3 E:\SERVER\laragon\www\api\app\Controllers\Auth.php(35): App\Controllers\BaseController->validateRequest(Array, Array, Array)
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\SERVER\laragon\www\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-11 16:53:05 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.
+ERROR - 2022-01-11 16:53:15 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.
+ERROR - 2022-01-11 16:54:19 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.
+ERROR - 2022-01-11 16:54:41 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.
+ERROR - 2022-01-11 16:55:40 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.
+ERROR - 2022-01-11 16:55:50 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.
+ERROR - 2022-01-11 16:56:01 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OFFSET'.

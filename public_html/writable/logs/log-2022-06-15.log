@@ -1,0 +1,441 @@
+CRITICAL - 2022-06-15 14:21:30 --> Too few arguments to function App\Models\VersionesTamanovehiculo_Model::findVersionesTamanoByIds(), 0 passed in E:\SERVER\laragon\www\api\app\Controllers\VersionesTamano_vehiculo.php on line 23 and exactly 4 expected
+#0 E:\SERVER\laragon\www\api\app\Controllers\VersionesTamano_vehiculo.php(23): App\Models\VersionesTamanovehiculo_Model->findVersionesTamanoByIds()
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\VersionesTamano_vehiculo->index()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VersionesTamano_vehiculo))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 14:22:14 --> You must set the database table to be used with your query.
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Model.php(717): CodeIgniter\Model->builder()
+#2 E:\SERVER\laragon\www\api\app\Controllers\Reportes.php(22): CodeIgniter\Model->__call('findTipoAll', Array)
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Reportes->index()
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-15 15:03:25 --> Undefined constant "App\Controllers\pBodega"
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-15 15:03:34 --> Undefined constant "App\Controllers\pBodega"
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-15 15:03:43 --> Undefined constant "App\Controllers\pBodega"
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-15 15:09:39 --> Undefined constant "App\Controllers\pBodega"
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-15 15:09:46 --> Undefined constant "App\Controllers\pBodega"
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-15 15:11:05 --> Undefined array key 0
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 31)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(99): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('DESCUENTO', 'B-51')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 15:12:56 --> Cannot use object of type stdClass as array
+#0 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(99): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('185/60R15 FLK', 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 15:13:16 --> Cannot use object of type stdClass as array
+#0 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(99): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('185/60R15 FLK', 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 15:13:56 --> Undefined array key 0
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 36)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(99): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('DESCUENTO', 'B-51')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 15:15:38 --> Undefined array key 0
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 36)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(99): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('DESCUENTO', 'B-51')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 15:15:45 --> Undefined array key 0
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 36)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(99): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('DESCUENTO', 'B-51')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 15:18:19 --> Undefined array key 0
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 36)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(99): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('DESCUENTO', 'B-51')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 15:20:17 --> Undefined array key 1
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 36)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(99): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('185/60R15 FLK', 'B-51')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 15:22:23 --> Attempt to read property "CANTIDAD" on array
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'E:\\SERVER\\larag...', 36)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(99): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('185/60R15 FLK', 'B-51')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 15:22:44 --> Cannot use object of type stdClass as array
+#0 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(99): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('185/60R15 FLK', 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 15:24:14 --> Undefined array key "CANTIDAD"
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 36)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(99): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('185/60R15 FLK', 'B-51')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 15:24:27 --> Undefined array key 0
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 36)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(99): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('DESCUENTO', 'B-51')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 15:25:20 --> Undefined array key 0
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 36)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(99): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('DESCUENTO', 'B-51')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 15:27:21 --> Undefined array key 0
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 36)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(99): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('DESCUENTO', 'B-51')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 15:28:28 --> Attempt to read property "CANTIDAD" on array
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'E:\\SERVER\\larag...', 36)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(99): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('185/60R15 FLK', 'B-51')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 15:47:11 --> Attempt to read property "CANTIDAD" on array
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'E:\\SERVER\\larag...', 36)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(99): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('185/60R15 FLK', 2, 'B-51')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 15:48:57 --> Undefined array key 0
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 36)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(99): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('DESCUENTO', 2, 'B-51')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 15:48:57 --> Undefined array key 0
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 36)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(99): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('DESCUENTO', 2, 'B-51')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 15:48:58 --> Undefined array key 0
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 36)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(99): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('DESCUENTO', 2, 'B-51')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 15:50:58 --> Cannot use object of type CodeIgniter\Database\SQLSRV\Result as array
+#0 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(99): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('185/60R15 FLK', 2, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 15:52:55 --> Undefined array key 0
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 36)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(99): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('DESCUENTO', 2, 'B-51')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 15:56:15 --> Undefined array key 0
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 36)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(99): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('DESCUENTO', 2, 'B-51')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 15:56:32 --> Undefined array key 0
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 36)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(99): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('DESCUENTO', 2, 'B-51')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 15:57:58 --> Undefined array key 0
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 36)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(99): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('DESCUENTO', 2, 'B-51')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 16:00:06 --> Undefined array key 0
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 36)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(99): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('DESCUENTO', 2, 'B-51')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 16:00:43 --> Undefined array key 0
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 36)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(99): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('DESCUENTO', 2, 'B-51')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 16:03:22 --> Undefined array key 0
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 36)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(99): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('DESCUENTO', 2, 'B-51')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 16:05:40 --> Undefined array key "CANTIDAD"
+#0 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 100)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 16:05:50 --> Cannot use object of type stdClass as array
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-15 16:06:03 --> Undefined array key 0
+#0 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 100)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 16:06:12 --> Attempt to read property "CANTIDAD" on array
+#0 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'E:\\SERVER\\larag...', 100)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 16:10:11 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+#0 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(100): count('8.00000000')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 16:10:37 --> Undefined array key 0
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 36)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(100): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('DESCUENTO', 2, 'B-51')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 16:11:05 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+#0 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(100): count('8.00000000')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 16:11:28 --> Undefined array key 0
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 36)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(91): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('DESCUENTO', 2, 'B-51')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 16:12:04 --> Undefined array key 0
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 36)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(91): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('DESCUENTO', 2, 'B-51')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 16:12:20 --> Undefined array key 0
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 36)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(91): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('DESCUENTO', 2, 'B-51')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 16:12:57 --> Undefined array key 0
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 36)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(91): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('DESCUENTO', 2, 'B-51')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 16:15:23 --> Undefined array key 0
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 36)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(91): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('DESCUENTO', 2, 'B-51')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 16:16:32 --> Undefined array key 0
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 36)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(91): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('DESCUENTO', 2, 'B-51')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 16:16:33 --> Undefined array key 0
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 36)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(91): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('DESCUENTO', 2, 'B-51')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 16:16:33 --> Undefined array key 0
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 36)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(91): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('DESCUENTO', 2, 'B-51')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 16:16:45 --> Undefined array key 0
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 31)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(91): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('DESCUENTO', 2, 'B-51')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 16:26:59 --> Undefined array key 0
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 36)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(91): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('DESCUENTO', 2, 'B-51')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 16:27:55 --> syntax error, unexpected token "}", expecting ";"
+#0 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\SERVER\\larag...')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Pedi...')
+#2 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(65): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Pedi...')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#5 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-15 16:28:21 --> Cannot use object of type stdClass as array
+#0 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(91): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('185/60R15 FLK', 2, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 16:32:43 --> Call to undefined method stdClass::getResult()
+#0 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(91): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('185/60R15 FLK', 2, 'B-51')
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 16:32:57 --> Undefined variable $retorno
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 39)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(91): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('DESCUENTO', 2, 'B-51')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 16:33:33 --> Undefined variable $retorno
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 39)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(91): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('DESCUENTO', 2, 'B-51')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 16:34:36 --> Undefined variable $retorno
+#0 E:\SERVER\laragon\www\api\app\Models\Pedidos_Model.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\SERVER\\larag...', 39)
+#1 E:\SERVER\laragon\www\api\app\Controllers\Pedidos.php(91): App\Models\Pedidos_Model->sp_getExistenciaArticuloBodega('DESCUENTO', 2, 'B-51')
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pedidos->show('D')
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#4 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 16:47:21 --> Undefined array key "NIVELPRECIO"
+#0 E:\SERVER\laragon\www\api\app\Controllers\Insertar_Pedido.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\SERVER\\larag...', 70)
+#1 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#2 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#3 E:\SERVER\laragon\www\api\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\SERVER\laragon\www\api\public\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,33 @@
+ERROR - 2023-02-03 15:55:57 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'PEDIDO_LINEA', table 'Prueba2.BREMEN.PEDIDO_LINEA'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-03 15:55:57 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'PEDIDO_LINEA', table 'Prueba2.BREMEN.PEDIDO_LINEA'; column does not allow nulls. INSERT fails.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('ECOMMERCE.sp_In...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ECOMMERCE.sp_In...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/Pedidos_Model.php(122): CodeIgniter\Database\BaseConnection->query('ECOMMERCE.sp_In...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(73): App\Models\Pedidos_Model->sp_InsertPedido_LineaEcommerce('P01-19905079', NULL, 'BAT D-22F-450', '54.00000000', 1, '0.00', 'Precio (7)', 'JAIMARAN', 'B-01', '20230203', '54.000000', 2, '57.780000', '1', 'C', 'I')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-02-03 15:58:01 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function sp_InsertPedidoEcommerce has too many arguments specified.
+CRITICAL - 2023-02-03 15:58:01 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function sp_InsertPedidoEcommerce has too many arguments specified.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('CLSA.sp_InsertP...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('CLSA.sp_InsertP...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/Pedidos_Model.php(104): CodeIgniter\Database\BaseConnection->query('CLSA.sp_InsertP...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(69): App\Models\Pedidos_Model->sp_InsertPedidoEcommerce('JAIMARAN', '00097487', 'B-01', NULL, NULL, NULL, 'GONZALEZ  , RAE...', 'P01-19905080', '54.000000', 2,2, '57.780000', '1', 0, '20230203', NULL, 'E', 'C')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-02-03 16:08:50 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function sp_InsertPedidoEcommerce has too many arguments specified.
+CRITICAL - 2023-02-03 16:08:50 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function sp_InsertPedidoEcommerce has too many arguments specified.
+#0 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLSRV\Connection->execute('CLSA.sp_InsertP...')
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('CLSA.sp_InsertP...')
+#2 /opt/lampp/htdocs/api8097/public_html/app/Models/Pedidos_Model.php(104): CodeIgniter\Database\BaseConnection->query('CLSA.sp_InsertP...', Array)
+#3 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Insertar_Pedido.php(69): App\Models\Pedidos_Model->sp_InsertPedidoEcommerce('JAIMARAN', '00097487', 'B-01', NULL, NULL, NULL, 'GONZALEZ  , RAE...', 'P01-19905080', '128.750000', 2,2, '137.760000', '1', 0, '20230203', NULL, 'E', 'C')
+#4 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Insertar_Pedido->create()
+#5 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insertar_Pedido))
+#6 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,87 @@
+ERROR - 2023-01-18 10:42:00 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 11:07:49 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 11:18:43 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 11:19:06 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 11:19:34 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 11:41:59 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 11:42:44 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 11:46:25 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 11:46:40 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 11:50:51 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 11:51:58 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 11:54:09 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 13:20:25 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 13:21:11 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 13:21:51 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 13:22:18 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 13:22:53 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 13:27:40 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 13:27:59 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 13:29:17 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 13:29:42 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 13:35:51 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 13:36:15 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 13:39:16 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 13:39:26 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 13:43:27 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 13:43:33 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 13:57:01 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 13:57:25 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 14:14:14 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 14:29:38 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 14:37:09 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 14:37:21 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 14:38:26 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 14:39:34 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 14:41:29 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 14:41:35 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 14:42:24 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 14:43:06 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 14:43:10 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 15:03:34 --> Memory limit of 50240 KB exceeded for buffered query
+CRITICAL - 2023-01-18 15:06:48 --> Undefined variable: arrMenu
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Menu.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 111, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->show('1')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-18 15:07:00 --> Undefined variable: arrMenu
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Menu.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 111, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->show('1')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-01-18 15:08:04 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 15:09:04 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 15:36:34 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 15:36:55 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 15:37:00 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 15:37:34 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 15:41:04 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 15:42:05 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 15:52:18 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 15:52:35 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 16:25:40 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 16:26:09 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 16:40:15 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 16:42:18 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 16:53:20 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 16:54:10 --> Memory limit of 50240 KB exceeded for buffered query
+CRITICAL - 2023-01-18 16:57:06 --> Undefined variable: arrMenu
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Menu.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 111, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->show('1')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-01-18 16:59:33 --> Memory limit of 50240 KB exceeded for buffered query
+ERROR - 2023-01-18 16:59:49 --> Memory limit of 50240 KB exceeded for buffered query
+CRITICAL - 2023-01-18 17:27:59 --> Undefined variable: arrMenu
+#0 /opt/lampp/htdocs/api8097/public_html/app/Controllers/Menu.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 111, Array)
+#1 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->show('1')
+#2 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 /opt/lampp/htdocs/api8097/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/api8097/public_html/public/index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
